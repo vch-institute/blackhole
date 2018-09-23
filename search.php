@@ -21,7 +21,9 @@
 		.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
 			</style></head><body>
 		<a href="../search/index.php" />GO BACK...</a><img src="./images/blackhole.png" height="250" width=" 350"></img>
-		<form method="post" action="search.php">
+		<div class="tooltip">
+			<span class="tooltiptext">Libraries: Library, UCS, RickysBackups, BasicStorage </br> Server: localhost</span>
+			<form method="post" action="search.php">
                 <p><b>Keywords:</b><input name="search" type="text" />
                 <b>Library:</b><input name="library" type="text" />
                 <b>Server:</b><input name="server" type="text" />
@@ -38,5 +40,8 @@
 	echo "<b>Found:</b><i> " . $arr['response']['numFound'] . "</i> results\n" ;
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b><p1> " . $item['id'] . "\n"; echo "</p1></br>"; }
 	?></br><a href="../search/index.php" />GO BACK TO SEARCH...............</a>
-		</body>
+</div><center>
+	</br><p> <a href="https://github.com/diveyez/blackhole-search/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
+	</br> <h5>Made With</h5></br><a href="lucene.apache.org/solr/"><img src="./images/solr.png"/></img></a>
+	</center></body>
 </html>
