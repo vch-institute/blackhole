@@ -3,16 +3,17 @@
 			<style>
 				@import url('https://fonts.googleapis.com/css?family=Lato');
 				body { background-repeat: no-repeat; background-color: white; black: white; font-family: 'Lato', serif; font-size: 16px; }
-				p { color: black; text-shadow: 0.5px 0.5px 5px black;} plight { font-size: 20px; color: #000; text-shadow: 1.5px 1.5px 5px black; } h5 { color: #000; font-size: 28px; text-shadow: 1.5px 1.5px 5px black; }
+				p { color: black; text-shadow: 0.5px 0.5px 5px black;} plight { font-size: 20px; color: #000; text-shadow: 1.5px 1.5px 5px black; }
+				h5 { color: #000; font-size: 28px; text-shadow: 1.5px 1.5px 5px black; }
 				pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
-				.button { border-radius: 25px; background-color: #555555; color: #fff; } 
+				.button { border-radius: 25px; background-color: #555555; color: #fff; }
 				.button:hover { border-radius: 25px; background-color: #4CAF50; /* Green */ color: white; -webkit-transform: rotateX(150deg); transform: rotateX(150deg); }
 				input[type=text] { width: 130px; -webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out; }
 				input[type=text]:focus { width: 250px; }
 				.tooltip { position: relative; display: inline-block; border-bottom: 1px solid black; }
-				.tooltip .tooltiptext { visibility: hidden; width: 120px; background-color: #555; color: #fff; text-align: center; padding: 5px 0; border-radius: 6px; position: absolute; 
+				.tooltip .tooltiptext { visibility: hidden; width: 120px; background-color: #555; color: #fff; text-align: center; padding: 5px 0; border-radius: 6px; position: absolute;
 				z-index: 1; bottom: 125%; left: 50%; margin-left: -60px; opacity: 0; transition: opacity 0.3s; }
-				.tooltip .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; 
+				.tooltip .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid;
 				border-color: #555 transparent transparent transparent; }
 				.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
 			</style>
@@ -29,4 +30,3 @@
 				</br> <h5>Made With</h5></br><a href="lucene.apache.org/solr/"><img src="./images/solr.png"/></img></a>
 				</center></body>
 </html>
-
