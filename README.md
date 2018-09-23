@@ -1,3 +1,4 @@
+<img src="images/blackhole.png"></img>
 https://github.com/diveyez/blackhole
 --
 A PHP LAN Web interface for Solr indexes and searches.
