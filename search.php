@@ -29,11 +29,12 @@
                 <b>Server:</b><input name="server" type="text" />
                 <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
 	<?php
-	$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
+
 	if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
 	else { echo ("</br>You did not search! Try again!"); }
 	$query = $_POST['search']; $library = $_POST['library']; $server = $_POST['server'];
 		echo "</br>"; // Gonna need more fancy shit here to wow them
+		$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 	$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
 	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&wt=php&indent=true&debugQuery=true&rows=5000");
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
