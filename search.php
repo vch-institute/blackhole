@@ -28,8 +28,8 @@
                 <b>Library:</b><input name="library" type="text" />
                 <b>Server:</b><input name="server" type="text" />
                 <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
-	<?php$
-	starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
+	<?php
+	$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 	if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
 	else { echo ("</br>You did not search! Try again!"); }
 	$query = $_POST['search']; $library = $_POST['library']; $server = $_POST['server'];
