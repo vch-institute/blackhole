@@ -38,7 +38,7 @@
 		echo "</br>"; // Gonna need more fancy shit here to wow them
 		$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 	$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
-	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&wt=php&indent=true&debugQuery=on&rows=5000&hl.fl=".$encode.");
+	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&wt=php&indent=true&debugQuery=on&rows=5000&hl.fl=".$encode."");
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
