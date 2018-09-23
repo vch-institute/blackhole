@@ -2,7 +2,7 @@
 		<head>
 			<style>
 				@import url('https://fonts.googleapis.com/css?family=Lato');
-				body { background-repeat: no-repeat; background-color: white; black: white; font-family: 'Lato', serif; font-size: 16px; }
+				body { background-repeat: no-repeat; background-color: #8e8e8e; black: white; font-family: 'Lato', serif; font-size: 16px; }
 				p { color: black; text-shadow: 0.5px 0.5px 5px black;} plight { font-size: 20px; color: #000; text-shadow: 1.5px 1.5px 5px black; }
 				h5 { color: #000; font-size: 28px; text-shadow: 1.5px 1.5px 5px black; }
 				pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
