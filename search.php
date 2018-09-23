@@ -20,7 +20,7 @@
 		border-color: #555 transparent transparent transparent; }
 		.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
 			</style></head><body>
-		<img src="./images/blackhole.png" height="250" width=" 350"></img>
+	<a href="./"><img src="./images/blackhole.png" height="250" width=" 350"></img></a>
 		<div class="tooltip">
 			<span class="tooltiptext">Libraries: Library </br> Server: localhost</span>
 			<form method="post" action="search.php">

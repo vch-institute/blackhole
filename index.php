@@ -18,7 +18,7 @@
 				.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
 			</style>
 		</head><body><center>
-				<img src="./images/blackhole.png" height="250" width="350"></img></br>
+				<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 				<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 			<div class="tooltip">
 			  <span class="tooltiptext">Libraries: Library </br> Server: localhost</span>
