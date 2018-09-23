@@ -1,0 +1,33 @@
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+        body { background-image: linear-gradient(to top left, black, white); background-repeat: no-repeat;  background-color: white; black: white;font-family: 'Lato', serif; font-size: 18px; }
+        p { color: black; font-size: 18px; }
+        p1 { border-radius: 25px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: clip; 
+        opacity: 0.75; filter: alpha(opacity=50); }
+        p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+        a { color: red; }
+        .button { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
+        .button:hover { border-radius: 25px; background-color: #4CAF50; /* Green */ color: white; -webkit-transform: rotateX(150deg); /* Safari */ transform: rotateX(150deg);}
+        </style>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</html>
+</head>
+<body>
+    <div class="container">
+        <ul id="results"></ul>
+    </div>
+
+<a href="../search/index.php" />GO BACK TO SEARCH...............</a>
+
+<script type="text/javascript">
+    $.getJSON("http://10.1.1.37:8983/solr/Library/select?q=testing&fl=id", function(data){
+        data.response.docs.forEach(function(res){
+            $("#results").append("<li>"+res.id+"</li>")
+        })
+    });
+</script>
+</body>
+
+</html>	
