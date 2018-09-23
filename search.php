@@ -37,7 +37,7 @@
 	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&wt=php&indent=true&debugQuery=true&rows=5000");
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 	eval("\$arr = " . $re . ";"); echo "<b>You searched for:</b><i><p>" . $query . "</p></i>"; echo "</br>";
-	echo "<b>Found:</b><i> " . $arr['response']['numFound'] . "</i> results\n" ;
+	echo "<p><b>Found:</b><i>" . $arr['response']['numFound'] . "</p></i> results\n" ;
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b><p1> " . $item['id'] . "\n"; echo "</p1></br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
 </div><center>
