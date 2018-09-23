@@ -42,8 +42,8 @@
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
 
-	echo "<b>Found Text:</b><i>";
-	foreach($arr['highlighting']['dc_title'] as $omittext) { echo "TESTING" . $omittext['dc_titile']  "\n"; }
+	// echo "<b>Found Text:</b><i>"; foreach($arr['highlighting']['dc_title'] as $omittext) { echo "TESTING" $omittext['dc_titile']  "\n"; }
+
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
 </div><center></br>				<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
