@@ -7,6 +7,8 @@
 		h5 { color: #000; font-size: 28px; text-shadow: 1.5px 1.5px 5px black; }
 		p1 { font-size: 18px; border-radius: 25px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: clip; opacity: 0.65; filter: alpha(opacity=50); }
 		p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+		p2 { font-size: 18px; border-radius: 25px; background-color: yellow; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: clip; opacity: 0.65; filter: alpha(opacity=50); }
+		p2:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
 		pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
 		a { color: red; }
 		.button { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
@@ -40,7 +42,7 @@
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
-	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "<b>Score:</b>" . $item['score'] . "\n"; echo "</p1></br>"; }
+	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
 </div><center></br>				<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
 													<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br><a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
