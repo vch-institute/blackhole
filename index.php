@@ -21,7 +21,7 @@
 				<img src="./images/blackhole.png" height="250" width="350"></img></br>
 				<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 			<div class="tooltip">
-			  <span class="tooltiptext">Libraries: Library, UCS, RickysBackups, BasicStorage </br> Server: localhost</span>
+			  <span class="tooltiptext">Libraries: Library </br> Server: localhost</span>
 				<form method="post" action="search.php">
                 <p><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" />
                 <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form>

@@ -22,7 +22,7 @@
 			</style></head><body>
 		<a href="../blackhole/index.php" />GO BACK...</a><img src="./images/blackhole.png" height="250" width=" 350"></img>
 		<div class="tooltip">
-			<span class="tooltiptext">Libraries: Library, UCS, RickysBackups, BasicStorage </br> Server: localhost</span>
+			<span class="tooltiptext">Libraries: Library </br> Server: localhost</span>
 			<form method="post" action="search.php">
                 <p><b>Keywords:</b><input name="search" type="text" />
                 <b>Library:</b><input name="library" type="text" />
