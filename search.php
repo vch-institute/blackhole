@@ -37,13 +37,13 @@
 		echo "</br>"; // Gonna need more fancy shit here to wow them
 		$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 	$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
-	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&wt=php&indent=true&&hl=on&debugQuery=on&rows=5000&hl.fl=*&hl.snippets=1&hl.fragsize=0");
+	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&wt=php&indent=true&&hl=on&rows=5000&hl.fl=*&hl.snippets=1&hl.fragsize=0");
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
 
-	echo "<b>Found Text:</b><i>"; foreach($arr['highlighting']['dc_title'] as $omittext) { echo "TESTING" . $omittext['dc_titile'] . echo "\n" ; }
-
+	echo "<b>Found Text:</b><i>";
+	foreach($arr['highlighting']['dc_title'] as $omittext) { echo "TESTING" . $omittext['dc_titile']  "\n"; }
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
 </div><center></br>				<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
