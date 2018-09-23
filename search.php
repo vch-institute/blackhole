@@ -41,9 +41,9 @@
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
-
-	echo "<p><b>Found Text:</b></p>";
-			foreach($arr)['highlighting']['dc_title'] as $text) { echo $text['dc_title'] ; }
+// FIX THIS ON SUNDAY - MONDAY
+//	echo "<p><b>Found Text:</b></p>";
+//			foreach($arr)['highlighting']['dc_title'] as $text) { echo $text['dc_title'] ; }
 
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
