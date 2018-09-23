@@ -36,8 +36,8 @@
 	$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
 	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&wt=php&indent=true&debugQuery=true&rows=5000");
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
-	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><i>" . $query . "</p></i>"; echo "</br>";
-	echo "<p><b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
+	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><i>" . $query . "</i>"; echo "";
+	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b><p1> " . $item['id'] . "\n"; echo "</p1></br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
 </div><center></br>				<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
