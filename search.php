@@ -5,9 +5,9 @@
 		body { background-repeat: no-repeat; background-color: #8e8e8e; black: white; font-family: 'Lato', serif; font-size: 16px; }
 		p { color: black; font-size: 25px; }
 		h5 { color: #000; font-size: 28px; text-shadow: 1.5px 1.5px 5px black; }
-		p1 { font-size: 18px; border-radius: 25px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
+		p1 { font-size: 18px; border-radius: 0px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
 		p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
-		p2 { font-size: 18px; border-radius: 25px; background-color: yellow; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
+		p2 { font-size: 18px; border-radius: 0px; background-color: yellow; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
 		p2:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
 		pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
 		a { color: red; }
