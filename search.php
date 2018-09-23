@@ -20,14 +20,14 @@
 		border-color: #555 transparent transparent transparent; }
 		.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
 			</style></head><body>
-		<a href="../blackhole/index.php" />GO BACK...</a><img src="./images/blackhole.png" height="250" width=" 350"></img>
+		<img src="./images/blackhole.png" height="250" width=" 350"></img>
 		<div class="tooltip">
 			<span class="tooltiptext">Libraries: Library </br> Server: localhost</span>
 			<form method="post" action="search.php">
                 <p><b>Keywords:</b><input name="search" type="text" />
                 <b>Library:</b><input name="library" type="text" />
                 <b>Server:</b><input name="server" type="text" />
-                <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form>
+                <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
 	<?php
 	if($_POST['search']) { echo "Search Successful, here are the results."; }
 	else { echo ("You did not search! Try again!"); }
