@@ -41,7 +41,7 @@
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b><p1> " . $item['id'] . "\n"; echo "</p1></br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
 </div><center>
-	</br><p> <a href="https://github.com/diveyez/blackhole-search/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
+	</br><p> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
 	</br><p>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a>
 	</br> <h5>Made With</h5></br><a href="lucene.apache.org/solr/"><img src="./images/solr.png"/></img></a>
 	</center></body>

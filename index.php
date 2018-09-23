@@ -26,7 +26,7 @@
                 <p><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" />
                 <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form>
 			</div>
-				</br><p> <a href="https://github.com/diveyez/blackhole-search/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
+				</br><p> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
 			  </br><p>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a>
 				</br> <h5>Made With</h5></br><a href="lucene.apache.org/solr/"><img src="./images/solr.png"/></img></a>
 				</center></body>
