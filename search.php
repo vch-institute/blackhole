@@ -42,7 +42,8 @@
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
 
-	echo "<p><b>Found Text:</b></p>" . $arr['highlighting']['dc_title'] . " \n " ;
+	echo "<p><b>Found Text:</b></p>";
+			foreach($arr)['highlighting']['dc_title'] as $text) { echo "GOT" . $text['dc_title'] . "\n"; }
 
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
