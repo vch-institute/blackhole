@@ -1,5 +1,5 @@
-<img src="images/blackhole.png" height="100" width="175"></img>
-https://github.com/diveyez/blackhole
+<img src="images/blackhole.png" height="250" width="325"></img></br>
+Firstly, cd to your working web server, then do git clone https://github.com/diveyez/blackhole
 --
 
 __Required!__ 
