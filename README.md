@@ -1,4 +1,4 @@
-----*Black Hole PHP Solr Index Searching Platform*</br>
+-- *Black Hole PHP Solr Index Searching Platform*</br>
 <img src="images/blackhole.png" height="250" width="325"></img></br>
 <p style=" font-size= 10px;"></br>
 ```
