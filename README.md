@@ -47,5 +47,4 @@ ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.co
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
         <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
-        <iframe src="https://discordapp.com/widget?id=349940473084903427&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 </html>
