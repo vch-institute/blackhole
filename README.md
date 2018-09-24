@@ -1,4 +1,4 @@
-Black Hole PHP Solr Index Searching Platform
+Black Hole PHP Solr Index Searching Platform</br>
 <img src="images/blackhole.png" height="250" width="325"></img></br>
 <p style=" font-size= 10px;"></br>
 ```
@@ -12,6 +12,6 @@ An Extremely fast and lightweight PHP LAN Web interface for finding specific key
 If you intend to use it, this must be on a webserver, or equivalent,</br>
 With Apache Lucene Solr and JRE 8+ running all on the same machine.</br>
 Currently a beta, but will build and share from here. This is my own code.</br>
->ALL RIGHTS RESERVED, COPYRIGHT 2018 Diveyez</br>
->Intended for usage with:
+ALL RIGHTS RESERVED, COPYRIGHT 2018 Diveyez</br>
+Intended for usage with:
 <a href="lucene.apache.org/solr"><img src="images/solr.png"></img></a></p>
