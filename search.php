@@ -11,6 +11,8 @@
                 <b>Library:</b><input name="library" type="text" />
                 <b>Server:</b><input name="server" type="text" />
                 <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
+								<button onclick="goBack()">Go Back To Search</button>
+								<script> function goBack() { window.history.back(); } </script>
 								<div id="ww">
 			<?php
 				if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
