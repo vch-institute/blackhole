@@ -1,9 +1,11 @@
 [![BUILD](https://img.shields.io/badge/BUILD-0.1.5.8--breaker19-green.svg)](https://github.com/diveyez/blackhole)
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
+[![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![Dependencies](https://img.shields.io/badge/DEPENDENCIES-See%20List%20Below-orange.svg)]()
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=social)](https://github.com/diveyez)
 [![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/9Tpyxbq)
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/ritwickdey.LiveServer.svg)](https://github.com/diveyez)[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=social)](https://github.com/diveyez)
+
 <html><center>
                                <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
                         <img src="images/blackhole.png" height="350" width="800"></img></br>
