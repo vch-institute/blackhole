@@ -2,7 +2,7 @@
 		<head>
 			<style>
 			@import url('https://fonts.googleapis.com/css?family=Lato');
-			body { width: 1200px; height: 1200px; background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
+			body { max-width: 900px; margin: auto; height: 1200px; background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
 			p { color: black; font-size: 25px; } ptext { font-size: 12px; } pcontent { width: 900px; word-wrap: break-word; }
 			h5 { color: #000; font-size: 12px; text-shadow: 1.5px 1.5px 5px black; }
 			p1 { width: 900px; border: 0.25px solid black; word-wrap: break-word; font-size: 12px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=33); }
