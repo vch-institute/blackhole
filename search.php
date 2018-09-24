@@ -5,10 +5,10 @@
 					body { width: 1200px; height: 1200px; background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
 					p { color: black; font-size: 25px; } ptext { font-size: 12px; } pcontent { width: 900px; word-wrap: break-word; }
 					h5 { color: #000; font-size: 12px; text-shadow: 1.5px 1.5px 5px black; }
-					p1 { width: 900px; border: 0.25px solid black; word-wrap: break-word; font-size: 12px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=33); }
-					p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
-					p2 { width: 900px; border: 0.25px solid black; word-wrap: break-word; font-size: 12px; border-radius: 0px; background-color: black; color: red; white-space: nowrap; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=33); }
-					p2:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+					p1 { width: 900px; word-wrap: break-word; font-size: 12px; }
+					p1:hover { opacity: 1.0; filter: alpha(opacity=100); }
+					p2 { width: 900px; word-wrap: break-word; font-size: 12px; }
+					p2:hover { opacity: 1.0; filter: alpha(opacity=100); }
 					pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
 					a { color: red; font-size: 18px; }
 					.button { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
@@ -37,19 +37,20 @@
 			<?php
 				if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
 					else { echo ("</br>You did not search! Try again!"); }
-						$query = $_POST['search']; $library = $_POST['library']; $server = $_POST['server'];
-									echo "</br>"; // Gonna need more fancy shit here to wow them
+								$query = $_POST['search']; $library = $_POST['library']; $server = $_POST['server'];
+								echo "</br>"; // Gonna need more fancy shit here to wow them
 		 						$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 								$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
-								curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.q=".$encode."&hl.snippets=1&hl.fragsize=0&hl.method=fastVector&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=50&results=50&hl.requireFieldMatch=true");
+								curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.q=".$encode."&hl.snippets=1&hl.fragsize=0&hl.method=unified&hl.bs.type=SENTENCE&hl.defaultSummary=true&hl.maxAlternateFieldLength=50&hl.alternateField=content&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=50&results=50&hl.requireFieldMatch=true");
 								curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 								eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 								echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n and displaying 50.</p>" ;
-						  // FOUND MATCHING TEXT OUTPUT
+								//LOCATIONS
+								// echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
+								// FOUND MATCHING TEXT OUTPUT
 								echo "<ptext><b>Found Matching Text/Terms:</b></ptext></br>";
 								foreach($arr['response']['docs'] as $text)
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; }
-							//	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 			?>
 							</div></div></br>
 								<a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a></br>
