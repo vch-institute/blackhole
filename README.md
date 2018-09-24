@@ -10,6 +10,7 @@
 <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
 
 ```
+
 * Firstly, cd to your working web server
 * git clone https://github.com/diveyez/blackhole 
 * apt install install default-jdk solr 
@@ -20,10 +21,14 @@
 * UNCOMMENT (-#) & Set SOLR_ULIMIT_CHECKS=false 
 * ./solr start -c <corename>
 * ./post -C <corename> /path/to/files
+
 ```
 <h3>EXAMPLE:</h3>
+
 ```
-cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics\ /and \ /Spaceflight/
+
+cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
+
 ```
 
 <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
