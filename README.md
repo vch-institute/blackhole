@@ -9,7 +9,7 @@ wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && ta
 cd solr-7.5.0/bin && ./solr start -c <corename> </br>
 ./post -C <corename> /path/to/files </br>
 
-** Congrats, now you are indexing **
+-Congrats, now you are indexing-
 
 --
 
