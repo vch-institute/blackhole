@@ -5,6 +5,9 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=popout)](https://github.com/diveyez)
 
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
+
+
 <html><center>
                                <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
                         <img src="images/blackhole.png" height="350" width="800"></img></br>
