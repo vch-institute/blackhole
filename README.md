@@ -2,7 +2,7 @@
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
 [![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![JavaScript](https://img.shields.io/badge/language-javascript-blue.svg)](https://github.com/diveyez)
-[![JSON](https://img.shields.io/badge/JSON-blue.svg?style=flat-square)](https://github.com/diveyez)
+[![JSON](https://img.shields.io/badge/JSON-Active-blue.svg?style=flat-rounded)](https://github.com/diveyez)
 [![]()]()
 [![]()]()
 [![Dependencies](https://img.shields.io/badge/DEPENDENCIES-See%20List%20Below-orange.svg)](https://github.com/diveyez/blackhole/blob/master/README.md#requirementslinux-or-windows-server-with-installed-webserver-github-jre8--solr-750-4gb-of-ram)
