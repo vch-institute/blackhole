@@ -11,26 +11,17 @@
 [![Github commit merge status](https://img.shields.io/github/commit-status/badges/shields/master/5d4ab86b1b5ddfb3c4a70a70bd19932c52603b8c.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=popout)](https://github.com/diveyez)
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
-[![GitHub issues](https://img.shields.io/github/issues-open/badges/shields.svg)](https://github.com/diveyez/blackhole)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)</br>
 [![WebServices](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=R2NHosting.com)](https://r2nhosting.com)
 [![BlackHoleSearch](https://img.shields.io/badge/BLACK%20HOLE%20SEARCH-active-green.svg?style=flat-rounded)](https://r2nhosting.com)
-
-
-
-
-
-
-
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/diveyez)
 <html><center>
                                <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
                         <img src="images/blackhole.png" height="350" width="800"></img></br>
 
 <h5>REQUIREMENTS,
 <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
-
 ```
-
 * Firstly, cd to your working web server
 * git clone https://github.com/diveyez/blackhole 
 * apt install install default-jdk solr 
@@ -41,21 +32,17 @@
 * UNCOMMENT (-#) & Set SOLR_ULIMIT_CHECKS=false 
 * ./solr start -c <corename>
 * ./post -C <corename> /path/to/files
-
 ```
 <h3>EXAMPLE:</h3>
 
 ```
-
 cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
 
 ```
-
 <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
 If you intend to use it, this must be on a webserver, or equivalent,</br>
 With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
 <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br>
-
 <h3><b>Planned Features:</b></h3></br>
         - [x] Instructions for Linux Server</br>
         - [ ] Instructions for Windows Server</br>
@@ -71,12 +58,10 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [ ] Public Library for testing</br>
         - [ ] Electron or equivelent application to remove need for browers and webservers</br>
    </br>
-
 <h3>Discord: https://discord.gg/9Tpyxbq</h3></br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br></html>
 <html>GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
-        <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
-</html>
+        <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br></html>
 
 
