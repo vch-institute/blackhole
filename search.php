@@ -53,7 +53,14 @@
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; }
 			?>
 							</div></div></br>
-								<a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a></br>
+							<button onclick="goBack()">Go Back To Search</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+								</br>
 							<!-- FOOTER -->
 							<div id="footer"><center>
 									<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
