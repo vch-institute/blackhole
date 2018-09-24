@@ -11,8 +11,8 @@
 			p2:hover { opacity: 1.0; filter: alpha(opacity=100); }
 			pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
 			a { color: red; font-size: 18px; }
-			.button { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
-			.button:hover { border-radius: 25px; background-color: #4CAF50; /* Green */ color: white; -webkit-transform: rotateX(150deg); /* Safari */ ntransform: rotateX(150deg);}
+			.button1 { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
+			.button1:hover { border-radius: 25px; background-color: #4CAF50; /* Green */ color: white; -webkit-transform: rotateX(150deg); /* Safari */ ntransform: rotateX(150deg);}
 			input[type=text] { width: 130px; -webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out; }
 			input[type=text]:focus { width: 250px; }
 			.tooltip { position: relative; display: inline-block; border-bottom: 1px solid black; }
@@ -28,10 +28,10 @@
 				<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 				<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 			<div class="tooltip">
-			  <span class="tooltiptext">Libraries: Library </br> Server: localhost</span>
+			  <span class="tooltiptext">Libraries: Contact Administrator </br> Server: localhost</span>
 				<form method="post" action="search.php">
                 <p><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" />
-                <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form>
+                <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form>
 			</div>
 				</br><p> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
 			</br><p>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a>

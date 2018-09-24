@@ -12,7 +12,8 @@
 					pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
 					a { color: red; font-size: 18px; }
 					.button { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
-					.button:hover { border-radius: 25px; background-color: #4CAF50; /* Green */ color: white; -webkit-transform: rotateX(150deg); /* Safari */ ntransform: rotateX(150deg);}
+					.button1 { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
+					.button1:hover { border-radius: 25px; background-color: #4CAF50; /* Green */ color: white; -webkit-transform: rotateX(150deg); /* Safari */ ntransform: rotateX(150deg);}
 					input[type=text] { width: 130px; -webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out; }
 					input[type=text]:focus { width: 250px; }
 					.tooltip { position: relative; display: inline-block; border-bottom: 1px solid black; }
@@ -32,7 +33,7 @@
                 <p><b>Keywords:</b><input name="search" type="text" />
                 <b>Library:</b><input name="library" type="text" />
                 <b>Server:</b><input name="server" type="text" />
-                <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
+                <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
 								<div id="ww">
 			<?php
 				if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
