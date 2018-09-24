@@ -68,4 +68,5 @@ ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.co
 Intended for usage with:</br>
         <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
 </html>
+
 [![WebServices](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=R2N Hosting Cloud)](https://r2nhosting.com)</br>
