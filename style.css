@@ -18,6 +18,16 @@ pcontent {
   width: 900px;
   word-wrap: break-word;
           }
+pqueries {
+  color: #000;
+  font-size: 16px;
+  word-wrap: break-word;
+          }
+h4 {
+  color: #000;
+  font-size: 14px;
+  text-shadow: 0.5px 1.1px 3.5px black;
+                  }
 h5 {
   color: #000;
   font-size: 12px;
