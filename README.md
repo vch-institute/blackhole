@@ -63,9 +63,9 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
    </br>
 
 <h3>Discord: https://discord.gg/9Tpyxbq</h3></br>
-ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](https://r2nhosting.com)
-GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
+ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br></html>
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](https://r2nhosting.com)</br>
+<html>GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
         <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
-</html>
+</html
