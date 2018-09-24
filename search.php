@@ -39,20 +39,22 @@
 	$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
 	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&results=5000");
 	// Supreme
-	//&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&results=5000
+	//hl.q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&results=5000
 	// Clean
-	//&fl=id&fl=score&wt=php&indent=true&&hl=true&rows=5000&hl.fl=*&hl.snippets=1&hl.fragsize=0
+	//hl.q".$encode."&fl=id&fl=score&wt=php&indent=true&&hl=true&rows=5000&hl.fl=*&hl.snippets=1&hl.fragsize=0
 	// Supreme with html filter
-	//&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&hl=true&&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&hl.encoder=html&results=5000
+	//hl.q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&hl=true&&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&hl.encoder=html&results=5000
 	//testline
 	//http://localhost:8983/solr/Library/select?q=ak47&fl=id&fl=score&fl=*&ident=true&hl=true&explainOther=dog&hl.fl=*&hl.snippets=1&hl.fragsize=0&wt=php
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
-// FIX THIS ON SUNDAY - MONDAY
-//	echo "<p><b>Found Text:</b></p>";
-//			foreach($arr)['highlighting']['dc_title'] as $text) { echo $text['dc_title'] ; }
-
+	// FIX THIS ON SUNDAY - MONDAY
+	//	echo "<p><b>Found Text:</b></p>";
+	//			foreach($arr)['highlighting']['dc_title'] as $text) { echo $text['dc_title'] ; }
+  // FOUND MATCHING TEXT OUTPUT
+	echo "<p><b>Found Matching Text:</b></p><p>" . $arr['response']['id']['content'] . "\n </p>" ;
+	// FILE ID AND SCORE OUTPUT
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
 </div><center></br>				<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
