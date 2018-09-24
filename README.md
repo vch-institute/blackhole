@@ -1,5 +1,7 @@
+[![BUILD](https://img.shields.io/badge/BUILD-0.1.5.8--breaker19-green.svg)](https://github.com/diveyez/blackhole)
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
 [![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/9Tpyxbq)
+
 <html><center>
                                <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
                         <img src="images/blackhole.png" height="350" width="800"></img></br>
