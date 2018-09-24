@@ -1,6 +1,5 @@
 <h2>*Black Hole PHP Solr Index Searching Platform*</p></h2></br>
 <img src="images/blackhole.png" height="350" width="425"></img></br>
-<p style=" font-size= 10px;"></br>
 
 ```
 * Firstly, cd to your working web server, then do git clone https://github.com/diveyez/blackhole </br>
@@ -12,9 +11,9 @@
 
 <h4>An Extremely fast and lightweight</h4> PHP LAN Web interface for finding specific keyword strings in Solr indexes.</br>
 If you intend to use it, this must be on a webserver, or equivalent,</br>
-With ___Apache Lucene Solr___ and JRE 8+ running all on the same machine.</br>
+With __Apache Lucene Solr__ and JRE 8+ running all on the same machine.</br>
 Currently a beta, but will build and share from here. This is my own code.</br>
-ALL RIGHTS RESERVED, COPYRIGHT 2018 Diveyez of <a href="https://r2nhosting.com/"></a></br>
+__ALL RIGHTS RESERVED, COPYRIGHT 2018 Diveyez__ of <a href="https://r2nhosting.com/"></a></br>
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:
-<a href="lucene.apache.org/solr"><img src="images/solr.png"></img></a></p>
+<a href="lucene.apache.org/solr"><img src="images/solr.png"></img></a>
