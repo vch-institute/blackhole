@@ -1,4 +1,4 @@
-<h2>*Black Hole PHP Solr Index Searching Platform*</p></h2></br>
+<html><h2>*Black Hole PHP Solr Index Searching Platform*</p></h2></br>
 <img src="images/blackhole.png" height="350" width="800"></img></br>
 
 ```
@@ -16,4 +16,4 @@ Currently a beta, but will build and share from here. This is my own code.</br>
 *ALL RIGHTS RESERVED COPYRIGHT 018©® Diveyez of <a href="https://r2nhosting.com/"></a>*</br>
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:
-<a href="lucene.apache.org/solr"><img src="images/solr.png"></img></a>
+<a href="lucene.apache.org/solr"><img src="images/solr.png"></img></a></html>
