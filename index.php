@@ -2,13 +2,13 @@
 		<head>
 			<style>
 			@import url('https://fonts.googleapis.com/css?family=Lato');
-			body { max-width: 900px; margin: auto; height: 1200px; background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
+			body { max-width: 900px; margin: auto; height: 1200; background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
 			p { color: black; font-size: 25px; } ptext { font-size: 12px; } pcontent { width: 900px; word-wrap: break-word; }
 			h5 { color: #000; font-size: 12px; text-shadow: 1.5px 1.5px 5px black; }
-			p1 { width: 900px; border: 0.25px solid black; word-wrap: break-word; font-size: 12px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=33); }
-			p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
-			p2 { width: 900px; border: 0.25px solid black; word-wrap: break-word; font-size: 12px; border-radius: 0px; background-color: black; color: red; white-space: nowrap; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=33); }
-			p2:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+			p1 { width: 900px; word-wrap: break-word; font-size: 12px; }
+			p1:hover { opacity: 1.0; filter: alpha(opacity=100); }
+			p2 { width: 900px; word-wrap: break-word; font-size: 12px; }
+			p2:hover { opacity: 1.0; filter: alpha(opacity=100); }
 			pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
 			a { color: red; font-size: 18px; }
 			.button { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
@@ -21,8 +21,8 @@
 			.tooltip .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid;
 			border-color: #555 transparent transparent transparent; }
 			.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
-			#ww { width: 900px; border: 1px solid black; padding: 25px; margin: 25px; word-wrap: break-word; }
-			#ww1 { width: 900px; padding: 25px; margin: 25px; word-wrap: break-word; }
+			#ww { width: 900px; border: 1px solid black; padding: 25px; word-wrap: break-word; }
+			#ww1 { width: 900px; padding: 25px; word-wrap: break-word; }
 			</style>
 		</head><body><center>
 				<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>

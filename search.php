@@ -21,8 +21,8 @@
 					.tooltip .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid;
 					border-color: #555 transparent transparent transparent; }
 					.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
-					#ww { width: 900px; border: 1px solid black; padding: 25px; margin: 25px; word-wrap: break-word; }
-					#ww1 { width: 900px; padding: 25px; margin: 25px; word-wrap: break-word; }
+					#ww { width: 900px; border: 1px solid black; padding: 25px; word-wrap: break-word; }
+					#ww1 { width: 900px; padding: 25px; word-wrap: break-word; }
 							</style></head><body>
 	<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a>
 		<!-- TOOLTIPS -->
