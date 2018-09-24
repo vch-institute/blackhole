@@ -28,7 +28,7 @@
 			</div>
 				</br><p> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
 			</br><p>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a>
-				</br>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a>
+			</br>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></br>
 				<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
 				<p>Made with Apache Lucene Solr</p>
 				</center></body>
