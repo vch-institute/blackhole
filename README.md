@@ -1,17 +1,15 @@
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
 [![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/9Tpyxbq)
 <html><center>
-        <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
-        
-        </br>
-        
-<img src="images/blackhole.png" height="350" width="800"></img></br>
+                               <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
+                        <img src="images/blackhole.png" height="350" width="800"></img></br>
 
-<h5>REQUIREMENTS, <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
+<h5>REQUIREMENTS,
+<ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
 
 ```
 * Firstly, cd to your working web server
- * git clone https://github.com/diveyez/blackhole 
+* git clone https://github.com/diveyez/blackhole 
 * apt install install default-jdk solr 
 * wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz 
 * cd solr-7.5.0/bin 
