@@ -5,7 +5,7 @@
 <h5>REQUIREMENTS, <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
 
 ```
-* <h5>Firstly,</h5> cd to your working web server, then do git clone https://github.com/diveyez/blackhole </br>
+* Firstly, cd to your working web server, then do git clone https://github.com/diveyez/blackhole </br>
 * apt install install default-jdk solr </br>
 * wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz </br>
 * cd solr-7.5.0/bin 
