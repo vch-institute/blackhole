@@ -1,5 +1,5 @@
 <h2>*Black Hole PHP Solr Index Searching Platform*</p></h2></br>
-<img src="images/blackhole.png" height="350" width="550"></img></br>
+<img src="images/blackhole.png" height="350" width="800"></img></br>
 
 ```
 * Firstly, cd to your working web server, then do git clone https://github.com/diveyez/blackhole </br>
