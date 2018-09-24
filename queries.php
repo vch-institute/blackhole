@@ -48,7 +48,7 @@ Very common in todays world, people are data mining for solutions without realiz
 This is how we are going to do this, I will type <i>"Medicine book:'Antibiotics'-*"</i></br>
 The results output 3 of 2,357 books, one of which is "Curing a Bacterial Infection at Home"</br>
 Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries>
-  <p2 style=" font-size: 14px;">
+  <p2 style="font-size:14px;">
 The Judiciary Act of 1789 is passed by Congress and signed by President George Washington, </br>
 establishing the Supreme Court of the United States as a tribunal made up of six justices who were to serve on the court until death or retirement. </br>
 That day, President Washington nominated John Jay to preside as chief justice, and John Rutledge, William Cushing, John Blair, Robert Harrison, </br>

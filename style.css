@@ -120,3 +120,14 @@ input[type=text]:focus {
   padding: 25px;
   word-wrap: break-word;
             }
+#historybox {
+  background: #fff;
+  border: 1px;
+  border-color: #fefefe;
+  border-style: groove;
+  border-spacing: inherit;
+  border-radius: 5px;
+  width: 900px;
+  padding: 25px;
+  word-wrap: break-word;
+            }
