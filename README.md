@@ -1,5 +1,10 @@
-<img src="images/blackhole.png"></img>
+<img src="images/blackhole.png" height="100" width="175"></img>
 https://github.com/diveyez/blackhole
+--
+`
+__Required!__ apt install install default-jdk
+
+`
 --
 An Extremely fast and lightweight PHP LAN Web interface for finding specific keyword strings in Solr indexes.</br>
 If you intend to use it, this must be on a webserver, or equivalent,</br>
