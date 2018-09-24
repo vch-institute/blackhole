@@ -11,9 +11,9 @@
 
 <h4>An Extremely fast and lightweight</h4> PHP LAN Web interface for finding specific keyword strings in Solr indexes.</br>
 If you intend to use it, this must be on a webserver, or equivalent,</br>
-With __Apache__Lucene__Solr__ and JRE 8+ running all on the same machine.</br>
+With *Apache Lucene Solr* and JRE 8+ running all on the same machine.</br>
 Currently a beta, but will build and share from here. This is my own code.</br>
-__ALL__RIGHTS__RESERVED__COPYRIGHT__2018©®__Diveyez__ of <a href="https://r2nhosting.com/"></a></br>
+*ALL RIGHTS RESERVED COPYRIGHT 018©® Diveyez of <a href="https://r2nhosting.com/"></a>*</br>
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:
 <a href="lucene.apache.org/solr"><img src="images/solr.png"></img></a>
