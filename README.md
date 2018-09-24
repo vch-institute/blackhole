@@ -1,14 +1,17 @@
 [![BUILD](https://img.shields.io/badge/BUILD-0.1.5.8--breaker19-green.svg)](https://github.com/diveyez/blackhole)
+[![BASHScripts](https://img.shields.io/badge/BASH-Shell%20Scripts-blue.svg)](https:github.com/diveyez)
+[![HTML5](https://img.shields.io/badge/HTML-5-green.svg)](https://github.com/diveyez)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Coming%20Soon-grey.svg)](https://github.com/diveyez)
+[![JSON](https://img.shields.io/badge/JSON-Coming%20Soon-grey.svg?style=flat-rounded)](https://github.com/diveyez)
+[![Python](https://img.shields.io/badge/Python-3.5%2B-red.svg)](https://github.com/diveyez)
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
 [![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg?style=popout)](https://github.com/diveyez/blackhole)
-[![Dependencies](https://img.shields.io/badge/DEPENDENCIES-See%20List%20Below-orange.svg)](https://github.com/diveyez/blackhole/blob/master/README.md#requirementslinux-or-windows-server-with-installed-webserver-github-jre8--solr-750-4gb-of-ram)</br>
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
+[![Dependencies](https://img.shields.io/badge/DEPENDENCIES-See%20List%20Below-orange.svg)](https://github.com/diveyez/blackhole/blob/master/README.md#requirementslinux-or-windows-server-with-installed-webserver-github-jre8--solr-750-4gb-of-ram)
+[![GitHub language count](https://img.shields.io/github/languages/count/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
+[![Github commit merge status](https://img.shields.io/github/commit-status/badges/shields/master/5d4ab86b1b5ddfb3c4a70a70bd19932c52603b8c.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=popout)](https://github.com/diveyez)
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](https://r2nhosting.com)
-
-
-
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)</br>
 <html><center>
                                <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
                         <img src="images/blackhole.png" height="350" width="800"></img></br>
@@ -30,10 +33,10 @@
 * ./post -C <corename> /path/to/files
 
 ```
+
 <h3>EXAMPLE:</h3>
 
 ```
-
 cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
 
 ```
@@ -42,7 +45,6 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
 If you intend to use it, this must be on a webserver, or equivalent,</br>
 With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
 <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br>
-
 <h3><b>Planned Features:</b></h3></br>
         - [x] Instructions for Linux Server</br>
         - [ ] Instructions for Windows Server</br>
@@ -59,10 +61,10 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [ ] Electron or equivelent application to remove need for browers and webservers</br>
    </br>
 
-<h3>Discord: https://discord.gg/9Tpyxbq</h3></br>
-ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
-GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)</br>
-<div id='discord-widget'></div><script type='text/javascript' src='http://hexicle.com/discord-widget/widget.js' link='https://discord.gg/9Tpyxbq' text='R2N Hosting Solutions' color=''></script>
-Intended for usage with:</br>
+        ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
+        GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)</br>
+        <h3>Discord: https://discord.gg/9Tpyxbq</h3></br>
+        <div id='discord-widget'></div><script type='text/javascript' src='http://hexicle.com/discord-widget/widget.js' link='https://discord.gg/9Tpyxbq' text='R2N Hosting Solutions' color=''></script></br>
+        Intended for usage with:</br>
         <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
 </html>
