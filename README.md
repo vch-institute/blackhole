@@ -57,7 +57,8 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [ ] Dockerize</br>
         - [ ] Web Browser Plugins for consumers</br>
         - [ ] Public Library for testing</br>
-        - [ ] Electron or equivelent application to remove need for browers and webservers</br>
+        - [ ] Electron or equivalent application to remove need for browers and webservers</br>
+        - [ ] Machine learning notebook to study datamining with computational capabilities</br>
    </br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
