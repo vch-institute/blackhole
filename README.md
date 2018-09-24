@@ -1,6 +1,7 @@
--- *Black Hole PHP Solr Index Searching Platform*</br>
+<h4>*Black Hole PHP Solr Index Searching Platform*</h4></br>
 <img src="images/blackhole.png" height="250" width="325"></img></br>
-<p style=" font-size= 10px;"></br>
+<p style=" font-size= 15px;"></br>
+
 ```
 * Firstly, cd to your working web server, then do git clone https://github.com/diveyez/blackhole </br>
 * apt install install default-jdk solr </br>
@@ -8,6 +9,7 @@
 * cd solr-7.5.0/bin && ./solr start -c <corename> </br>
 * ./post -C <corename> /path/to/files </br>
 ```
+
 An Extremely fast and lightweight PHP LAN Web interface for finding specific keyword strings in Solr indexes.</br>
 If you intend to use it, this must be on a webserver, or equivalent,</br>
 With Apache Lucene Solr and JRE 8+ running all on the same machine.</br>
