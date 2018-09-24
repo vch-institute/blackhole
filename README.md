@@ -7,7 +7,6 @@
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)</br>
 [![WebServices](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=R2NHosting.com)](https://r2nhosting.com)
-<A href="https://r2nhosting.com/site/tls">Visit My Website for Services</a>
 
 
 
