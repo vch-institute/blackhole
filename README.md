@@ -19,13 +19,13 @@
 ```
 
 * Firstly, cd to your working web server
-* git clone https://github.com/diveyez/blackhole 
-* apt install install default-jdk solr 
-* wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz 
-* cd solr-7.5.0/bin 
+* git clone https://github.com/diveyez/blackhole
+* apt install install default-jdk solr
+* wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz
+* cd solr-7.5.0/bin
 * nano solr.in.sh
 * UNCOMMENT (-#) & Set SOLR_HEAP="4096m" (4,096MB of Ram for Java's Heap)
-* UNCOMMENT (-#) & Set SOLR_ULIMIT_CHECKS=false 
+* UNCOMMENT (-#) & Set SOLR_ULIMIT_CHECKS=false
 * ./solr start -c <corename>
 * ./post -C <corename> /path/to/files
 
@@ -50,7 +50,7 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [x] Full text output in results</br>
         - [ ] JSON/JavaScript version</br>
         - [ ] Custom Schema's for the project</br>
-        - [ ] JSON/JavaScript version</br> 
+        - [ ] JSON/JavaScript version</br>
         - [ ] Add more search fields</br>
         - [ ] Style and Decorate and publish a 1.0 final</br>
         - [ ] Dockerize</br>
@@ -61,7 +61,8 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
 
 <h3>Discord: https://discord.gg/9Tpyxbq</h3></br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
-GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
+GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)</br>
+<div id='discord-widget'></div><script type='text/javascript' src='http://hexicle.com/discord-widget/widget.js' link='https://discord.gg/9Tpyxbq' text='R2N Hosting Solutions' color=''></script>
 Intended for usage with:</br>
         <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
 </html>
