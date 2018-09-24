@@ -1,12 +1,10 @@
 [![BUILD](https://img.shields.io/badge/BUILD-0.1.5.8--breaker19-green.svg)](https://github.com/diveyez/blackhole)
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
 [![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg?style=popout)](https://github.com/diveyez/blackhole)
-[![Dependencies](https://img.shields.io/badge/DEPENDENCIES-See%20List%20Below-orange.svg)](https://github.com/diveyez/blackhole/blob/master/README.md#requirementslinux-or-windows-server-with-installed-webserver-github-jre8--solr-750-4gb-of-ram)
+[![Dependencies](https://img.shields.io/badge/DEPENDENCIES-See%20List%20Below-orange.svg)](https://github.com/diveyez/blackhole/blob/master/README.md#requirementslinux-or-windows-server-with-installed-webserver-github-jre8--solr-750-4gb-of-ram)</br>
 [![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/9Tpyxbq)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
-
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=popout)](https://github.com/diveyez)
-
 [![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=social)](https://github.com/diveyez/blackhole)
 
 <html><center>
