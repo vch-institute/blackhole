@@ -1,5 +1,5 @@
-<h4>*Black Hole PHP Solr Index Searching Platform*</h4></br>
-<img src="images/blackhole.png" height="250" width="325"></img></br>
+<h2>*Black Hole PHP Solr Index Searching Platform*</h2></br>
+<img src="images/blackhole.png" height="500" width="425"></img></br>
 <p style=" font-size= 15px;"></br>
 
 ```
