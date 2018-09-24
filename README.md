@@ -52,7 +52,7 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [x] Full text output in results</br>
         - [ ] JSON/JavaScript version (Under Construction Today)</br>
         - [x] Custom Schema's for the project</br>
-        - [ ] Add more search fields</br>
+        - [x] Add more search fields (Continuing This Eternally)</br>
         - [ ] Style and Decorate and publish a 1.0 final</br>
         - [ ] Dockerize</br>
         - [ ] Web Browser Plugins for consumers</br>
