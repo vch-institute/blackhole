@@ -11,7 +11,7 @@
 [![Github commit merge status](https://img.shields.io/github/commit-status/badges/shields/master/5d4ab86b1b5ddfb3c4a70a70bd19932c52603b8c.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=popout)](https://github.com/diveyez)
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
-[![GitHub issues](https://img.shields.io/github/open-issues/badges/shields.svg)](https://github.com/diveyez/blackhole)
+[![GitHub issues](https://img.shields.io/github/issues-open/badges/shields.svg)](https://github.com/diveyez/blackhole)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)</br>
 [![WebServices](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=R2NHosting.com)](https://r2nhosting.com)
 [![BlackHoleSearch](https://img.shields.io/badge/BLACK%20HOLE%20SEARCH-active-green.svg?style=flat-rounded)](https://r2nhosting.com)
@@ -77,7 +77,6 @@ ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.co
 <html>GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
         <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
-        [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/diveyez)
 </html>
 
 
