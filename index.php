@@ -2,7 +2,7 @@
 		<head>
 			<style>
 				@import url('https://fonts.googleapis.com/css?family=Lato');
-				body { background-repeat: no-repeat; background-color: #8e8e8e; black: white; font-family: 'Lato', serif; font-size: 16px; }
+				body { background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
 				p { color: black; text-shadow: 0.5px 0.5px 5px black;} plight { font-size: 30px; color: #000; text-shadow: 1.5px 1.5px 5px black; }
 				h5 { color: #000; font-size: 28px; text-shadow: 1.5px 1.5px 5px black; }
 				pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
@@ -27,7 +27,9 @@
                 <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form>
 			</div>
 				</br><p> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></p>
-			  </br><p>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a>
-				</br> <h5>Made With</h5></br><a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+			</br><p>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a>
+				</br>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a>
+				<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+				<p>Made with Apache Lucene Solr</p>
 				</center></body>
 </html>

@@ -2,15 +2,15 @@
 <head>
 <style>
 		@import url('https://fonts.googleapis.com/css?family=Lato');
-		body { background-repeat: no-repeat; background-color: #8e8e8e; black: white; font-family: 'Lato', serif; font-size: 16px; }
-		p { color: black; font-size: 25px; }
-		h5 { color: #000; font-size: 28px; text-shadow: 1.5px 1.5px 5px black; }
-		p1 { font-size: 18px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
+		body { background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
+		p { color: black; font-size: 25px; } ptext { font-size: 12px; }
+		h5 { color: #000; font-size: 12px; text-shadow: 1.5px 1.5px 5px black; }
+		p1 { font-size: 15px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
 		p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
-		p2 { font-size: 18px; border-radius: 0px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
+		p2 { font-size: 15px; border-radius: 0px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
 		p2:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
 		pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
-		a { color: red; }
+		a { color: red; font-size: 18px; }
 		.button { border-radius: 25px; background-color: #555555; color: #fff; } /* Black */
 		.button:hover { border-radius: 25px; background-color: #4CAF50; /* Green */ color: white; -webkit-transform: rotateX(150deg); /* Safari */ ntransform: rotateX(150deg);}
 		input[type=text] { width: 130px; -webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out; }
@@ -37,7 +37,7 @@
 		echo "</br>"; // Gonna need more fancy shit here to wow them
 		$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 	$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
-	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&results=5000");
+	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=120&results=5000");
 	// Supreme
 	//hl.q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&results=5000
 	// Clean
@@ -53,7 +53,9 @@
 	//	echo "<p><b>Found Text:</b></p>";
 	//			foreach($arr)['highlighting']['dc_title'] as $text) { echo $text['dc_title'] ; }
   // FOUND MATCHING TEXT OUTPUT
-	echo "<p><b>Found Matching Text:</b></p><p>" . $arr['response']['id']['content'] . "\n </p>" ;
+	echo "<ptext><b>Found Matching Text:</b>";
+	foreach($arr['response']['docs'] as $text)
+	{ echo "" . $text['content'] . $text['id'] . "\n<b>Next Result:</ptext></b></br>"; }
 	// FILE ID AND SCORE OUTPUT
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
@@ -62,4 +64,3 @@
 													</center>
 												</body>
 </html>
-14
