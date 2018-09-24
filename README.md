@@ -30,8 +30,8 @@ Currently a beta, but will build and share from here. This is my own code.</br>
         </br>
 
 
-ALL RIGHTS RESERVED COPYRIGHT 018©® Diveyez of <a href="https://r2nhosting.com/"></a></br>
+ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
-        <a href="lucene.apache.org/solr"><img src="images/solr.png" width="800" height="350"></img></a>
+        <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a>
 </html>
