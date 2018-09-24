@@ -41,14 +41,14 @@
 									echo "</br>"; // Gonna need more fancy shit here to wow them
 		 						$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 								$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
-								curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=50&results=50&hl.requireFieldMatch=true");
+								curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.q=".$encode."&hl.snippets=1&hl.fragsize=0&hl.method=fastVector&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=50&results=50&hl.requireFieldMatch=true");
 								curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 								eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
 								echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n and displaying 50.</p>" ;
 						  // FOUND MATCHING TEXT OUTPUT
-								echo "<ptext><b>Found Matching Text:</b></ptext></br>";
+								echo "<ptext><b>Found Matching Text/Terms:</b></ptext></br>";
 								foreach($arr['response']['docs'] as $text)
-								{ echo "<div id='ww2'><pcontent><b>Found:</b></br>" . $text['id'] . "</br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; }
+								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; }
 							//	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 			?>
 							</div></div></br>
