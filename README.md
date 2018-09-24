@@ -1,5 +1,4 @@
-[![Generic badge](https://img.shields.io/badge/Version-0.1.98-breaker-green.svg)](https://shields.io/)
-        [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)(https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)[![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
+[https://img.shields.io/packagist/php-v/symfony/symfony.svg]
 <html><center>
         <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
         
