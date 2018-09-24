@@ -1,8 +1,8 @@
 <html><center>
-        <h1>*Black Hole PHP Solr Index Searching Platform*</p></h1></br>
+        <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1></br>
 <img src="images/blackhole.png" height="350" width="800"></img></br>
 
-<h5>REQUIREMENTS, Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5></br>
+<h5>REQUIREMENTS, <ulLinux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
 
 ```
 * <h5>Firstly,</h5> cd to your working web server, then do git clone https://github.com/diveyez/blackhole </br>
