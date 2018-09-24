@@ -1,5 +1,12 @@
 <html>
         <center><h1>*Black Hole PHP Solr Index Searching Platform*</p></h1></br>
+        <h5><b>Planned Features:</b></h5>
+        - [x] Instructions for Linux Server
+        - [ ] Instructions for Windows Server
+        - [ ] Test Core
+        - [x] Full text output in results
+        - [ ] JSON/JavaScript version
+        </br>
 <img src="images/blackhole.png" height="350" width="800"></img></br>
 
 <h5>REQUIREMENTS, Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5></br>
@@ -23,5 +30,5 @@ Currently a beta, but will build and share from here. This is my own code.</br>
 ALL RIGHTS RESERVED COPYRIGHT 018©® Diveyez of <a href="https://r2nhosting.com/"></a></br>
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
-        <a href="lucene.apache.org/solr"><img src="images/solr.png" width="250" height="125"></img></a></center>
+        <a href="lucene.apache.org/solr"><img src="images/solr.png" width="800" height="350"></img></a></center>
 </html>
