@@ -16,23 +16,28 @@
 * ./solr start -c <corename>
 * ./post -C <corename> /path/to/files
 ```
-
+<h3>EXAMPLE:</h3>
 ```
-_EXAMPLE_: cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics\ /and \ /Spaceflight/
+cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics\ /and \ /Spaceflight/
 ```
 
 <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
 If you intend to use it, this must be on a webserver, or equivalent,</br>
 With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
-Currently a beta, but will build and share from here. This is my own code.</br>
+<b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br>
 
-<h5><b>Planned Features:</b></h5></br>
+<h3><b>Planned Features:</b></h3></br>
         - [x] Instructions for Linux Server</br>
         - [ ] Instructions for Windows Server</br>
         - [ ] Test Core</br>
         - [x] Full text output in results</br>
         - [ ] JSON/JavaScript version</br>
-        </br>
+        - [ ] Custom Schema's for the project</br>
+        - [ ] JSON/JavaScript version</br> 
+        - [ ] Add more search fields</br>
+        - [ ] Style and Decorate and publish a 1.0 final</br>
+        - [ ] Dockerize</br>
+   </br>
 
 
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
