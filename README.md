@@ -1,4 +1,4 @@
-[https://img.shields.io/packagist/php-v/symfony/symfony.svg]
+[ ![PHP] (https://img.shields.io/packagist/php-v/symfony/symfony.svg)] (https://github.com/diveyez/blackhole)
 <html><center>
         <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
         
