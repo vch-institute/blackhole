@@ -1,12 +1,5 @@
-<html>
-        <center><h1>*Black Hole PHP Solr Index Searching Platform*</p></h1></br>
-        <h5><b>Planned Features:</b></h5>
-        - [x] Instructions for Linux Server
-        - [ ] Instructions for Windows Server
-        - [ ] Test Core
-        - [x] Full text output in results
-        - [ ] JSON/JavaScript version
-        </br>
+<html><center>
+        <h1>*Black Hole PHP Solr Index Searching Platform*</p></h1></br>
 <img src="images/blackhole.png" height="350" width="800"></img></br>
 
 <h5>REQUIREMENTS, Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5></br>
@@ -27,8 +20,18 @@
 If you intend to use it, this must be on a webserver, or equivalent,</br>
 With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
 Currently a beta, but will build and share from here. This is my own code.</br>
+
+<h5><b>Planned Features:</b></h5></br>
+        - [x] Instructions for Linux Server</br>
+        - [ ] Instructions for Windows Server</br>
+        - [ ] Test Core</br>
+        - [x] Full text output in results</br>
+        - [ ] JSON/JavaScript version</br>
+        </br>
+
+
 ALL RIGHTS RESERVED COPYRIGHT 018©® Diveyez of <a href="https://r2nhosting.com/"></a></br>
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
-        <a href="lucene.apache.org/solr"><img src="images/solr.png" width="800" height="350"></img></a></center>
+        <a href="lucene.apache.org/solr"><img src="images/solr.png" width="800" height="350"></img></a>
 </html>
