@@ -3,7 +3,7 @@
 <style>
 		@import url('https://fonts.googleapis.com/css?family=Lato');
 		body { background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
-		p { color: black; font-size: 25px; } ptext { font-size: 12px; }
+		p { color: black; font-size: 25px; } ptext { font-size: 12px; } pcontent { background-color: white; color: black; white-space: nowrap; width: 200px; font-size: 10px; text-shadow: 0.5px 0.5px 2.5px black }
 		h5 { color: #000; font-size: 12px; text-shadow: 1.5px 1.5px 5px black; }
 		p1 { font-size: 15px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
 		p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
@@ -53,9 +53,9 @@
 	//	echo "<p><b>Found Text:</b></p>";
 	//			foreach($arr)['highlighting']['dc_title'] as $text) { echo $text['dc_title'] ; }
   // FOUND MATCHING TEXT OUTPUT
-	echo "<ptext><b>Found Matching Text:</b>";
+	echo "<ptext><b>Found Matching Text:</b></ptext></br>";
 	foreach($arr['response']['docs'] as $text)
-	{ echo "" . $text['content'] . $text['id'] . "\n<b>Next Result:</ptext></b></br>"; }
+	{ echo "<pcontent>" . $text['content'] . $text['id'] . "</br>\n<b>Next Result:</b></pcontent></br>"; }
 	// FILE ID AND SCORE OUTPUT
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
 	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
