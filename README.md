@@ -50,9 +50,8 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [ ] Instructions for Windows Server</br>
         - [x] Test Core</br>
         - [x] Full text output in results</br>
-        - [ ] JSON/JavaScript version</br>
-        - [ ] Custom Schema's for the project</br>
-        - [ ] JSON/JavaScript version</br>
+        - [ ] JSON/JavaScript version (Under Construction Today)</br>
+        - [x] Custom Schema's for the project</br>
         - [ ] Add more search fields</br>
         - [ ] Style and Decorate and publish a 1.0 final</br>
         - [ ] Dockerize</br>
