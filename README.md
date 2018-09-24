@@ -48,7 +48,7 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
 <h3><b>Planned Features:</b></h3></br>
         - [x] Instructions for Linux Server</br>
         - [ ] Instructions for Windows Server</br>
-        - [ ] Test Core</br>
+        - [x] Test Core</br>
         - [x] Full text output in results</br>
         - [ ] JSON/JavaScript version</br>
         - [ ] Custom Schema's for the project</br>
