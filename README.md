@@ -2,11 +2,13 @@
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
 [![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![Dependencies](https://img.shields.io/badge/DEPENDENCIES-See%20List%20Below-orange.svg)](https://github.com/diveyez/blackhole/blob/master/README.md#requirementslinux-or-windows-server-with-installed-webserver-github-jre8--solr-750-4gb-of-ram)</br>
+
+
 [![Github commit merge status](https://img.shields.io/github/commit-status/badges/shields/master/5d4ab86b1b5ddfb3c4a70a70bd19932c52603b8c.svg?style=popout)](https://github.com/diveyez/blackhole)
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=popout)](https://github.com/diveyez)
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](https://r2nhosting.com)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)
+
 
 
 
@@ -62,6 +64,7 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
 
 <h3>Discord: https://discord.gg/9Tpyxbq</h3></br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](https://r2nhosting.com)
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
         <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
