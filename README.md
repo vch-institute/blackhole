@@ -61,7 +61,7 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [ ] Electron or equivelent application to remove need for browers and webservers</br>
    </br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
-GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)</br>
+GitHub.com/diveyez _@diveyez_ (Twitter,Soundcloud, Instagram)</br>
 <h5>Discord: https://discord.gg/9Tpyxbq</h5></br>
 Intended for usage with:</br>
 <a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
