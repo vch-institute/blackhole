@@ -5,15 +5,20 @@
 <h5>REQUIREMENTS, <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
 
 ```
-* Firstly, cd to your working web server, then do git clone https://github.com/diveyez/blackhole </br>
-* apt install install default-jdk solr </br>
-* wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz </br>
+* Firstly, cd to your working web server
+ * git clone https://github.com/diveyez/blackhole 
+* apt install install default-jdk solr 
+* wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz 
 * cd solr-7.5.0/bin 
 * nano solr.in.sh
-* <h3>UNCOMMENT (-#)Set SOLR_HEAP="4096m" (4,096MB of Ram for Java's Heap)</h3>
-* <h3>UNCOMMENT (-#)Set SOLR_ULIMIT_CHECKS=false </h3>
-* ./solr start -c <corename> </br>
-* ./post -C <corename> /path/to/files </br>
+* UNCOMMENT (-#) & Set SOLR_HEAP="4096m" (4,096MB of Ram for Java's Heap)
+* UNCOMMENT (-#) & Set SOLR_ULIMIT_CHECKS=false 
+* ./solr start -c <corename>
+* ./post -C <corename> /path/to/files
+```
+
+```
+_EXAMPLE_: cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics\ /and \ /Spaceflight/
 ```
 
 <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
