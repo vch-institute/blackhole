@@ -42,7 +42,7 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
         - [ ] Dockerize</br>
    </br>
 
-
+<h3>Discord: https://discord.gg/9Tpyxbq</h3></br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez @diveyez (Twitter,Soundcloud, Instagram)
 Intended for usage with:</br>
