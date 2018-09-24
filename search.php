@@ -2,12 +2,12 @@
 <head>
 <style>
 		@import url('https://fonts.googleapis.com/css?family=Lato');
-		body { background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
-		p { color: black; font-size: 25px; } ptext { font-size: 12px; } pcontent { background-color: white; color: black; white-space: nowrap; width: 200px; font-size: 10px; text-shadow: 0.5px 0.5px 2.5px black }
+		body { width: 1200px; height: 1200px; background-repeat: no-repeat; background-color: #fefefe; black: white; font-family: 'Lato', serif; font-size: 16px; }
+		p { color: black; font-size: 25px; } ptext { font-size: 12px; } pcontent { width: 250px; background-color: white; color: black; white-space: nowrap; width: 200px; font-size: 10px; text-shadow: 0.5px 0.5px 1px black word-wrap: break-word; }
 		h5 { color: #000; font-size: 12px; text-shadow: 1.5px 1.5px 5px black; }
-		p1 { font-size: 15px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
+		p1 { width: 250px; font-size: 15px; border-radius: 0px; background-color: white; color: black; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
 		p1:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
-		p2 { font-size: 15px; border-radius: 0px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
+		p2 { width: 250px; font-size: 15px; border-radius: 0px; background-color: black; color: red; white-space: nowrap; width: 200px; border: 0.1px solid #000; overflow: hidden; text-overflow: ellipsis; opacity: 0.65; filter: alpha(opacity=50); }
 		p2:hover { opacity: 1.0; filter: alpha(opacity=100); /* For IE8 and earlier */ }
 		pactive { font-size: 20px; color: #4CAF50; text-shadow: 1.5px 1.5px 3px red; } a { color: red; }
 		a { color: red; font-size: 18px; }
@@ -21,7 +21,12 @@
 		.tooltip .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid;
 		border-color: #555 transparent transparent transparent; }
 		.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
-			</style></head><body>
+		/* DIV's */
+		div { width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px; }
+	</style></head><body>
 	<a href="./"><img src="./images/blackhole.png" height="250" width=" 350"></img></a>
 		<div class="tooltip">
 			<span class="tooltiptext">Libraries: Library </br> Server: localhost</span>
@@ -30,14 +35,15 @@
                 <b>Library:</b><input name="library" type="text" />
                 <b>Server:</b><input name="server" type="text" />
                 <input class="button" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
+								<div id="wordwrap">
 	<?php
 	if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
 	else { echo ("</br>You did not search! Try again!"); }
 	$query = $_POST['search']; $library = $_POST['library']; $server = $_POST['server'];
 		echo "</br>"; // Gonna need more fancy shit here to wow them
-		$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
+		 	$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
 	$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
-	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=120&results=5000");
+	curl_setopt($ch, CURLOPT_URL, "http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=50&results=50");
 	// Supreme
 	//hl.q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.fl=*&hl.snippets=1&hl.fragsize=0&hl.method=postings&wt=php&hl.highlightMultiTerm=true&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=1200&results=5000
 	// Clean
@@ -48,19 +54,25 @@
 	//http://localhost:8983/solr/Library/select?q=ak47&fl=id&fl=score&fl=*&ident=true&hl=true&explainOther=dog&hl.fl=*&hl.snippets=1&hl.fragsize=0&wt=php
 	curl_setopt($ch, CURLOPT_HEADER, false); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
 	eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
-	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n </p>" ;
+	echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n and displaying 50.</p>" ;
 	// FIX THIS ON SUNDAY - MONDAY
 	//	echo "<p><b>Found Text:</b></p>";
 	//			foreach($arr)['highlighting']['dc_title'] as $text) { echo $text['dc_title'] ; }
   // FOUND MATCHING TEXT OUTPUT
 	echo "<ptext><b>Found Matching Text:</b></ptext></br>";
 	foreach($arr['response']['docs'] as $text)
-	{ echo "<pcontent>" . $text['content'] . $text['id'] . "</br>\n<b>Next Result:</b></pcontent></br>"; }
-	// FILE ID AND SCORE OUTPUT
+	{ echo "<div><pcontent><b>Found:</b>" . "</br>" .$text['content'] . "</br>" . $text['id'] .   "\n</pcontent></br></br></div>"; }
+	// BOTTOM FILE LOCATIONS
 	echo "</br>"; foreach($arr['response']['docs'] as $item) { echo "<b></b> <p1> " . $item['id'] . "</p1><p2><b>Score:</b>" . $item['score'] . "</p2>\n"; echo "</br>"; }
-	?></br><a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
-</div><center></br>				<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
+	?></div></br>
+	<a href="../blackhole/index.php" />GO BACK TO SEARCH...............</a>
+	<center></br>				<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
 													<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br><a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
 													</center>
+													<script>
+function myFunction() {
+    document.getElementById("wordwrap").style.wordWrap = "break-word";
+}
+</script>
 												</body>
 </html>
