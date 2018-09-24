@@ -1,5 +1,6 @@
 <html>
-			<head><link rel="stylesheet" type="text/css" href="styles.css"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><center>
+			<head><link rel="stylesheet" type="text/css" href="style.css">
+						<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><center>
 						<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 			<div class="tooltip">

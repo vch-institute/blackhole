@@ -1,0 +1,32 @@
+<html><head><style>
+section, aside {padding:0.5em; margin:0.5em; width:auto;}
+.got-shields {}
+.got-shields li {display:inline-block;}
+.shield {
+    position: relative;
+    width: 10em;
+    height: 10em;
+}
+.shield:before, .shield:after {
+    content:"";
+    border-radius: 0;
+    border-top-right-radius: 100% 100%;
+    border-bottom-right-radius: 125% 100%;
+    width: 6.275em;
+    height: 6em;
+    transform-origin: bottom left;
+    transform: scale(1,1) translateX(5em) rotate(-20deg);
+    position:absolute;
+    bottom:-42.5%;
+}
+.shield:after {transform: scale(-1,1) translateX(-5em) rotate(-20deg);}
+.shield, .shield:before, .shield:after {background: grey;}
+.shield.test, .shield.test:before, .shield.test:after {background: rgba(0, 127, 0, 0.5);}
+.green, .green:before, .green:after {background:green;}
+</style></head><body>
+  <section>
+    <ul class="got-shields">
+        <li class="shield test"></li>
+        </ul>
+        <b>GOT SHIELDS?</b>
+</section>
