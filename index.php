@@ -12,12 +12,13 @@
 <!-- TOP CONTENT -->
 			<body><div id="cont"><center>
 						<a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
-						<plight>Welcome to Black Hole, What do you want to search for?</plight></br><div class="tooltip">
+						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 <!-- TOP CONTENT -->
 <!-- MAIN CONTENT (SEARCH)-->
-			  		<span class="tooltiptext">Libraries:<i>"This is whatever you called the core during setup. I have many. ie: 'library' "</b> </br> Server: localhost</span><form method="post" action="search.php">
+			  		<div class="tooltip">
+						<span class="tooltiptext">Libraries:<i>"This is whatever you called the core during setup. I have many. ie: 'library' "</b> </br> Server: localhost</span><form method="post" action="search.php">
             <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
-            <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></br>
+            <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
 						<pmain>If you want the cheat sheet for searching with this tech, and any other search engine, checkout:</p> <a href="./queries.php"><p2>Commonly Uncommon Queries</a>.</p2>
 						</br><pmain>To learn more about and support the Black Hole Project, Click <a href="./readme.php">HERE</a></pmain>
 <!-- MAIN CONTENT (SEARCH)-->
