@@ -1,6 +1,11 @@
 <html>
-			<head><link rel="stylesheet" type="text/css" href="style.css">
-						<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><center>
+<head><meta charset="UTF-8"/>
+			<meta name="description" content="Black Hole Search"/>
+			<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories."/>
+			<meta name="author" content="diveyez@r2nhosting.com"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><center>
 						<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 			<div class="tooltip">

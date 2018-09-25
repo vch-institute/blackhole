@@ -1,9 +1,10 @@
-<html><head><meta charset="UTF-8">
-  		<meta name="description" content="Black Hole Search">
-  		<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories.">
-  		<meta name="author" content="diveyez@r2nhosting.com">
-  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" type="text/css" href="styles.css"></head>
+<html><head><meta charset="UTF-8"/>
+  		<meta name="description" content="Black Hole Search"/>
+  		<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories."/>
+  		<meta name="author" content="diveyez@r2nhosting.com"/>
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head>
       <body><div id="ww">
 <h3>The cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
@@ -69,7 +70,16 @@ Let's try that, <i>"Alcohol vs. Wine"</i></br>
 Simple, what it does is weights them against one another and produces a competitive result.</br>
 Competition in results are always a good thing with computers. I adore this method and strongly recommend it.</br>
   </pqueries>
-
+</br>
+<h4>Defining Your Search, Refining The Result</h4>
+<pqueries>
+How do we do that? The title of this section is plain and simple.</br>
+In order to do this, we do one simple thing, <i>"DEFINE: 'whats on your mind'".</i></br>
+As you learn to mix these techniques you can come up with cool stuff like this:</br>
+<i>"How To book:'DEFINE: Home Made Solar Panels'-*"</i></br>
+</pqueries>
+</br>
+<pqueries></pqueries>
 
 
 

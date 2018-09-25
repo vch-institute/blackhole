@@ -3,7 +3,8 @@
   		<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories."/>
   		<meta name="author" content="diveyez@r2nhosting.com"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<link rel="stylesheet" type="text/css" href="styles.css"/></head><body>
+			<link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body>
 			<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a>
 								<div class="tooltip"><span class="tooltiptext"/>Library: "corename" </br> Server: localhost</span>
 								<form method="post" action="search.php"/>
