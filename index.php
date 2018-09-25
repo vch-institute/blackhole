@@ -6,12 +6,12 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body>
-<!-- MENU --><div class="navbar"><a href="./index.php">Home</a><a href="./news.php">News</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">Dropdown <i class="fa fa-caret-down"></i> </button>
-    <div class="dropdown-content" id="myDropdown"> <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a> </div> </div><!-- MENU --> 
+<!-- MENU --><div class="navbar"><a href="./index.php">Home</a><a href="./news.php">News</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">Dropdown <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content" id="myDropdown"> <a href="./queries.php">Howto Search Queries</a> <a href="./readme.html">Read Me</a></div></div><!-- MENU -->
 		<center>
 						<div id="ww"><a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br><div class="tooltip">
-			  		<span class="tooltiptext">Libraries: <b>______________</b> </br> Server: localhost</span><form method="post" action="search.php">
+			  		<span class="tooltiptext">Libraries: <b><i>"This is whatever you called the core during setup. I have many."</i></b> </br> Server: localhost</span><form method="post" action="search.php">
             <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
             <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
 						</br><pmain>If you want the cheat sheet for searching with this tech, and any other search engine, checkout:</p> <a href="./queries.html"><p2>Commonly Uncommon Queries</a>.</p2>
