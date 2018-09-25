@@ -7,8 +7,6 @@
     height: 100%;
     background-image: url('images/background.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background-attachment: fixed;
     background-size: 100%;
     opacity: 0.8;
@@ -24,9 +22,13 @@ body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 250px;
           }
-
 p     {
   color: #fff;
   font-size: 25px;
