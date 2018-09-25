@@ -36,7 +36,7 @@
               <!-- back button -->
 
               <!-- CONTENT REGION -->
-              <div id="qcontent">
+              <div id="pqueries">
               <h3>This is the cheat sheet to utilizing my technology.</h3>
               <h4>Here you can find commonly uncommon queries for searches.</h4>
               <pqueries>
