@@ -1,4 +1,4 @@
-[![BUILD](https://img.shields.io/badge/BUILD-0.1.5.8--breaker19-green.svg)](https://github.com/diveyez/blackhole)
+[![BUILD](https://img.shields.io/badge/BUILD-0.1.69.69--zetareticuli-green.svg)](https://github.com/diveyez/blackhole)
 [![BASHScripts](https://img.shields.io/badge/BASH-Shell%20Scripts-blue.svg)](https:github.com/diveyez/blackhole)
 [![CSS3](https://img.shields.io/badge/CSS-3.0-blue.svg)](https:github.com/diveyez/blackhole)
 [![HTML5](https://img.shields.io/badge/HTML-5-green.svg)](https://github.com/diveyez)
