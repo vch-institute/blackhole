@@ -76,7 +76,7 @@ pactive {
         }
 a {
   color: red;
-  font-size: 12px;
+  font-size: 14px;
         }
 .button {
   border-radius: 25px;
@@ -164,10 +164,6 @@ input[type=text]:focus {
     max-width: 1200px;
     margin: auto;
     height: auto;
-    /*padding: 25px;*/
-    margin-top: 250px;
-    padding-top: 250px;
-    padding-bottom: 250px;
     word-wrap: break-word;
   /* opacity: 0.75;
     filter: alpha(opacity=50); */
