@@ -15,7 +15,7 @@
 								<div id="ww">
 			<?php
 				if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
-					else { echo ("</br>You did not search! Try again!"); }
+					else { echo ("</br><h1>You did not search! Try again!</h1>"); }
 								$query = $_POST['search']; $library = $_POST['library']; $server = $_POST['server'];
 								echo "</br>"; // Gonna need more fancy shit here to wow them
 		 						$starttime = microtime(true); $endtime = microtime(true); printf("Search performed in %f seconds", $endtime - $starttime );
