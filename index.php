@@ -23,11 +23,4 @@
 						<pmain> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
 						<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
 						<pmain>Made with Apache Lucene Solr</pmain>
-					  </center>
-						<!-- MENU --><div class="navbar"><a href="./index.php">Home</a><a href="./news.php">News</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">Dropdown <i class="fa fa-caret-down"></i></button>
-								<div class="dropdown-content" id="myDropdown"> <a href="./queries.php">Howto Search Queries</a> <a href="./readme.html">Read Me</a></div></div><!-- MENU -->
-						<!-- MENU --><script>function myFunction() { document.getElementById("myDropdown").classList.toggle("show"); } window.onclick = function(e) { if (!e.target.matches('.dropbtn'))
-											{var myDropdown = document.getElementById("myDropdown"); if (myDropdown.classList.contains('show')) { myDropdown.classList.remove('show'); } } }
-											</script><!-- MENU -->
-
-				</body></html>
+					  </center></body></html>
