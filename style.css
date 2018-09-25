@@ -43,7 +43,7 @@ h5 {
 pmain {
   width: 800px;
   word-wrap: break-word;
-  font-size: 10px;
+  font-size: 14px;
         }
 p1 {
   width: 900px;
@@ -154,6 +154,7 @@ input[type=text]:focus {
     border-radius: 1px;
     border-style: ridge;
     width: 900px;
+    height: 600px;
     /*padding: 25px;*/
     padding-top: 250px;
     padding-bottom: 250px;
