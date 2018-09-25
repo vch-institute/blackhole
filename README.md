@@ -19,7 +19,7 @@
 </i></p></h1><img src="images/blackhole.png" height="350" width="800"></img></br>
 
 ---
-The operation and installation of Solr, and initializing Cores is explained in the INSTALL.md document. /blackhole/docs/INSTALL.md
+<h5>The operation and installation of Solr, and initializing Cores, are both explained in the document /blackhole/docs/INSTALL.md</h5>
 ---
 Linux Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#ubuntudebian-other-apt-ready-distributions-of-linux">#Linux</a></br>
 Linux Launch Command Example: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#example">#Example</a></br>
