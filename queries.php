@@ -164,5 +164,5 @@
               </br></br>
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
               <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div>
-              <?php include("./template/skel-footer.php"); ?></div>
-</div></body></html>
+
+</div></body><?php include("./template/skel-footer.php"); ?></html>
