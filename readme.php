@@ -33,7 +33,7 @@
             <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br></br></br></br></center></div>
             <!--ROADMAP CHECKLIST -->
                         <div id="roadmap">
-                        <ul><h3><b>Planned Features:</b></h3></ul></li></br>
+                        <ul><h3><b>Planned Features:</b></h3></br>
                           <li>[x] Test Core (9-24-18)</li></br>
                           <li>[x] Full text output in results (9-24-18)</li></br>
                           <li>[x] JSON/JavaScript version will release in the next 14 days (9-24-18)</li></br>
@@ -49,7 +49,7 @@
                           <li>[_] Web Browser Plugins for consumers  (December)</li></br>
                           <li>[_] Electron or equivalent application to remove need for browers and webservers  (Winter 2019 (Jan-April))</li></br>
                           <li>[_] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities  (Winter 2019 (Jan-April))</li></br>
-                          <li>[_] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</li></br>
+                          <li>[_] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</li></ul></br>
                           <h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. <b>'?'</b> Indicates that there is no available information on completion date.</h5></br>
             <!--ROADMAP CHECKLIST -->
             <!-- FOOTER AREA -->
