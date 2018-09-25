@@ -81,24 +81,5 @@ We will use the example from the prevoius section and improve upon it next.</br>
 <i>"DEFINE:DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*"</i></br>
 </pqueries>
 </br></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br>
-<h4></h4>
-<pqueries></pqueries></br></br>
-</div>
-</body>
-&copy; 2016-<?php echo date("Y"); ?></html>
+<h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
+<pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div></body>&copy; 2016-<?php echo date("Y"); ?></html>
