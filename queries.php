@@ -12,6 +12,8 @@
         <div class="dropdown-content" id="myDropdown"> <a href="./queries.php">Howto Search Queries</a> <a href="./readme.html">Read Me</a></div></div><!-- MENU -->
         <!-- MENU --><script>function myFunction() { document.getElementById("myDropdown").classList.toggle("show"); } window.onclick = function(e) { if (!e.target.matches('.dropbtn'))
         {var myDropdown = document.getElementById("myDropdown"); if (myDropdown.classList.contains('show')) { myDropdown.classList.remove('show'); } } }</script><!-- MENU -->
+        <button onclick="goBack()"> <-GO BACK </button>
+        <script> function goBack() { window.history.back(); } </script></br></br>
         <div id="ww">
 <h3>This is the cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
