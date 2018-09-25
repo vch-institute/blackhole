@@ -177,8 +177,8 @@ input[type=text]:focus {
   /* opacity: 0.75;
     filter: alpha(opacity=50); */
               }
-  #cquery {
-    background: #000;
+  #query {
+    background: #f4f4f4;
     color: #fff;
     max-width: 900px;
     margin: auto;
