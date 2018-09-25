@@ -20,27 +20,28 @@
 
 ```
 
-                * Firstly, cd to your working web server
-                * git clone https://github.com/diveyez/blackhole
-                * apt install install default-jdk solr
-                * wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz
-                * cd solr-7.5.0/bin
-                * nano solr.in.sh
-                * UNCOMMENT (-#) & Set SOLR_HEAP="4096m" (4,096MB of Ram for Java's Heap)
-                * UNCOMMENT (-#) & Set SOLR_ULIMIT_CHECKS=false
-                * ./solr start -c <corename>
-                * ./post -C <corename> /path/to/files
+* Firstly, cd to your working web server
+* git clone https://github.com/diveyez/blackhole
+* apt install install default-jdk solr
+* wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz
+* cd solr-7.5.0/bin
+* nano solr.in.sh
+* UNCOMMENT (-#) & Set SOLR_HEAP="4096m" (4,096MB of Ram for Java's Heap)
+* UNCOMMENT (-#) & Set SOLR_ULIMIT_CHECKS=false
+* ./solr start -c <corename>
+* ./post -C <corename> /path/to/files
 
 ```
 
 <h3>EXAMPLE:</h3>
 
 ```
-                cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
+
+cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
 
 ```
 
-
+</br>
 
                 <h3>NOTICE: Incomplete and work time code has been moved to /development/ to purify the main directory. I will be adding more coming the next 18 hours.</h3></br>
                     <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
