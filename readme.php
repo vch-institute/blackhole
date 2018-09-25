@@ -8,9 +8,12 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-        <button onclick="goBack()">Go Back To Search</button>
-        <script> function goBack() { window.history.back(); } </script><center>
+        <body><center>
               <div id="cont"><a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br></div>
+<!-- GO BACK button -->
+              <button onclick="goBack()">Go Back To Search</button>
+              <script> function goBack() { window.history.back(); } </script>
+<!-- GO BACK button -->
               <h1>Black Hole PHP Solr Index Searching Platform</br></h1>
       <h5>REQUIREMENTS,
             <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
