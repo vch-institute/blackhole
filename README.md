@@ -40,28 +40,31 @@
 cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
 
 ```
-<h3>NOTICE: Incomplete and work time code has been moved to /development/ to purify the main directory. I will be adding more coming the next 18 hours.</h3>
-</br></br></br></br>
-<h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
-If you intend to use it, this must be on a webserver, or equivalent,</br>
-With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
-<b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br>
-<h3><b>Planned Features:</b></h3></br>
-- [x] Test Core</br>
-- [x] Full text output in results</br>
-- [x] JSON/JavaScript version will release in the next 14 days</br>
-- [x] Custom Schema's for the project</br>
-- [x] Add more search fields (Continuing This Eternally)</br>
-- [x] Instructions for Linux Server Install/Setup/Operation</br>
-- [ ] Instructions for Windows Server Install/Setup/Operation</br>
-- [ ] Incorporate third party software and plugins to improve functionality</br>
-- [ ] Dockerize</br>
-- [ ] Public Library for testing</br>
-- [ ] Style and Decorate and publish a 1.0 final</br>
-- [ ] Web Browser Plugins for consumers</br>
-- [ ] Electron or equivalent application to remove need for browers and webservers</br>
-- [ ] Machine learning notebook to study datamining with computational capabilities</br></br>
-   </br>
+  <h3>NOTICE: Incomplete and work time code has been moved to /development/ to purify the main directory. I will be adding more coming the next 18 hours.</h3>
+  </br></br></br></br>
+      <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
+      If you intend to use it, this must be on a webserver, or equivalent,</br>
+      With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
+      <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br>
+      <!-- ROADMAP CHECKLIST -->
+        <h3><b>Planned Features:</b></h3></br>
+        <li>
+            <ul>- [x] Test Core</br></ul>
+            <ul>- [x] Full text output in results</br></ul>
+            <ul>- [x] JSON/JavaScript version will release in the next 14 days</br></ul>
+            <ul>- [x] Custom Schema's for the project</br></ul>
+            <ul>- [x] Add more search fields (Continuing This Eternally)</br></ul>
+            <ul>- [x] Instructions for Linux Server Install/Setup/Operation</br></ul>
+            <ul>- [ ] Instructions for Windows Server Install/Setup/Operation</br></ul>
+            <ul>- [ ] Incorporate third party software and plugins to improve functionality</br></ul>
+            <ul>- [ ] Dockerize</br></ul>
+            <ul>- [ ] Public Library for testing</br></ul>
+            <ul>- [ ] Style and Decorate and publish a 1.0 final</br></ul>
+            <ul>- [ ] Web Browser Plugins for consumers</br></ul>
+            <ul>- [ ] Electron or equivalent application to remove need for browers and webservers</br></ul>
+            <ul>- [ ] Machine learning notebook to study datamining with computational capabilities</br></ul></br>
+      <!-- ROADMAP CHECKLIST -->
+   </br></br></br></br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
 <h5>Discord: https://discord.gg/9Tpyxbq</h5></br>
