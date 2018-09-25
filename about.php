@@ -41,7 +41,12 @@
         </script>
 
         <!--RESPONSIVE NAV BAR -->
-              <a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
+
+
+        <!-- HEADER IMAGE -->
+              </br><a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
+        <!-- HEADER IMAGE -->
+        
 <!-- ABOUT CONTENT -->
 <div id="ww1">
   <h1><i>Black Hole</i></h1>
