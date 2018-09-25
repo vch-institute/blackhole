@@ -6,9 +6,13 @@
 			<link rel="stylesheet" type="text/css" href="style.css"/>
       <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      </head><body><div id="cont"><!-- back button -->
-      <button onclick="goBack()">Go Back To Main Page</button>
-      <script> function goBack() { window.history.back(); } </script><!-- back button --></br></br><center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></center></br>
+      </head><body>
+        <img src="images/blackhole-plain.png" height="350" width="500"></img><div id="cont">
+    <!-- back button --> <button onclick="goBack()">Go Back To Main Page</button>
+      <script> function goBack() { window.history.back(); } </script><!-- back button --></br></br>
+      <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></center></br>
+
+      <!-- CONTENT REGION -->
 <h3>This is the cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
 <pqueries>
@@ -116,6 +120,7 @@ We will use the example from the prevoius section and improve upon it next.</br>
 </br></br>
 <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
 <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div>
+<!-- FOOTER AREA -->
 <div id="footer"><center>
     <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
             <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>
