@@ -84,4 +84,11 @@ We will use the example from the prevoius section and improve upon it next.</br>
 </pqueries>
 </br></br>
 <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
-<pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div></body>&copy; 2016-<?php echo date("Y"); ?></html>
+<pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div>
+<center></br><pmain>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a></pmain>
+</br><pmain>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></pmain></br>
+<pmain>&copy; 2016-<?php echo date("Y"); ?></pmain>
+<pmain> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
+<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+<pmain>Made with Apache Lucene Solr</pmain></center>
+</body>&copy; 2016-<?php echo date("Y"); ?></html>
