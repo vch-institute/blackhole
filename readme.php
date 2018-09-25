@@ -8,7 +8,7 @@
 </head>
         <button onclick="goBack()">Go Back To Search</button>
         <script> function goBack() { window.history.back(); } </script><center>
-              <p5>Black Hole PHP Solr Index Searching Platform <a href="./index.php"><img src="images/blackhole-plain.png" height="350" width="500"></img></a></p5></br>
+              <div id="cont"><p5>Black Hole PHP Solr Index Searching Platform <a href="./index.php"><img src="images/blackhole-plain.png" height="350" width="500"></img></a></p5></br></div>
       <h5>REQUIREMENTS,
             <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
             <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
