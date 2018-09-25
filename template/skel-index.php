@@ -13,9 +13,10 @@
 			<body><div id="cont"><center>
 						<a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 <!-- TOP CONTENT -->
-<ul>
-  <li><a href="index.php">Home</a></li>
-  <li><a href="news.php">News</a></li>
-  <li><a href="readme.php">Read Me</a></li>
-  <li><a href="queries.php">HowTo: Queries Explained</a></li>
-</ul>
+
+<!-- FOOTER AREA -->
+						<div id="footer"><center>
+								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
+												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>
+												<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+											</center></div></div></body></html>
