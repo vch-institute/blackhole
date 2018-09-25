@@ -10,23 +10,29 @@
 			<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 <!-- TOP CONTENT -->
-        <body><center>
+        <body><center><div id="cont"><!-- NAVIGATION MENU -->
+				<menu>
+				<ul id="buttons">
+				  <li><a href="index.php">Home</a></li>
+				  <li><a href="news.php">News</a></li>
+				  <li><a href="readme.php">Read Me</a></li>
+				  <li><a href="queries.php">Queries Explained</a></li>
+					<li><a href="https://github.com/diveyez/blackhole">Contact Developer</a></li>
+				</ul>
+				</menu>
+				<!-- NAVIGATION MENU -->
               <a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 <!-- TOP CONTENT -->
-<!-- GO BACK button -->
-              <button onclick="goBack()">Go Back To Search</button>
-              <script> function goBack() { window.history.back(); } </script>
-<!-- GO BACK button -->
 <div id="ww1">
               <h1>Black Hole PHP Solr Index Searching Platform</br></h1>
       <h5>REQUIREMENTS,
             Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5>
-            <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.
+            An Extremely fast and lightweight <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.
             If you intend to use it, this must be on a webserver, or equivalent,
             With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.
             <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br></br></br></br></center></div>
 <!-- ROADMAP CHECKLIST -->
-        <div id="ww4">
+        <div id="roadmap">
           <h3><b>Planned Features:</b></h3></br>
           <li>
               <ul>- [x] Test Core</br></ul>

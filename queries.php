@@ -6,7 +6,17 @@
 			<link rel="stylesheet" type="text/css" href="style.css"/>
       <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      </head><div id="cont"><body>
+      </head><div id="cont"><body><!-- NAVIGATION MENU -->
+      <menu>
+      <ul id="buttons">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="news.php">News</a></li>
+        <li><a href="readme.php">Read Me</a></li>
+        <li><a href="queries.php">Queries Explained</a></li>
+        <li><a href="https://github.com/diveyez/blackhole">Contact Developer</a></li>
+      </ul>
+      </menu>
+      <!-- NAVIGATION MENU -->
         <img src="images/blackhole-plain.png" height="350" width="500"></img>
        </br></br>
       <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></center></br>
