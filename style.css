@@ -150,6 +150,7 @@ input[type=text]:focus {
             }
 /* Special Effects =) */
 /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
+
 #ww {
   color: #fff
   width: 900px;
@@ -248,8 +249,8 @@ opacity: 0; transition: opacity 0.3s;
       opacity: 0.75;
       filter: alpha(opacity=50);
                   }
+                  
   /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
-
 
   /* NAVIGATION BAR */
 
