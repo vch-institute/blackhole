@@ -85,9 +85,10 @@ a {
   color: red;
   font-size: 14px;
         }
-i {
-  font-size: 18px;
-        }
+        
+copyright { font-size: 10px; }
+/* Special Effects =) */
+
 .button {
   border-radius: 25px;
   background-color: #555555;
@@ -137,8 +138,8 @@ input[type=text]:focus {
   visibility: visible;
   opacity: 1;
             }
-
-  /* HEAVILY MODIFIED ELEMENTS OF DESIGN */  
+/* Special Effects =) */
+/* HEAVILY MODIFIED ELEMENTS OF DESIGN */
 #ww {
   color: #fff
   width: 900px;
