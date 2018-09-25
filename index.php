@@ -14,6 +14,7 @@
             <p><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" />
             <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form>
 			</div>
+		</br><p>If you want the cheat sheet for searching with this tech, and any other search engine, checkout:</p> <a href="./queries.html"><p2>Commonly Uncommon Queries</a>.</p2>
 		</br><p> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
 	</br><p>To learn more about and support the Black Hole Project, Click</p> <a href="./readme.html"><p2>HERE</a></p2>
 						<p>&copy; 2016-<?php echo date("Y"); ?></p>
