@@ -9,37 +9,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 <?php include("./template/skel-menu.php"); ?>
-
 <?php include("./template/skel-header-image.php"); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include("./template/skel-roadmap.php"); ?>
-
-
-
 <?php include("./template/skel-foorter.php"); ?>
 <?php include("./template/skel-backbutton.php"); ?>
