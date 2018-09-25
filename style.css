@@ -200,10 +200,10 @@ opacity: 0; transition: opacity 0.3s;
       color: #fff
       background: #000;
               }
-    #cont {
+    #cheats {
     background: #000;
     color: #fff;
-    max-width: 120px;
+    max-width: 333px;
     margin: auto;
     height: auto;
     word-wrap: break-word;
