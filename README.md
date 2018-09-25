@@ -41,6 +41,7 @@
                 cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
 
 ```
+
 <!-- PUBLIC TEXT -->
                 <h3>NOTICE: Incomplete and work time code has been moved to /development/ to purify the main directory. I will be adding more coming the next 18 hours.</h3></br>
                     <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
@@ -48,6 +49,9 @@
                     With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
                     <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br>
 <!-- PUBLIC TEXT -->
+
+---
+
 <!-- ROADMAP CHECKLIST -->
                         <h3><b>Planned Features:</b></h3></br>
                         <li>
@@ -67,10 +71,9 @@
                             <ul>- [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities</br></ul></br>
                             <ul>- [ ] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (PLEASE @Nvidia, GIVE ME AN SDK)</br></ul></br>
 <!-- ROADMAP CHECKLIST -->
-</br></br></br></br>
+
+---
+
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
-<h5>Discord: https://discord.gg/9Tpyxbq</h5></br>
-Intended for usage with:</br>
-<a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br>
-</html>
+<h5>Discord: https://discord.gg/9Tpyxbq</h5></br>Intended for usage with:</br><a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br></html>
