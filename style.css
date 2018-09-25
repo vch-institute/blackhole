@@ -200,6 +200,19 @@ opacity: 0; transition: opacity 0.3s;
       color: #fff
       background: #000;
               }
+    #cont {
+    background: #000;
+    color: #fff;
+    max-width: 120px;
+    margin: auto;
+    height: auto;
+    word-wrap: break-word;
+    border-radius: 0.1px;
+    border: 0.1px solid #f4f4f4;
+    padding: 1px;
+    /* opacity: 0.75;
+    filter: alpha(opacity=50); */
+                          }
     /* NAVIGATION BAR */
   ul1 {
     list-style-type: none;
