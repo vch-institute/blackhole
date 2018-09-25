@@ -8,9 +8,13 @@ Version Info: I am adding FastAIContainer, library_core files, as well as some o
 
 ---
 
-## Place Markers
-9/xx/2018 0.1.x.x - 0.1.x.x
+
+9/26/2018 BUILD-0.1.70-arcturi - 0.1.x.x
 Version Info:
+
+---
+
+## Place Markers
 x/x/2018 0.x.x.x - 0.x.x.x
 Version Info:
 x/x/2018 0.x.x.x - 0.x.x.x
