@@ -6,7 +6,7 @@
 			<link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head>
       <body><div id="ww">
-<h3>The cheat sheet to utilizing my technology.</h3>
+<h3>This is the cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
 <pqueries>
 If you wish to find something specific, you can type any <i>"phraseyouwish"</i></br>
@@ -32,7 +32,7 @@ Any results that match the pre and post phrase to minimize results.</br></pqueri
   <h4>What if I need to find more than one thing?</h4>
   <pqueries>
 Lets say, we just indexed a website, or a book, into the library for searching.</br>
-What now? How do I limit my results to one specific title or site/dir ?</br>
+What now? How do I limit my results to one <b>specific title</b> or <b>site/dir</b> ?</br>
 Think of the : as your saviour. What we want to do now, is type</br>
 the following: <i>"Website.com:phrase/sentence" "booktitle:phrase/sentence"</i></br>
 How about matching activity with that? <i>"website1.com site:website2.com"</i></br>
