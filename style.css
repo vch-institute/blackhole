@@ -22,12 +22,13 @@ p     {
           }
 ptext {
   color: #fff
-  font-size: 12px;
+  font-size: 16px;
       }
 pcontent {
   color: #fff
   width: 900px;
   word-wrap: break-word;
+  font-size: 16px;
           }
 pqueries {
   color: #fff
