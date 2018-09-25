@@ -42,17 +42,22 @@
 
 ```
 
+---
+
 <!-- PUBLIC TEXT -->
+
                 <h3>NOTICE: Incomplete and work time code has been moved to /development/ to purify the main directory. I will be adding more coming the next 18 hours.</h3></br>
                     <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
                     If you intend to use it, this must be on a webserver, or equivalent,</br>
                     With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
                     <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br>
+
 <!-- PUBLIC TEXT -->
 
 ---
 
 <!-- ROADMAP CHECKLIST -->
+
                         <h3><b>Planned Features:</b></h3></br>
                         <li>
                             <ul>- [x] Test Core</br></ul>
@@ -70,6 +75,7 @@
                             <ul>- [ ] Electron or equivalent application to remove need for browers and webservers</br></ul>
                             <ul>- [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities</br></ul></br>
                             <ul>- [ ] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (PLEASE @Nvidia, GIVE ME AN SDK)</br></ul></br>
+
 <!-- ROADMAP CHECKLIST -->
 
 ---
