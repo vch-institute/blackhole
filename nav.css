@@ -1,8 +1,7 @@
 .topnav {
   overflow: hidden;
   background-color: #000;
-  border-radius: 12px;
-  padding: 20px;
+  border-radius: 50%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
