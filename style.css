@@ -178,13 +178,13 @@ opacity: 0; transition: opacity 0.3s;
 
             }
 #historybox {
-  background: #000;
+  background: #52515170;
   color: #fff;
   border-color: #fefefe;
   border-radius: 25px;
   border: 1px solid #f4f4f4;
   padding: 1px;
-  width: 300px;
+  width: fit-content;
   word-wrap: break-word;
             }
   #cont {
@@ -209,7 +209,7 @@ opacity: 0; transition: opacity 0.3s;
     filter: alpha(opacity=50); */
                           }
     #footer {
-      position: fixed;
+      position: absolute;
       margin-left: 315;
       color: #fff
       background: #000;
