@@ -171,6 +171,16 @@ input[type=text]:focus {
   /* opacity: 0.75;
     filter: alpha(opacity=50); */
               }
+  #cquery {
+    background: #000;
+    color: #fff;
+    max-width: 900px;
+    margin: auto;
+    height: auto;
+    word-wrap: break-word;
+    /* opacity: 0.75;
+    filter: alpha(opacity=50); */
+                          }
     #footer {
       color: #fff
       border: 1px;
