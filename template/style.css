@@ -89,7 +89,16 @@ a {
 
 copyright { font-size: 10px; }
 /* Special Effects =) */
-
+#back { /* GO BACK BUTTONS ONLY HERE */
+  background-color: #000;
+  color: #fff;
+  border-radius: 25px;
+          }
+#back:hover {
+  border-radius: 25px;
+  background-color: #000;
+  color: red;
+            }
 .button {
   border-radius: 25px;
   background-color: #555555;
