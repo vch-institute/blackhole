@@ -153,7 +153,8 @@ input[type=text]:focus {
     border-radius: 1px;
     width: 900px;
     padding: 25px;
-    padding-top: 500px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     word-wrap: break-word;
     opacity: 0.75;
 filter: alpha(opacity=50);  }
