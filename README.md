@@ -13,10 +13,10 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=popout)](https://github.com/diveyez)
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)</br>
-<html>
-                               <h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1>
-                        <img src="images/blackhole.png" height="350" width="800"></img></br>
 
+---
+
+<html><h1><i>Black Hole PHP Solr Index Searching Platform</i></p></h1><img src="images/blackhole.png" height="350" width="800"></img></br>
 <h5>REQUIREMENTS,
 <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
 
