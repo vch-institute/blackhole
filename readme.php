@@ -34,7 +34,7 @@
             Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5>
             An Extremely fast and lightweight <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.
             If you intend to use it, this must be on a webserver, or equivalent,
-            With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.
+            With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
             <b>I really hope you enjoy this searching interface. </br>I will add lots of more features eventually.</b></br></br></br></br></center></div>
 
             <!-- FOOTER AREA -->
