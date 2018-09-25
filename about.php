@@ -46,11 +46,12 @@
         <!-- HEADER IMAGE -->
               </br><a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
         <!-- HEADER IMAGE -->
-        
+
 <!-- ABOUT CONTENT -->
 <div id="ww1">
   <h1><i>Black Hole</i></h1>
-   <h5>A multi-language & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i><h2>
+   <h5>A multi-language & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
+   <p>The lack of content is due to changes in code structures. Conversion from PHP to JavaScript.</p>
       </br></br></br></center></div>
 
             <!-- FOOTER AREA -->
