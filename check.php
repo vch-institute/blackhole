@@ -1,2 +1,2 @@
 <html><head></head><body></body>
-<?php include("../template/skel-foorter.php"); ?>
+<?php include("./template/skel-footer.php"); ?>
