@@ -48,7 +48,7 @@
 
 <body><center><a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
                 <div class="tooltip">
-    						<span class="tooltiptext">Libraries:<i>"This is whatever you called the core during setup. ie: 'library' "</b> </br> Server: localhost</span>
+    						<span class="tooltiptext">Libraries:"This is whatever you called the core during setup. ie: 'library' "</b> </br> Server: localhost</span>
               <form method="post" action="search.php">
               <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b>
               <input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
