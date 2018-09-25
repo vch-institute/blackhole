@@ -8,13 +8,11 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
+  <?php include("./template/skel-menu.php"); ?>
 <!-- PARTICLES BRO -->
-<!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles">--</span> particles </div>
-<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-    <?php include("./template/skel-menu.php"); ?>
 <body>
-    <?php include("./template/skel-header-image.php"); ?>
+<!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+<?php include("./template/skel-header-image.php"); ?>
     <?php include("./template/skel-search.php"); ?>
     <?php include("./template/skel-foorter.php"); ?>
 </body>
