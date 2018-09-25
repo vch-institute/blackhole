@@ -50,7 +50,7 @@
 <!-- TOP CONTENT -->
 
 				<center>
-						<a href="./"><img src="images/blackhole.png"></img></a></br>
+						<a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 
 <!-- TOP CONTENT -->
