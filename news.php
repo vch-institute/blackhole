@@ -11,7 +11,7 @@
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
 <!-- TOP CONTENT -->
-    	<body><div id="cont"><!-- RESPONSIVE NAV BAR -->
+    	<div id="cont"><!-- RESPONSIVE NAV BAR -->
       <div class="topnav" id="myTopnav">
         <a href="index.php" class="active">Home</a>
         <a href="about.php">About</a>
@@ -41,7 +41,7 @@
       </script>
 
       <!--RESPONSIVE NAV BAR -->
-			<center>
+<body><center>
 						<a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 						<pmain>
             <ptext>ALL DEVELOPMENT MATERIALS WERE MOVED TO /develpment/ & bash scripts to check server cores were added due to constant drop outs.</ptext></br>

@@ -10,38 +10,42 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
-<!-- RESPONSIVE NAV BAR -->
-<div class="topnav" id="myTopnav">
-  <a href="index.php" class="active">Home</a>
-  <a href="about.php">About</a>
-  <a href="https://github.com/diveyez/blackhole">Contact Developer</a>
-  <div class="dropdown">
-    <button class="dropbtn">Explore
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="news.php">News</a>
-      <a href="queries.php">Queries Explained</a>
-      <a href="search.php">Search</a>
-    </div>
-  </div>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
 
-<!--RESPONSIVE NAV BAR -->
 
-              <div id="cont"><body>
+              <div id="cont">
+
+                <!-- RESPONSIVE NAV BAR -->
+                <div class="topnav" id="myTopnav">
+                  <a href="index.php" class="active">Home</a>
+                  <a href="about.php">About</a>
+                  <a href="https://github.com/diveyez/blackhole">Contact Developer</a>
+                  <div class="dropdown">
+                    <button class="dropbtn">Explore
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="news.php">News</a>
+                      <a href="queries.php">Queries Explained</a>
+                      <a href="search.php">Search</a>
+                    </div>
+                  </div>
+                  <a href="#about">About</a>
+                  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+                <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+                </script>
+
+                <!--RESPONSIVE NAV BAR -->
+
+                <body>
               <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></br>
               <!-- <span class="tooltiptext">Libraries: <b> "This is whatever you called the core during setup. I have many." </b> </br> Server: localhost</span>-->
               <form method="post" action="search.php">
@@ -49,10 +53,6 @@ function myFunction() {
               <input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
               <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
 
-              <!-- back button -->
-              <button id="back" onclick="goBack()">Go Back To Main Page</button>
-              <script> function goBack() { window.history.back(); } </script></center>
-              <!-- back button -->
 
               <!-- CONTENT REGION -->
               <div id="pqueries">
