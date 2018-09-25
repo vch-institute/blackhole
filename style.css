@@ -5,7 +5,7 @@ body {
   height: 800;
   /*background-repeat: no-repeat;*/
   /*background-color: #fefefe;*/
-  color: black;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-image: url("images/background.png");
@@ -16,28 +16,30 @@ body {
   padding-bottom: 250px;
           }
 p     {
-  color: black;
+  color: #fff;
   font-size: 25px;
           }
 ptext {
+  color: #fff
   font-size: 12px;
       }
 pcontent {
+  color: #fff
   width: 900px;
   word-wrap: break-word;
           }
 pqueries {
-  color: #000;
+  color: #fff
   font-size: 18px;
   word-wrap: break-word;
           }
 h4 {
-  color: #000;
+  color: #fff;
   font-size: 14px;
   text-shadow: 0.5px 1.1px 3.5px black;
                   }
 h5 {
-  color: #000;
+  color: #fff;
   font-size: 12px;
   text-shadow: 1.5px 1.5px 5px black;
         }
