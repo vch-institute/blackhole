@@ -64,6 +64,11 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
 
 <!-- RULES -->
 
+ALL RIGHTS RESERVED COPYRIGHT 2018 © ® Ricky 'Diveyez' N. of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
+GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
+<h5>Discord: https://discord.gg/9Tpyxbq</h5></br><a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a>Made with Apache Lucerne Solr</br></html>
+
+
 *Official GitHub Etiquette*
 
 ---
@@ -91,12 +96,10 @@ The material on these sites and in its directories are provided for educational 
 
 ---
 
-*Gratitude*, and remember _just have some fun_ with <h5>YOUR</h5> projects! I am! *-Cheers Ricky*
+*Gratitude*, and remember _just have some fun_ with *YOUR* projects! I am! *-Cheers Ricky*
 
 ---
 
 <!-- END OF THIS -->
 
-ALL RIGHTS RESERVED COPYRIGHT 2018 © ® Ricky 'Diveyez' N. of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
-GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
-<h5>Discord: https://discord.gg/9Tpyxbq</h5></br><a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a>Made with Apache Lucerne Solr</br></html>
+
