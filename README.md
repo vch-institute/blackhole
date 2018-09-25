@@ -14,7 +14,7 @@
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)</br>
 <html><h1><i>Black Hole Searching Platform</br></h1>
- <h5>A multi-language www capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i><h2>
+ <h5>A multi-language www & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i><h2>
 </i></p></h1><img src="images/blackhole.png" height="350" width="800"></img></br>
 <h3>NOTICE: Incomplete and work time code has been moved to /development/ to purify the main directory. I will be adding more coming the next 18 hours.</h3></br>
 <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>
