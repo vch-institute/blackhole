@@ -192,7 +192,7 @@ opacity: 0; transition: opacity 0.3s;
     color: #fff;
     max-width: 1200px;
     margin: auto;
-    height: auto;
+    height: -webkit-fill-available;
     word-wrap: break-word;
     border-radius: 25px;
     border: 1px solid #f4f4f4;
@@ -247,30 +247,3 @@ opacity: 0; transition: opacity 0.3s;
                   }
 
   /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
-
-  /* NAVIGATION BAR */
-
-  #buttons li {
-  float: left;
-  list-style: none;
-  text-align: center;
-  background-color: #000000;
-  margin-right: 5px;
-  width: 200px;
-  line-height: 60px;
-  text-decoration: none;
-  padding-bottom: 15px;
-  font-size: 12px;
-                }
-  #buttons li a {
-  text-decoration: none;
-  color: #FFFFFF;
-  display: block;
-                }
-
-  #buttons li a:hover {
-  text-decoration: none;
-  color: #000000;
-  background-color: #f4f4f4;
-                }
-/* NAVIGATION BAR */
