@@ -16,7 +16,7 @@
 
               <div id="cont">
 
-                <!-- RESPONSIVE NAV BAR --><center>
+                <!-- RESPONSIVE NAV BAR --> <center>
                 <div class="topnav" id="myTopnav">
                   <a href="index.php" class="active">Home</a>
                   <a href="about.php">About</a>
@@ -31,7 +31,7 @@
                       <a href="search.php">Search</a>
                     </div>
                   </div>
-                  <a href="#login">Login</a>
+                  <a href="#"></a>
                   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
                 <script>
@@ -43,9 +43,8 @@
                         x.className = "topnav";
                     }
                 }
-                </script>
-                </center>
-<!--RESPONSIVE NAV BAR -->
+                </script></center>
+                <!--RESPONSIVE NAV BAR -->
 
 <body><center><a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
                 <div class="tooltip">
