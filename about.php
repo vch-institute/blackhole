@@ -23,7 +23,7 @@
               <a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 <!-- ABOUT CONTENT -->
 <div id="ww1">
-  <h1><i>Black Hole Searching Platform</i></h1>
+  <h1><i>Black Hole</i></h1>
    <h5>A multi-language www & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i><h2>
       </br></br></br></center></div>
 
