@@ -78,6 +78,9 @@ a {
   color: red;
   font-size: 14px;
         }
+i {
+  font-size: 18px;
+        }
 .button {
   border-radius: 25px;
   background-color: #555555;
