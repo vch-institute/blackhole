@@ -239,6 +239,7 @@ opacity: 0; transition: opacity 0.3s;
       position: absolute;
       opacity: 0.75;
       filter: alpha(opacity=50);
+      text-align: justify;
                   }
   /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
 
