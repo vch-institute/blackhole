@@ -34,7 +34,7 @@
               <button onclick="goBack()">Go Back To Main Page</button>
               <script> function goBack() { window.history.back(); } </script></center>
               <!-- back button -->
-              <?php include("./template/skel-footer.php"); ?>
+
               <!-- CONTENT REGION -->
               <div id="pqueries">
               <h3>This is the cheat sheet to utilizing my technology.</h3>
@@ -73,7 +73,7 @@
               Now that you know the basics, lets try some more advanced stuff.</br>
               </pqueries>
               </br></br></br>
-              <pqueries>
+              <pqueries><h5>Wildcards & What?</h5>
               Two Unique but similar tricks also incorporated are highlighting and wildcards.</br>
               So if I the developer wanted to look through 50,000 pdf's and extract one specific word,</br>
               Perhaps a middle name I do not know,</br>
