@@ -25,6 +25,7 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
  Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.  </h5></br>
 
 ```
+<h1>Ubuntu,Debian, other apt ready Distributions of Linux.</h1>
 * Firstly, cd to your working web server
 * git clone https://github.com/diveyez/blackhole
 * apt install install default-jdk solr
@@ -37,6 +38,19 @@ With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
 * ./post -C <corename> /path/to/files
 ```
 
+```
+First, you are going to need Java Runtime Environment 8
+Go to this url and download it, there is no direct link. (https://www.java.com/en/download/manual.jsp)
+Install Java and do not forget where you install it to, what would be a good idea is to install it inside</br>
+The same folder as Solr. (http://archive.apache.org/dist/lucene/solr/7.5.0/solr-7.5.0.zip)</br>
+Download Solr and unzip it, for windows it pretty much works flawless out of the box.</br>
+Once you unzip it, go into the dir labeled 'bin', we are now assuming you have my repository.</br>
+Copy the post.jar and .cmd files from the windows_core directory to the  
+and solr-7.5.0\solr\server\core_name\conf 
+
+
+
+```
 <h3>EXAMPLE:</h3>
 
 ```

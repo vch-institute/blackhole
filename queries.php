@@ -109,8 +109,8 @@
               Very common in todays world, people are data mining for solutions without realizing it.</br>
               This is how we are going to do this, I will type  "Medicine book:'Antibiotics'-*" </br>
               The results output 3 of 2,357 books, one of which is "Curing a Bacterial Infection at Home"</br>
-              Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries></div>
-                <div id="historybox"><p2 style="font-size:14px;">
+              Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries>
+                <!--<div id="historybox">--><p2 style="font-size:14px;">
               The Birthday of the Supreme Court  'September 26th' . The Judiciary Act of 1789 is passed by Congress and signed by President George Washington, </br>
               establishing the Supreme Court of the United States as a tribunal made up of six justices who were to serve on the court until death or retirement. </br>
               That day, President Washington nominated John Jay to preside as chief justice, and John Rutledge, William Cushing, John Blair, Robert Harrison, </br>
@@ -120,8 +120,8 @@
               The Constitution granted the Supreme Court ultimate jurisdiction over all laws, especially those in which their constitutionality was at issue. </br>
               The high court was also designated to oversee cases concerning treaties of the United States, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
               On February 1, 1790, the first session of the U.S. Supreme Court was held in New York City’s Royal Exchange Building.</br>
-              </p2></div></br></br>
-                <div id="qcontent"><pqueries>
+            </p2><!--</div>--></br></br>
+              <pqueries>
               So I will search for a historical moment,  "DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
                 </pqueries>
                 <h4>Vice Versa</h4>
