@@ -175,6 +175,7 @@ input[type=text]:focus {
     #footer {
       color: #fff
       border: 1px;
+      background: #000;
       border-color: #fefefe;
       border-style: groove;
       border-spacing: inherit;
