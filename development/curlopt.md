@@ -35,4 +35,9 @@ WORKING!!!
 1) http://10.1.1.37:8983/solr/library/select?q=I+WANT+PIZZA&wt=php&indent=true&fl=id,name&group=true&group.field=content&hl=on&hl.fl=*&hl.encoder=html&hl.fragmenter=regex&hl.regex.slop=100.0&hl.fl=text_*&hl.bs.type=WHOLE&hl.defaultSummary=true&hl.offsetSource=POSTINGS&hl.fragsize=1250&&hl.highlightMultiTerm=true
 
 
+http://10.1.1.37:8983/solr/library/select?q=I+WANT+PIZZA&wt=php&indent=true&fl=id,name&group=true&group.field=content&hl=on&hl.fl=*&hl.encoder=html&hl.fragmenter=regex&hl.regex.slop=100.0&hl.fl=text_*&hl.bs.type=WHOLE&hl.defaultSummary=true&hl.offsetSource=POSTINGS&hl.fragsize=1250&&hl.highlightMultiTerm=true&hl.tag.pre=<b>&hl.tag.post=</b>
+
+
+
+
 2) http://10.1.1.37:8983/solr/library/select?q=world%20war%20+2&wt=php&indent=true&fl=id,name&group=true&group.field=content&hl=on&hl.fl=*&hl.encoder=html&hl.fragmenter=regex&hl.regex.slop=100.0&hl.fl=text_*&hl.bs.type=WHOLE&hl.defaultSummary=true
