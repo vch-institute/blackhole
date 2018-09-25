@@ -24,6 +24,11 @@
               <a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 <!-- TOP CONTENT -->
 <div id="ww1">
+<!-- Need to make the website a little more flashy -->
+<!-- Need to make the website a little more flashy -->
+  <!-- Need to make the website a little more flashy -->
+<!-- Need to make the website a little more flashy -->
+  <!-- Need to make the website a little more flashy -->
               <h1>Black Hole PHP Solr Index Searching Platform</br></h1>
       <h5>REQUIREMENTS,
             Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5>
