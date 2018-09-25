@@ -1,4 +1,6 @@
-<html><head><meta charset="UTF-8"/>
+<html>
+<head>
+  <meta charset="UTF-8"/>
   		<meta name="description" content="Black Hole Search"/>
   		<meta name="keywords" content="A multi-language & machine learning capable Solr index searching solution that can fit in your pocket."/>
   		<meta name="author" content="diveyez@r2nhosting.com"/>
@@ -43,10 +45,9 @@
                 }
                 </script>
                 </center>
-                <!--RESPONSIVE NAV BAR -->
+<!--RESPONSIVE NAV BAR -->
 
-                <body>
-              <center>
+<body><center>
                 <div class="tooltip">
     						<span class="tooltiptext">Libraries:<i>"This is whatever you called the core during setup. ie: 'library' "</b> </br> Server: localhost</span>
               <form method="post" action="search.php">
@@ -55,7 +56,7 @@
               <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
 
 
-              <!-- CONTENT REGION -->
+<!-- CONTENT REGION -->
               <div id="pqueries">
               <h3>This is the cheat sheet to utilizing my technology.</h3>
               <h4>Here you can find commonly uncommon queries for searches.</h4>
@@ -159,7 +160,7 @@
               As you learn to mix these techniques you can come up with cool stuff like this:</br>
                "How To book:'DEFINE: Home Made Solar Panels'-*" </br>
               We will use the example from the prevoius section and improve upon it next.</br>
-               "DEFINE:DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
+               "DEFINE:DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*"</br>
               </pqueries>
               </br></br>
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
