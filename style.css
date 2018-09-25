@@ -195,7 +195,7 @@ opacity: 0; transition: opacity 0.3s;
   /*  height: ;*/
     word-wrap: break-word;
     border-radius: 25px;
-    /* border: 1px solid #f4f4f4; */
+    border: 1px solid #f4f4f4;
     padding: 5px;
               }
 
@@ -210,7 +210,8 @@ opacity: 0; transition: opacity 0.3s;
     filter: alpha(opacity=50); */
                           }
     #footer {
-      margin-top: auto;
+      position: fixed;
+      margin-left: 315;
       color: #fff
       background: #000;
               }
@@ -242,8 +243,8 @@ opacity: 0; transition: opacity 0.3s;
       word-wrap: break-word;
       background-color: #000;
       position: relative;
-      opacity: 0.75;
-      filter: alpha(opacity=50);
+      /*opacity: 0.75;
+      filter: alpha(opacity=50);*/
                   }
 
   /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
