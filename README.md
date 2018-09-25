@@ -58,7 +58,10 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
 - [ ] Electron or equivalent application to remove need for browers and webservers  (Winter 2019 (Jan-April))</br>
 - [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities  (Winter 2019 (Jan-April))</br>
 - [ ] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</br>
-<h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress.</h5>
+<h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. <b>'?'</b> Indicates that there is no available information on completion date.</h5>
+
+<!-- END OF THIS -->
+
 ALL RIGHTS RESERVED COPYRIGHT 2018 © ® Ricky 'Diveyez' N. of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
 <h5>Discord: https://discord.gg/9Tpyxbq</h5></br><a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a>Made with Apache Lucerne Solr</br></html>
