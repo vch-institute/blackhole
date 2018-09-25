@@ -5,7 +5,15 @@
 			<meta name="author" content="diveyez@r2nhosting.com"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body>
+		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<!-- MENU --><script>function myFunction() { document.getElementById("myDropdown").classList.toggle("show"); } window.onclick = function(e) { if (!e.target.matches('.dropbtn'))
+							{var myDropdown = document.getElementById("myDropdown"); if (myDropdown.classList.contains('show')) { myDropdown.classList.remove('show'); } } }
+							</script><!-- MENU -->
+	</head>
+	<!-- MENU --><div class="navbar"><a href="./index.php">Home</a><a href="./news.php">News</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">Dropdown <i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content" id="myDropdown"> <a href="./queries.php">Howto Search Queries</a> <a href="./readme.html">Read Me</a></div></div><!-- MENU -->
+			<body>
+
 		<center>
 						<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br><div class="tooltip">
@@ -21,9 +29,6 @@
 						<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
 						<pmain>Made with Apache Lucene Solr</pmain>
 					  </center>
-						<!-- MENU --><div class="navbar"><a href="./index.php">Home</a><a href="./news.php">News</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">Dropdown <i class="fa fa-caret-down"></i></button>
-						    <div class="dropdown-content" id="myDropdown"> <a href="./queries.php">Howto Search Queries</a> <a href="./readme.html">Read Me</a></div></div><!-- MENU -->
-<!-- MENU --><script>function myFunction() { document.getElementById("myDropdown").classList.toggle("show"); } window.onclick = function(e) { if (!e.target.matches('.dropbtn'))
-					{var myDropdown = document.getElementById("myDropdown"); if (myDropdown.classList.contains('show')) { myDropdown.classList.remove('show'); } } }
-					</script><!-- MENU -->
+
+
 				</body></html>

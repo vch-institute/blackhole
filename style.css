@@ -1,5 +1,7 @@
 /* basic structure */
-
+container {
+  background-image:url('./images/background.jpg');
+}
 body {
   max-width: 900px;
   margin: auto;
@@ -66,7 +68,7 @@ pactive {
         }
 a {
   color: red;
-  font-size: 16px;
+  font-size: 12px;
         }
 .button {
   border-radius: 25px;
