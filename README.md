@@ -63,6 +63,7 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
             <ul>- [ ] Web Browser Plugins for consumers</br></ul>
             <ul>- [ ] Electron or equivalent application to remove need for browers and webservers</br></ul>
             <ul>- [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities</br></ul></br>
+            <ul>- [ ] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (PLEASE @Nvidia, GIVE ME AN SDK)</br></ul></br>
       <!-- ROADMAP CHECKLIST -->
    </br></br></br></br>
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
