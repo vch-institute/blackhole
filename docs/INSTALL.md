@@ -4,7 +4,7 @@
 <h1>Ubuntu,Debian, other apt ready Distributions of Linux.</h1>
 
 ```
-* Firstly, cd to your working web server
+* Firstly, cd to your working web server, if you are on linux and dont have one, use nginx for this, it is the best.
 * git clone https://github.com/diveyez/blackhole
 * apt install install default-jdk solr
 * wget http://www.apache.org/dyn/closer.lua/lucene/solr/7.5.0/solr-7.5.0.tgz && tar -xvf solr-7.5.0.tgz
@@ -26,15 +26,24 @@ Here is a guide for that: (https://www.mkyong.com/nginx/nginx-php-on-windows/)
 
 On to Solr and Blackhole...
 
-First, you are going to need Java Runtime Environment 8
+*First, you are going to need Java Runtime Environment 8
 Go to this url and download it, there is no direct link. (https://www.java.com/en/download/manual.jsp)
 Install Java and do not forget where you install it to, what would be a good idea is to install it inside
-The same folder as Solr. (http://archive.apache.org/dist/lucene/solr/7.5.0/solr-7.5.0.zip)
+*The same folder as Solr. (http://archive.apache.org/dist/lucene/solr/7.5.0/solr-7.5.0.zip)
 Download Solr and unzip it, for windows it pretty much works flawless out of the box.
 Once you unzip it, we are now assuming you have my repository.
-Copy the post.jar and post.cmd and solr.start.cmd files from the windows_core directory to the
-solr-7.5.0\solr\bin folder. Double click on the solr.start.cmd
+
+*Copy the post.jar and post.cmd and solr.start.cmd files from the windows_core directory to the
+solr-7.5.0\solr\bin folder.
+
+Copy the conf directory from the repository to the place you wish your core to be.
+EXAMPLE: C:\solr-7.5.0\server\solr\library_core would be my directory.
+
+You need to provide the document fields for it to index via the schema and xml files, or the core will not start.
+
+Once you are done with that, double click on the solr.start.cmd
 It will open a terminal and eventually say Port 8983 Happy Searching.
+
 Go to your browser for that same machine, enter localhost:8983 into your browser.
 Once you have done that, you have control of setting up the cores that are required to index.
 As being so, it also will not start extracting without an index.
@@ -47,9 +56,9 @@ Please follow their instructions and only continue when you are ready.
 You will have to edit some fields in post.cmd which I wrote for you.
 Right click on it, you should be able to edit it.
 <corename> is actually the name you gave it, not the actual name of the core.
-Remove the brackets and type your core name in the space between them.
+*Remove the brackets and type your core name in the space between them.
 Next go to the end of the line and setup your data/document directory.
 Once you have done this, you simply save the file, exit the editor, double click on it, watch the magic.
 On windows things are a bit weird when indexing large amounts of data with JavaRE.
 You may want to investigate increasing the 'JavaRE Heap Size'. If it does crash, just restart it until all your files are indexed.
-After that, just use github desktop, clone the repository into your web document directory, you should have a working interface, the tools, documents for schemas, etc.
+*After that, just use github desktop, clone the repository into your web document directory, you should have a working interface, the tools, documents for schemas, etc.
