@@ -137,6 +137,8 @@ input[type=text]:focus {
   visibility: visible;
   opacity: 1;
             }
+
+  /* HEAVILY MODIFIED ELEMENTS OF DESIGN */  
 #ww {
   color: #fff
   width: 900px;
@@ -214,27 +216,32 @@ opacity: 0; transition: opacity 0.3s;
     /* opacity: 0.75;
     filter: alpha(opacity=50); */
                           }
+  /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
+
+
   /* NAVIGATION BAR */
+
   #buttons li {
   float: left;
   list-style: none;
   text-align: center;
   background-color: #000000;
-  margin-right: 30px;
+  margin-right: 5px;
   width: 200px;
   line-height: 60px;
   text-decoration: none;
-  padding-bottom: 50px;
-      }
-      #buttons li a {
+  padding-bottom: 15px;
+  font-size: 12px;
+                }
+  #buttons li a {
   text-decoration: none;
   color: #FFFFFF;
   display: block;
-}
+                }
 
-#buttons li a:hover {
+  #buttons li a:hover {
   text-decoration: none;
   color: #000000;
   background-color: #f4f4f4;
-}
+                }
 /* NAVIGATION BAR */
