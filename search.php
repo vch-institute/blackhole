@@ -12,7 +12,9 @@
 
 
 <!-- TOP CONTENT -->
-      <body><div id="cont"><!-- RESPONSIVE NAV BAR -->
+      <body><div id="cont">
+<!-- RESPONSIVE NAV BAR -->
+<center>
       <div class="topnav" id="myTopnav">
         <a href="index.php" class="active">Home</a>
         <a href="about.php">About</a>
@@ -40,7 +42,7 @@
           }
       }
       </script>
-
+</center>
       <!--RESPONSIVE NAV BAR -->
 			<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a></br>
 <!-- TOP CONTENT -->

@@ -15,6 +15,8 @@
               <div id="cont">
 
                 <!-- RESPONSIVE NAV BAR -->
+
+                <center>
                 <div class="topnav" id="myTopnav">
                   <a href="index.php" class="active">Home</a>
                   <a href="about.php">About</a>
@@ -42,6 +44,7 @@
                     }
                 }
                 </script>
+                </center>
 
                 <!--RESPONSIVE NAV BAR -->
 

@@ -9,7 +9,7 @@
       <title>Black Hole - Notebooks, Libraries, AI, and Technology for Logistics and Machine Learning</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-<?php include("./template/skel-menu.php"); ?>
+<center><?php include("./template/skel-resp-nav.php"); ?></center>
 <body>
 <?php include("./template/skel-header-image.php"); ?>
 <?php include("./template/skel-search.php"); ?>
