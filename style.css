@@ -1,6 +1,7 @@
 /* basic structure */
 body {
   max-width: 1200px;
+  padding-top: 120px;
   margin: auto;
   height: auto;
   /*background-repeat: no-repeat;*/
