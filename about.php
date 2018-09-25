@@ -51,8 +51,15 @@
 <div id="ww1">
   <h1><i>Black Hole</i></h1>
    <h5>A multi-language & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
-   The lack of content is due to changes in code structures. Conversion from PHP to JavaScript.
-      </br></br></br></center></div>
+   <p>The Black Hole project was started as a joke, and for fun. Over some conversations with friends they agreed to give a helping hand.</p>
+   <p>The entire purpose of this project is to link logistical data processing with analytics and research.</p>
+   <p>We want to provide data solutions to people that need to find, or process the information from what is needed, in a split second.</p>
+   <p>Sometime around September 21st 2018, I indexed 40,000+ books on many subjects, the results of that, were not impressive.</p>
+   <p>After two entire days fiddling around with the software, it finally started to spit out the information from the book at me.</p>
+   <p>It does so almost stupidly, that is what makes it amazing, and fun. This project is a data black hole, the thing is...</p>
+   <p>Nobody knows whats inside a black hole, they do not know what is inside of the libraries we are working with neither.</p>
+   <p>"He who has a lot of books cannot read." -Pyth</p> <p>CHALLENGE ACCEPTED.</p>
+ </br></br></br></center></div>
 
             <!-- FOOTER AREA -->
               <div id="footer"><center>
