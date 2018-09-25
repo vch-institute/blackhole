@@ -51,7 +51,7 @@
 <div id="ww1">
   <h1><i>Black Hole</i></h1>
    <h5>A multi-language & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
-   <p>The lack of content is due to changes in code structures. Conversion from PHP to JavaScript.</p>
+   The lack of content is due to changes in code structures. Conversion from PHP to JavaScript.
       </br></br></br></center></div>
 
             <!-- FOOTER AREA -->
