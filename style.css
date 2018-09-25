@@ -154,7 +154,8 @@ input[type=text]:focus {
     width: 900px;
     padding: 25px;
     word-wrap: break-word;
-              }
+    opacity: 0.5;
+filter: alpha(opacity=50);  }
 
 /* MENU */
 
