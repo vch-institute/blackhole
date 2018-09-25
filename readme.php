@@ -9,7 +9,7 @@
 			<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
         <body><center>
-              <div id="cont"><a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br></div>
+              <a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 <!-- GO BACK button -->
               <button onclick="goBack()">Go Back To Search</button>
               <script> function goBack() { window.history.back(); } </script>
