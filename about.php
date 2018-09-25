@@ -49,7 +49,7 @@
 <!-- ABOUT CONTENT -->
 <div id="ww1">
   <h1><i>Black Hole</i></h1>
-   <h5>A multi-language & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
+   <h5>A multi-language & machine learning capable searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
  </br>
    <h5>The Black Hole project was started as a joke, and for fun. Over some conversations with friends they agreed to give a helping hand.
    The entire purpose of this project is to link logistical data processing with analytics and research.
@@ -67,7 +67,6 @@
  <!-- FOOTER AREA -->
              <div id="footer"><center>
                  <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
-                         <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made with Apache Lucene Solr</h5>
-                         <a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+                         <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> 
                        </center></div>
                         </center></div></br></html>
