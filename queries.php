@@ -20,7 +20,7 @@
       </ul>
       </menu>
 
-      <!-- NAVIGATION MENU -->
+<!-- NAVIGATION MENU -->
 
               <div id="cont"><body>
               <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></br>
