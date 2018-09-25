@@ -150,11 +150,12 @@ input[type=text]:focus {
     border-color: #fefefe;
     border-style: groove;
     border-spacing: inherit;
-    border-radius: 5px;
+    border-radius: 1px;
     width: 900px;
     padding: 25px;
+    padding-top: 500px;
     word-wrap: break-word;
-    opacity: 0.5;
+    opacity: 0.75;
 filter: alpha(opacity=50);  }
 
 /* MENU */
