@@ -59,13 +59,14 @@
    After two entire days fiddling around with the software, it finally started to spit out the information from the book at me.
    It does so almost stupidly, that is what makes it amazing, and fun. This project is a data black hole, the thing is...
    Nobody knows whats inside a black hole, they do not know what is inside of the libraries we are working with neither.
-   "He who has a lot of books cannot read." -Pyth </br></h5>
+ </br>"He who has a lot of books cannot read." -Pyth </br></h5>
    <h3>CHALLENGE ACCEPTED</h3>
  </br></br></br></center></div>
 
-            <!-- FOOTER AREA -->
-              <div id="footer"><center>
-                  <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
-                          <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>
-                          <a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+ <!-- FOOTER AREA -->
+             <div id="footer"><center>
+                 <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
+                         <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made with Apache Lucene Solr</h5>
+                         <a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+                       </center></div>
                         </center></div></br></html>
