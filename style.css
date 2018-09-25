@@ -240,7 +240,7 @@ opacity: 0; transition: opacity 0.3s;
       color: #fff
       width: 900px;
       border: 1px solid black;
-      padding: 25px;
+      /*padding: 25px;*/
       padding-left: 10px;
       word-wrap: break-word;
       background-color: #000;
