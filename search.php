@@ -33,6 +33,7 @@
 								foreach($arr['response']['docs'] as $text)
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; } //echo implode(',', $arr), "\n";// ?>
 							</div></div></br>
+              <!-- back button -->
 							<button onclick="goBack()">Go Back To Main Page</button>
 							<script> function goBack() { window.history.back(); } </script></br>
 							<!-- FOOTER -->
