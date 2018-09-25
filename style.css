@@ -154,8 +154,9 @@ input[type=text]:focus {
     border-spacing: inherit;
     border-radius: 1px;
     border-style: ridge;
-    width: 900px;
-    height: 600px;
+    max-width: 900px;
+    margin: auto;
+    height: 800;
     /*padding: 25px;*/
     padding-top: 250px;
     padding-bottom: 250px;
@@ -163,7 +164,15 @@ input[type=text]:focus {
   /* opacity: 0.75;
     filter: alpha(opacity=50); */
               }
+    #footer {
+      border: 1px;
+      border-color: #fefefe;
+      border-style: groove;
+      border-spacing: inherit;
+      border-radius: 1px;
+      border-style: ridge;
 
+              }
 /* MENU */
 
 

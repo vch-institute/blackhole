@@ -6,7 +6,7 @@
 			<link rel="stylesheet" type="text/css" href="style.css"/>
       <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      </head><body><!-- back button -->
+      </head><body><div id="cont"><!-- back button -->
       <button onclick="goBack()">Go Back To Main Page</button>
       <script> function goBack() { window.history.back(); } </script><!-- back button --></br></br>
 <h3>This is the cheat sheet to utilizing my technology.</h3>
@@ -122,4 +122,4 @@ We will use the example from the prevoius section and improve upon it next.</br>
 <pmain> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
 <a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
 <pmain>Made with Apache Lucene Solr</pmain></center>
-</body>&copy; 2016-<?php echo date("Y"); ?></html>
+</div></body>&copy; 2016-<?php echo date("Y"); ?></html>

@@ -4,7 +4,7 @@
   		<meta name="author" content="diveyez@r2nhosting.com"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body>
+      <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><div id="cont">
 			<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a>
 								<div class="tooltip"><span class="tooltiptext"/>Library: "corename" </br> Server: localhost</span>
 								<form method="post" action="search.php"/>
@@ -41,4 +41,4 @@
 									<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
 													<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>
 													<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
-												</center></div></body></html>
+												</center></div></div></body></html>
