@@ -15,11 +15,10 @@
             <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form>
 			</div>
 		</br><pmain>If you want the cheat sheet for searching with this tech, and any other search engine, checkout:</p> <a href="./queries.html"><p2>Commonly Uncommon Queries</a>.</p2>
-		</br><pmain> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
 	</br><pmain>To learn more about and support the Black Hole Project, Click <a href="./readme.html">HERE</a></pmain>
-						<pmain>&copy; 2016-<?php echo date("Y"); ?></pmain>
 					</br><pmain>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a></pmain>
 						</br><pmain>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></pmain></br>
+						<pmain>&copy; 2016-<?php echo date("Y"); ?></pmain><pmain> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
 						<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
 						<pmain>Made with Apache Lucene Solr</pmain>
 						</center></body>
