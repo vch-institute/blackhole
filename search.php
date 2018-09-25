@@ -73,11 +73,6 @@
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; } //echo implode(',', $arr), "\n";// ?>
 							</div></div></br>
 <!-- MAIN CONTENT (SEARCH) -->
-
-<!-- back button -->
-							<button id="back" onclick="goBack()">Go Back To Main Page</button>
-							<script> function goBack() { window.history.back(); } </script></br>
-<!-- back button -->
 <!-- FOOTER REGION-->
 							<div id="footer"><center>
 									<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
