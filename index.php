@@ -6,7 +6,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><center>
-						<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
+						<div id="ww"><a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 			<div class="tooltip">
 			  		<span class="tooltiptext">Libraries: <b>______________</b> </br> Server: localhost</span>
@@ -21,5 +21,5 @@
 						<pmain>&copy; 2016-<?php echo date("Y"); ?></pmain><pmain> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
 						<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
 						<pmain>Made with Apache Lucene Solr</pmain>
-						</center></body>
+					</center></div></body>
 </html>
