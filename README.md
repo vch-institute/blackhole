@@ -17,6 +17,15 @@
  <h5>A multi-language www & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Notebooks, Libraries, AI, and Technology in one place. </br>We are going to Eat The Sun!</i><h2>
 </i></p></h1><img src="images/blackhole.png" height="350" width="800"></img></br>
 
+---
+The operation and installation of Solr, and initializing Cores is explained in the INSTALL.md document. /blackhole/docs/INSTALL.md
+---
+Linux Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#ubuntudebian-other-apt-ready-distributions-of-linux">GO TO INSTALL.md#Linux</a>
+Linux Launch Command Example: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#example">GO TO INSTALL.md#Example</a>
+---
+Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#windows-windows-server">GO TO INSTALL.md#Windows</a>
+---
+
 <h3><b>Planned Features:</b></h3></br>
 - [x] Test Core -(9-24-18)-</br>  
 - [x] Full text output in results. -(9-24-18)-</br>  
