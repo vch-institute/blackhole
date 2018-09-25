@@ -24,7 +24,7 @@
 						<a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 						<pmain>
             <ptext>ALL DEVELOPMENT MATERIALS WERE MOVED TO /develpment/ & bash scripts to check server cores were added due to constant drop outs.</ptext></br>
-            <ptext>If you are a developer and you see this, please contact me. I have a few problems with the JavaScript implementation I need help with.</ptext></br>
+            <ptext>If you are a developer and you see this, please contact me. I have a few problems with the JavaScript implementation I need help with.</ptext></br></center>
 <!-- TOP CONTENT -->
 <!--ROADMAP CHECKLIST -->
 						<div id="roadmap">
@@ -46,7 +46,7 @@
 							<li>[_] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities  (Winter 2019 (Jan-April))</li></br>
 							<li>[_] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</li></ul></br>
 							<h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. </br>
-							<b>'?'</b> Indicates that there is no available information on completion date.</h5></br>
+							<b>'?'</b> Indicates that there is no available information on completion date.</h5></br></div>
 <!--ROADMAP CHECKLIST -->
 <!-- FOOTER AREA -->
 					  </br><pmain>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a></pmain>

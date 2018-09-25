@@ -18,5 +18,5 @@
 							<li>[_] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities  (Winter 2019 (Jan-April))</li></br>
 							<li>[_] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</li></ul></br>
 							<h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. </br>
-							<b>'?'</b> Indicates that there is no available information on completion date.</h5></br>
+							<b>'?'</b> Indicates that there is no available information on completion date.</h5></br></div>
 <!--ROADMAP CHECKLIST -->
