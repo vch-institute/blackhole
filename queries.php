@@ -80,22 +80,25 @@ As you learn to mix these techniques you can come up with cool stuff like this:<
 We will use the example from the prevoius section and improve upon it next.</br>
 <i>"DEFINE:DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*"</i></br>
 </pqueries>
-</br>
-<pqueries></pqueries>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</br></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br>
+<h4></h4>
+<pqueries></pqueries></br></br>
 </div>
 </body>
 &copy; 2016-<?php echo date("Y"); ?></html>
