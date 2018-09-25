@@ -89,7 +89,11 @@ a {
 
 copyright { font-size: 10px; }
 /* Special Effects =) */
+#back { /* GO BACK BUTTONS ONLY HERE */
+       background-color: #000;
+       color: #fff;
 
+          }
 .button {
   border-radius: 25px;
   background-color: #555555;
