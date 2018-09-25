@@ -47,7 +47,7 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
 - [x] Test Core (9-24-18)</br>  
 - [x] Full text output in results (9-24-18)</br>  
 - [x] JSON/JavaScript version will release in the next 14 days (9-24-18)</br>
-    ..* I have converted some of the code to JavaScript _over the last few hours_. I will be moving everything to *JavaScript Today* if possible. 
+    ..* I have converted some of the code to JavaScript _over the last few hours_. </br>I will be moving everything to *JavaScript Today and Tomorrow* if possible. 
 - [x] Custom Schema's for the project  (9-24-18)</br>
 - [x] Add more search fields (Continuing This Eternally (10-1-2018)</br>  
 - [x] Instructions for Linux Server Install/Setup/Operation (9-24-18)</br>
