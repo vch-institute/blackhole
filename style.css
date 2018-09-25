@@ -13,6 +13,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 250px;
           }
 p     {
   color: black;
