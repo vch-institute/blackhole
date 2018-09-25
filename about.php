@@ -9,7 +9,7 @@
       <title>Black Hole Search - Notebooks, Libraries, AI, and Technology in one place.</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-
+<div id="background"></div>
 <!-- TOP CONTENT -->
         <body><center><div id="cont"><!-- RESPONSIVE NAV BAR -->
         <div class="topnav" id="myTopnav">
@@ -67,6 +67,6 @@
  <!-- FOOTER AREA -->
              <div id="footer"><center>
                  <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
-                         <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> 
+                         <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
                        </center></div>
                         </center></div></br></html>
