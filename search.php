@@ -3,7 +3,7 @@
   		<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories."/>
   		<meta name="author" content="diveyez@r2nhosting.com"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<link rel="stylesheet" type="text/css" href="style.css"/>
+			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body>
 			<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a>
 								<div class="tooltip"><span class="tooltiptext"/>Library: "corename" </br> Server: localhost</span>
@@ -33,7 +33,7 @@
 								foreach($arr['response']['docs'] as $text)
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; } //echo implode(',', $arr), "\n";// ?>
 							</div></div></br>
-							<button onclick="goBack()">Go Back To Search</button>
+							<button onclick="goBack()">Go Back To Main Page</button>
 							<script> function goBack() { window.history.back(); } </script></br>
 							<!-- FOOTER -->
 							<div id="footer"><center>
