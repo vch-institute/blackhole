@@ -47,7 +47,7 @@
                 </center>
 <!--RESPONSIVE NAV BAR -->
 
-<body><center>
+<body><center><a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
                 <div class="tooltip">
     						<span class="tooltiptext">Libraries:<i>"This is whatever you called the core during setup. ie: 'library' "</b> </br> Server: localhost</span>
               <form method="post" action="search.php">
