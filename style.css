@@ -1,5 +1,5 @@
 body {
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
   height: 1200;
   background-repeat: no-repeat;
@@ -33,6 +33,11 @@ h5 {
   color: #000;
   font-size: 12px;
   text-shadow: 1.5px 1.5px 5px black;
+        }
+pmain {
+  width: 800px;
+  word-wrap: break-word;
+  font-size: 10px;
         }
 p1 {
   width: 900px;
