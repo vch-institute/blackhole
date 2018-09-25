@@ -1,18 +1,25 @@
-<html><head><meta charset="UTF-8"/>
+<html>
+<!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
+<head><meta charset="UTF-8"/>
   		<meta name="description" content="Black Hole Search"/>
   		<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories."/>
   		<meta name="author" content="diveyez@r2nhosting.com"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><div id="cont">
+      <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head>
+<!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
+<!-- TOP CONTENT -->
+      <body><div id="cont">
 			<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a>
+<!-- TOP CONTENT -->
 								<div class="tooltip"><span class="tooltiptext"/>Library: "corename" </br> Server: localhost</span>
 								<form method="post" action="search.php"/>
                 <p><b>Keywords:</b><input name="search" type="text" />
                 <b>Library:</b><input name="library" type="text" />
                 <b>Server:</b><input name="server" type="text" />
                 <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div>
-								<div id="ww">
+<!-- MAIN CONTENT (SEARCH)-->
+                <div id="ww">
 			<?php
 				if($_POST['search']) { echo "</br>Search Successful, here are the results."; }
 					else { echo ("</br><h1>You did not search! Try again!</h1>"); }
@@ -29,10 +36,12 @@
 								foreach($arr['response']['docs'] as $text)
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; } //echo implode(',', $arr), "\n";// ?>
 							</div></div></br>
-              <!-- back button -->
+<!-- MAIN CONTENT (SEARCH) -->
+<!-- back button -->
 							<button onclick="goBack()">Go Back To Main Page</button>
-							<script> function goBack() { window.history.back(); } </script><!-- back button --> </br>
-							<!-- FOOTER REGION-->
+							<script> function goBack() { window.history.back(); } </script></br>
+<!-- back button -->
+<!-- FOOTER REGION-->
 							<div id="footer"><center>
 									<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
 													<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>
