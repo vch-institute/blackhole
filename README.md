@@ -72,4 +72,4 @@
 
 ALL RIGHTS RESERVED COPYRIGHT 2018©® Diveyez of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
-<h5>Discord: https://discord.gg/9Tpyxbq</h5></br>Intended for usage with:</br><a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a></br></html>
+<h5>Discord: https://discord.gg/9Tpyxbq</h5></br><a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a>Made with Apache Lucerne Solr</br></html>
