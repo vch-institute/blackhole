@@ -59,9 +59,9 @@ On <i>September 26,</i> all six appointments were confirmed by the U.S. Senate.<
 The Constitution granted the Supreme Court ultimate jurisdiction over all laws, especially those in which their constitutionality was at issue. </br>
 The high court was also designated to oversee cases concerning treaties of the United States, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
 On February 1, 1790, the first session of the U.S. Supreme Court was held in New York City’s Royal Exchange Building.</br>
-</p2></div>
+</p2></div></br></br>
   <pqueries>
-So I will search for a historical moment, ""</br>
+So I will search for a historical moment, <i>"DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*"</i></br>
   </pqueries>
   <h4>Vice Versa</h4>
   <pqueries>
@@ -77,6 +77,8 @@ How do we do that? The title of this section is plain and simple.</br>
 In order to do this, we do one simple thing, <i>"DEFINE: 'whats on your mind'".</i></br>
 As you learn to mix these techniques you can come up with cool stuff like this:</br>
 <i>"How To book:'DEFINE: Home Made Solar Panels'-*"</i></br>
+We will use the example from the prevoius section and improve upon it next.</br>
+<i>"DEFINE:DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*"</i></br>
 </pqueries>
 </br>
 <pqueries></pqueries>
