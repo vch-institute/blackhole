@@ -13,7 +13,7 @@
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
 
-<div id="background"></div>
+<div id="background">
               <div id="cont">
 
                 <!-- RESPONSIVE NAV BAR --> <center>
@@ -171,5 +171,5 @@
 <div id="footer"><center>
     <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
             <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
-          </center></div></body>
+          </center></div></body></div>
 </html>
