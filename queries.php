@@ -111,16 +111,16 @@
               The results output 3 of 2,357 books, one of which is "Curing a Bacterial Infection at Home"</br>
               Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries>
               <div id="historybox"><p2 style="font-size:14px;">
-              <b>The Birthday of the Supreme Court</b>  <i>'September 26th'</i> . The Judiciary Act of 1789 is passed by Congress and signed by <h4>President George Washington</h4>, </br>
-              establishing the <b>Supreme Court of the United States</b> as a tribunal made up of six justices who were to serve on the court until death or retirement. </br>
-              That day, <h4>President Washington</h4> nominated John Jay to preside as chief justice, and <i>John Rutledge, William Cushing, John Blair, Robert Harrison, </br>
-              and James Wilson</i> to be associate justices. </br>
-              On  <b>September 26</b>,  all six appointments were confirmed by the U.S. Senate.</br>
-              <b>The U.S. Supreme Court</b> was established by  <b>Article 3 of the U.S. Constitution</b>.  </br>
-              The Constitution granted the <b>Supreme Court</b> ultimate jurisdiction over all laws, especially those in which their constitutionality was at issue. </br>
-              The high court was also designated to oversee cases concerning treaties of the <b>United States</b>, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
-              On <h5>February 1, 1790</h5>, the first session of the <b>U.S. Supreme Court</b> was held in <h5>New York City’s Royal Exchange Building</h5>.</br>
-            </p2></div></br></br>
+              The Birthday of the Supreme Court  'September 26th' . The Judiciary Act of 1789 is passed by Congress and signed by  President George Washington , </br>
+              establishing the  Supreme Court of the United States</b> as a tribunal made up of six justices who were to serve on the court until death or retirement. </br>
+              That day,  President Washington  nominated John Jay to preside as chief justice, and  John Rutledge, William Cushing, John Blair, Robert Harrison, </br>
+              and James Wilson  to be associate justices. </br>
+              On   September 26</b>,  all six appointments were confirmed by the U.S. Senate.</br>
+               The U.S. Supreme Court</b> was established by   Article 3 of the U.S. Constitution</b>.  </br>
+              The Constitution granted the  Supreme Court</b> ultimate jurisdiction over all laws, especially those in which their constitutionality was at issue. </br>
+              The high court was also designated to oversee cases concerning treaties of the  United States</b>, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
+              On  February 1, 1790 , the first session of the  U.S. Supreme Court</b> was held in  New York City’s Royal Exchange Building .</br>
+              </p2></div></br></br>
               <pqueries>
               So I will search for a historical moment,  "DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
                 </pqueries>
