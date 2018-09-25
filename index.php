@@ -12,7 +12,7 @@
 
 <div id="background"></div>
 
-<div id="box"></div>
+
 			<body><div id="cont">
 
 
