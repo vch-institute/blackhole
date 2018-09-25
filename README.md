@@ -17,13 +17,6 @@
  <h5>A multi-language www & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Notebooks, Libraries, AI, and Technology in one place. </br>We are going to Eat The Sun!</i><h2>
 </i></p></h1><img src="images/blackhole.png" height="350" width="800"></img></br>
 
-```
-<h3>EXAMPLE:</h3>
-
-```
-cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
-```
-
 <h3><b>Planned Features:</b></h3></br>
 - [x] Test Core -(9-24-18)-</br>  
 - [x] Full text output in results. -(9-24-18)-</br>  

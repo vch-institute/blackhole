@@ -34,6 +34,14 @@ Kind regards, Happy Searching, -Ricky N.
 * ./post -C <corename> /path/to/files
 ```
 
+<h3>EXAMPLE:</h3>
+
+```
+cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Library/Aeronautics_and_Spaceflight/*.*
+```
+
+
+
 <h1>Windows, Windows Server</h1>
 
 ```
