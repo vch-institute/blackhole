@@ -18,7 +18,7 @@
       </menu>
       <!-- NAVIGATION MENU --><div id="cont"><body>
       <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></br>
-      <span class="tooltiptext">Libraries: <b><i>"This is whatever you called the core during setup. I have many."</i></b> </br> Server: localhost</span><form method="post" action="search.php">
+      <span class="tooltiptext">Libraries: <b> "This is whatever you called the core during setup. I have many." </b> </br> Server: localhost</span><form method="post" action="search.php">
       <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
       <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
       <!-- back button --> <button onclick="goBack()">Go Back To Main Page</button>
@@ -27,12 +27,12 @@
 <h3>This is the cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
 <pqueries>
-If you wish to find something specific, you can type any <i>"phraseyouwish"</i></br>
+If you wish to find something specific, you can type any  "phraseyouwish" </br>
 Doing so like that, should allow you to locate more specific results.</br></pqueries>
 </br>
 <h4>Lets start simple, a Forced search.</h4>
 <pqueries>
-Forced searching is as simple as it sounds, just add a plus sign, and experiment. <i>"adam +laverne"</i></br>
+Forced searching is as simple as it sounds, just add a plus sign, and experiment.  "adam +laverne" </br>
 Many other engines automatically exclude "where", "how", "and", etc. They call them stop words. We are not implementing stop words in the same way.</br>
 Instead we will use it to our advantage to improve results across the board. Add a plus sign and watch the positivity flow.</br>
 </pqueries>
@@ -64,16 +64,16 @@ Now that you know the basics, lets try some more advanced stuff.</br>
 Two Unique but similar tricks also incorporated are highlighting and wildcards.</br>
 So if I the developer wanted to look through 50,000 pdf's and extract one specific word,</br>
 Perhaps a middle name I do not know,</br>
-I would type the following into the search box <i>"'MICHAEL'*'DOUGLAS'"</i> .</br>
+I would type the following into the search box  "'MICHAEL'*'DOUGLAS'"  .</br>
 If you want to highlight something for the search so it returns better results</br>
-You would use something like this: <i>"Something I Need To Find&hl.q=Something More Specific From That Document, Site, Etc. -*"</i></br>
+You would use something like this:  "Something I Need To Find&hl.q=Something More Specific From That Document, Site, Etc. -*" </br>
 In that search query what I did was term in, highlight something better, than subtract all the wildcard and extra bulk output.</br>
 </pqueries>
 </br>
   <h4>That is too much information, lets take it back a step.</h4>
   <pqueries>
 Okay, Wildcards produce too many results. How do we avoid that?</br>
-We will search with the following <i>"'-MICHAEL'*'-DOUGLAS'"</i></br>
+We will search with the following  "'-MICHAEL'*'-DOUGLAS'" </br>
 This will strip the first and last name, but still match results to</br>
 Any results that match the pre and post phrase to minimize results.</br></pqueries>
 </br>
@@ -82,8 +82,8 @@ Any results that match the pre and post phrase to minimize results.</br></pqueri
 Lets say, we just indexed a website, or a book, into the library for searching.</br>
 What now? How do I limit my results to one <b>specific title</b> or <b>site/dir</b> ?</br>
 Think of the : as your saviour. What we want to do now, is type</br>
-the following: <i>"Website.com:phrase/sentence" "booktitle:phrase/sentence"</i></br>
-How about matching activity with that? <i>"website1.com site:website2.com"</i></br>
+the following:  "Website.com:phrase/sentence" "booktitle:phrase/sentence" </br>
+How about matching activity with that?  "website1.com site:website2.com" </br>
 This same principle can be applied to documents as well.</br></pqueries>
 </br>
   <h4>Doing that, for the documents, is fun, and tricky.</h4>
@@ -94,27 +94,27 @@ This is how it is able to match things together and give results.</br>
   <b>Hypothetical Situation:</b>I am sick, I have been sick for a while.</br>
 I have been to the doctor and ..... It is time to find the cure myself.</br>
 Very common in todays world, people are data mining for solutions without realizing it.</br>
-This is how we are going to do this, I will type <i>"Medicine book:'Antibiotics'-*"</i></br>
+This is how we are going to do this, I will type  "Medicine book:'Antibiotics'-*" </br>
 The results output 3 of 2,357 books, one of which is "Curing a Bacterial Infection at Home"</br>
 Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries>
   <div id="historybox"><p2 style="font-size:14px;">
-The Birthday of the Supreme Court <i>'September 26th'</i>. The Judiciary Act of 1789 is passed by Congress and signed by President George Washington, </br>
+The Birthday of the Supreme Court  'September 26th' . The Judiciary Act of 1789 is passed by Congress and signed by President George Washington, </br>
 establishing the Supreme Court of the United States as a tribunal made up of six justices who were to serve on the court until death or retirement. </br>
 That day, President Washington nominated John Jay to preside as chief justice, and John Rutledge, William Cushing, John Blair, Robert Harrison, </br>
 and James Wilson to be associate justices. </br>
-On <i>September 26,</i> all six appointments were confirmed by the U.S. Senate.</br>
-<b>The U.S. Supreme Court</b> was established by <i>Article 3 of the U.S. Constitution.</i> </br>
+On  September 26,  all six appointments were confirmed by the U.S. Senate.</br>
+<b>The U.S. Supreme Court</b> was established by  Article 3 of the U.S. Constitution.  </br>
 The Constitution granted the Supreme Court ultimate jurisdiction over all laws, especially those in which their constitutionality was at issue. </br>
 The high court was also designated to oversee cases concerning treaties of the United States, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
 On February 1, 1790, the first session of the U.S. Supreme Court was held in New York City’s Royal Exchange Building.</br>
 </p2></div></br></br>
   <pqueries>
-So I will search for a historical moment, <i>"DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*"</i></br>
+So I will search for a historical moment,  "DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
   </pqueries>
   <h4>Vice Versa</h4>
   <pqueries>
 How do things actually weigh against each other?</br>
-Let's try that, <i>"Alcohol vs. Wine"</i></br>
+Let's try that,  "Alcohol vs. Wine" </br>
 Simple, what it does is weights them against one another and produces a competitive result.</br>
 Competition in results are always a good thing with computers. I adore this method and strongly recommend it.</br>
   </pqueries>
@@ -122,11 +122,11 @@ Competition in results are always a good thing with computers. I adore this meth
 <h4>Defining Your Search, Refining The Result</h4>
 <pqueries>
 How do we do that? The title of this section is plain and simple.</br>
-In order to do this, we do one simple thing, <i>"DEFINE: 'whats on your mind'".</i></br>
+In order to do this, we do one simple thing,  "DEFINE: 'whats on your mind'". </br>
 As you learn to mix these techniques you can come up with cool stuff like this:</br>
-<i>"How To book:'DEFINE: Home Made Solar Panels'-*"</i></br>
+ "How To book:'DEFINE: Home Made Solar Panels'-*" </br>
 We will use the example from the prevoius section and improve upon it next.</br>
-<i>"DEFINE:DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*"</i></br>
+ "DEFINE:DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
 </pqueries>
 </br></br>
 <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
