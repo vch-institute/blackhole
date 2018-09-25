@@ -167,7 +167,7 @@ opacity: 0; transition: opacity 0.3s;
   color: #fff;
   border-color: #fefefe;
   border-radius: 25px;
-  border: 1px solid #73AD21;
+  border: 1px solid #f4f4f4;
   padding: 20px;
   width: 900px;
   padding: 5px;
@@ -181,7 +181,7 @@ opacity: 0; transition: opacity 0.3s;
     height: auto;
     word-wrap: break-word;
     border-radius: 25px;
-    border: 1px solid #73AD21;
+    border: 1px solid #f4f4f4;
     padding: 5px;
   /* opacity: 0.75;
     filter: alpha(opacity=50); */
