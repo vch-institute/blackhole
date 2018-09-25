@@ -235,6 +235,6 @@ opacity: 0; transition: opacity 0.3s;
 #buttons li a:hover {
   text-decoration: none;
   color: #000000;
-  background-color: #33B5E5;
+  background-color: #f4f4f4;
 }
 /* NAVIGATION BAR */

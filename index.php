@@ -18,6 +18,7 @@
 				  <li><a href="news.php">News</a></li>
 				  <li><a href="readme.php">Read Me</a></li>
 				  <li><a href="queries.php">Queries Explained</a></li>
+					<li><a href="https://github.com/diveyez/blackhole">Contact Developer</a></li>
 				</ul>
 				</menu>
 				<!-- NAVIGATION MENU -->
