@@ -8,9 +8,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
+<body>
+
 <?php include("skel-menu.php"); ?>
 <?php include("skel-header-image.php"); ?>
 <?php include("skel-back-button.php"); ?>
-<body>
 </body>
 </html>
