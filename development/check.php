@@ -12,6 +12,6 @@
 
 <?php include("skel-menu.php"); ?>
 <?php include("skel-header-image.php"); ?>
-<?php include("skel-back-button.php"); ?>
+<?php include("./template/skel-footer.php"); ?>
 </body>
 </html>
