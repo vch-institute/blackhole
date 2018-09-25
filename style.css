@@ -44,11 +44,13 @@ h5 {
   text-shadow: 1.5px 1.5px 5px black;
         }
 pmain {
+  color: #fff
   width: 800px;
   word-wrap: break-word;
   font-size: 14px;
         }
 p1 {
+  color: #fff
   width: 900px;
   word-wrap: break-word;
   font-size: 12px;
@@ -58,6 +60,7 @@ p1:hover {
   filter: alpha(opacity=100);
         }
 p2 {
+  color: #fff
   width: 900px;
   word-wrap: break-word; f
   ont-size: 12px;
@@ -125,12 +128,14 @@ input[type=text]:focus {
   opacity: 1;
             }
 #ww {
+  color: #fff
   width: 900px;
   border: 1px solid black;
   padding: 25px;
   word-wrap: break-word;
             }
 #ww1 {
+  color: #fff
   width: 900px;
   padding: 25px;
   word-wrap: break-word;
@@ -167,6 +172,7 @@ input[type=text]:focus {
     filter: alpha(opacity=50); */
               }
     #footer {
+      color: #fff
       border: 1px;
       border-color: #fefefe;
       border-style: groove;
