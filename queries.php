@@ -24,9 +24,10 @@
 
               <div id="cont"><body>
               <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></br>
-              <!-- <span class="tooltiptext">Libraries: <b> "This is whatever you called the core during setup. I have many." </b> --> 
-              </br> Server: localhost</span><form method="post" action="search.php">
-              <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
+              <!-- <span class="tooltiptext">Libraries: <b> "This is whatever you called the core during setup. I have many." </b> </br> Server: localhost</span>-->
+              <form method="post" action="search.php">
+              <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b>
+              <input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
               <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
 
               <!-- back button -->

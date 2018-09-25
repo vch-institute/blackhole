@@ -47,8 +47,6 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
 - [x] Test Core (9-24-18)</br>  
 - [x] Full text output in results (9-24-18)</br>  
 - [x] JSON/JavaScript version will release in the next 14 days (9-24-18)</br>
-..* I have converted some of the code to JavaScript _over the last few hours_. </br>
-...* I will be moving everything to *JavaScript Today and Tomorrow* if possible.</br>
 - [x] Custom Schema's for the project  (9-24-18)</br>
 - [x] Add more search fields (Continuing This Eternally (10-1-2018)</br>  
 - [x] Instructions for Linux Server Install/Setup/Operation (9-24-18)</br>
@@ -57,7 +55,7 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
 - [ ] Incorporate third party software and plugins to improve functionality  (October)</br>
 - [ ] Dockerize  (October)</br>
 - [ ] Public Library for testing  (October)</br>
-- [ ] Style and Decorate and publish a 1.0 final  (November)</br>
+- [ ] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) (November)</br>
 - [ ] Web Browser Plugins for consumers  (December)</br>
 - [ ] Electron or equivalent application to remove need for browers and webservers  (Winter 2019 (Jan-April))</br>
 - [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities  (Winter 2019 (Jan-April))</br>
