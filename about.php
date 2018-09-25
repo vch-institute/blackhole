@@ -58,8 +58,8 @@
    After two entire days fiddling around with the software, it finally started to spit out the information from the book at me.
    It does so almost stupidly, that is what makes it amazing, and fun. This project is a data black hole, the thing is...
    Nobody knows whats inside a black hole, they do not know what is inside of the libraries we are working with neither.
- </br>"He who has a lot of books cannot read." -Pyth </br></h5>
-   <h3>CHALLENGE ACCEPTED</h3>
+ </br></br></br></br>"He who has a lot of books cannot read." -Py </br></h5>
+   <h3>"CHALLENGE ACCEPTED" -Diveyez</h3>
  </br></br></br></center></div>
 
  <!-- FOOTER AREA -->
