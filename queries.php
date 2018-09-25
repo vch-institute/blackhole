@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head><body><div id="cont"><!-- back button -->
       <button onclick="goBack()">Go Back To Main Page</button>
-      <script> function goBack() { window.history.back(); } </script><!-- back button --></br></br><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></br>
+      <script> function goBack() { window.history.back(); } </script><!-- back button --></br></br><center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></center></br>
 <h3>This is the cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
 <pqueries>
