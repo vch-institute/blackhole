@@ -2,7 +2,7 @@
 [![BASHScripts](https://img.shields.io/badge/BASH-Shell%20Scripts-blue.svg)](https:github.com/diveyez/blackhole)
 [![CSS3](https://img.shields.io/badge/CSS-3.0-blue.svg)](https:github.com/diveyez/blackhole)
 [![HTML5](https://img.shields.io/badge/HTML-5-green.svg)](https://github.com/diveyez)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Performing%20Conversion-grey.svg)](https://github.com/diveyez)
+[![JavaScript](https://img.shields.io/badge/JavaScript-1.8+-grey.svg)](https://github.com/diveyez)
 [![JSON](https://img.shields.io/badge/JSON-Writer%20Implemented-grey.svg?style=flat-rounded)](https://github.com/diveyez)
 [![Python](https://img.shields.io/badge/Python-3.5%2B-red.svg)](https://github.com/diveyez)
 [![PHP](https://img.shields.io/packagist/php-v/symfony/symfony.svg)](https://github.com/diveyez/blackhole)
