@@ -9,7 +9,9 @@
       <title>Black Hole Search - Notebooks, Libraries, AI, and Technology in one place.</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-<?php include("skel-menu.php"); ?>
-<?php include("skel-header-image.php"); ?>
-<?php include("skel-search.php"); ?>
+<?php include("./template/skel-menu.php"); ?>
 <body>
+<?php include("./template/skel-header-image.php"); ?>
+<?php include("./template/skel-search.php"); ?>
+<?php include("./template/skel-about.php"); ?>
+<?php include("./template/skel-roadmap.php"); ?>
