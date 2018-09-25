@@ -118,8 +118,8 @@
               On  <b>September 26</b>,  all six appointments were confirmed by the U.S. Senate.</br>
               <b>The U.S. Supreme Court</b> was established by  <b>Article 3 of the U.S. Constitution</b>.  </br>
               The Constitution granted the <b>Supreme Court</b> ultimate jurisdiction over all laws, especially those in which their constitutionality was at issue. </br>
-              The high court was also designated to oversee cases concerning treaties of the United States, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
-              On February 1, 1790, the first session of the U.S. Supreme Court was held in New York City’s Royal Exchange Building.</br>
+              The high court was also designated to oversee cases concerning treaties of the <b>United States</b>, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
+              On <h5>February 1, 1790</h5>, the first session of the <b>U.S. Supreme Court</b> was held in <h5>New York City’s Royal Exchange Building</h5>.</br>
             </p2><!--</div>--></br></br>
               <pqueries>
               So I will search for a historical moment,  "DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
@@ -144,9 +144,5 @@
               </br></br>
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
               <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div>
-              <!-- back button -->
-              <button onclick="goBack()">Go Back To Main Page</button>
-              <script> function goBack() { window.history.back(); } </script></center>
-              <!-- back button -->
-</div>
+              </div>
 </div></body></html>
