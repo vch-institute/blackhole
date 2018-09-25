@@ -214,7 +214,7 @@ opacity: 0; transition: opacity 0.3s;
     filter: alpha(opacity=50); */
                           }
   /* NAVIGATION BAR */
-  #ul1 li {
+  #buttons li {
   float: left;
   list-style: none;
   text-align: center;
@@ -224,13 +224,13 @@ opacity: 0; transition: opacity 0.3s;
   line-height: 60px;
   text-decoration: none;
       }
-      #ul1 li a {
+      #buttons li a {
   text-decoration: none;
   color: #FFFFFF;
   display: block;
 }
 
-#ul1 li a:hover {
+#buttons li a:hover {
   text-decoration: none;
   color: #000000;
   background-color: #33B5E5;
