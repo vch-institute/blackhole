@@ -24,7 +24,8 @@
 
               <div id="cont"><body>
               <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></br>
-              <span class="tooltiptext">Libraries: <b> "This is whatever you called the core during setup. I have many." </b> </br> Server: localhost</span><form method="post" action="search.php">
+              <!-- <span class="tooltiptext">Libraries: <b> "This is whatever you called the core during setup. I have many." </b> --> 
+              </br> Server: localhost</span><form method="post" action="search.php">
               <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
               <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
 
@@ -34,6 +35,7 @@
               <!-- back button -->
 
               <!-- CONTENT REGION -->
+              <div id="qcontent">
               <h3>This is the cheat sheet to utilizing my technology.</h3>
               <h4>Here you can find commonly uncommon queries for searches.</h4>
               <pqueries>
@@ -106,7 +108,7 @@
               Very common in todays world, people are data mining for solutions without realizing it.</br>
               This is how we are going to do this, I will type  "Medicine book:'Antibiotics'-*" </br>
               The results output 3 of 2,357 books, one of which is "Curing a Bacterial Infection at Home"</br>
-              Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries>
+              Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries></div>
                 <div id="historybox"><p2 style="font-size:14px;">
               The Birthday of the Supreme Court  'September 26th' . The Judiciary Act of 1789 is passed by Congress and signed by President George Washington, </br>
               establishing the Supreme Court of the United States as a tribunal made up of six justices who were to serve on the court until death or retirement. </br>
@@ -118,7 +120,7 @@
               The high court was also designated to oversee cases concerning treaties of the United States, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
               On February 1, 1790, the first session of the U.S. Supreme Court was held in New York City’s Royal Exchange Building.</br>
               </p2></div></br></br>
-                <pqueries>
+                <div id="qcontent"><pqueries>
               So I will search for a historical moment,  "DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
                 </pqueries>
                 <h4>Vice Versa</h4>
@@ -141,7 +143,7 @@
               </br></br>
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
               <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div>
-
+</div>
 <!-- FOOTER AREA -->
 
               <div id="footer"><center><h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
