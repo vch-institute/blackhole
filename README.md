@@ -28,7 +28,7 @@ Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/
 
 
 <h3><b>Planned Features:</b></h3></br>
-- [x] Test Core -(9-24-18)-</br>  
+- [x] Test Core -(9-24-18)-(Success)-</br>  
 - [x] Full text output in results. -(9-24-18)-</br>  
 - [x] JSON/JavaScript version will release in the next 14 days. -(9-24-18)-</br>
 - [x] Custom Schema's for the project.  -(9-24-18)-</br>
@@ -36,6 +36,8 @@ Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/
 - [x] Instructions for Linux Server Install/Setup/Operation. -(9-24-18)-</br>
 - [x] Implement Navigation Menu's. -(9-25-18)- </br>  
 - [x] Instructions for Windows Server Install/Setup/Operation.  -(9-25-18)-</br>
+- [x] Bonus Achivement! Black Hole can now deliver content from more than 40,000 books!
+----------BONUS!!!!!!!!
 - [ ] Incorporate third party software and plugins to improve functionality.  -(9-28-18)-</br>
 - [ ] Dockerize!  -(9-28-18)-</br>
 - [ ] Public Library for testing.  -(9-28-18)-</br>
