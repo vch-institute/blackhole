@@ -238,7 +238,7 @@ opacity: 0; transition: opacity 0.3s;
                 }
       #pqueries {
       color: #fff
-      /*width: 900px;*/
+      width: 800px;
       border: 1px solid black;
       padding-left: 10px;
       word-wrap: break-word;
