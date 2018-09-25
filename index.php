@@ -17,10 +17,8 @@
 						<pmain>If you want the cheat sheet for searching with this tech, and any other search engine, checkout:</p> <a href="./queries.php"><p2>Commonly Uncommon Queries</a>.</p2>
 						</br><pmain>To learn more about and support the Black Hole Project, Click <a href="./readme.php">HERE</a></pmain>
 						<!-- FOOTER AREA -->
-					  </br><pmain>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a></pmain>
-						</br><pmain>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></pmain></br>
-						<pmain>&copy; 2016-<?php echo date("Y"); ?></pmain>
-						<pmain> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
-						<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
-						<pmain>Made with Apache Lucene Solr</pmain>
-				</center></body></div></html>
+						<div id="footer"><center>
+								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
+												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>
+												<a href="http://lucene.apache.org/solr/"><img src="images/solr.png"/></img></a>
+											</center></div></div></body></html>
