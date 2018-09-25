@@ -13,7 +13,7 @@
       <a href="search.php">Search</a>
     </div>
   </div>
-  <a href="#about">About</a>
+  <a href="#login">Login</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 <script>
