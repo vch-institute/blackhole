@@ -130,7 +130,7 @@
               Very common in todays world, people are data mining for solutions without realizing it.</br>
               This is how we are going to do this, I will type  "Medicine book:'Antibiotics'-*" </br>
               The results output 3 of 2,357 books, one of which is "Curing a Bacterial Infection at Home"</br>
-              Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries>
+              Another situation is looking for a specific date. Lets have a history lesson.</br></pqueries></br></br></br>
               <div id="historybox"><p2 style="font-size:14px;">
               The Birthday of the Supreme Court  'September 26th' . The Judiciary Act of 1789 is passed by Congress and signed by  President George Washington , </br>
               establishing the  Supreme Court of the United States</b> as a tribunal made up of six justices who were to serve on the court until death or retirement. </br>
@@ -165,5 +165,5 @@
               </br></br>
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
               <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br></div>
-
+</br></br></br></br></br></br></br>
 </div></body></html>
