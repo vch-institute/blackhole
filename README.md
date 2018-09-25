@@ -36,7 +36,7 @@ Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/
 - [x] Instructions for Linux Server Install/Setup/Operation. -(9-24-18)-</br>
 - [x] Implement Navigation Menu's. -(9-25-18)- </br>  
 - [x] Instructions for Windows Server Install/Setup/Operation.  -(9-25-18)-</br>
-- [x] Bonus Achivement! Black Hole can now deliver content from more than 40,000 books!
+- [x] Bonus Achivement! Black Hole can now deliver content from more than 40,000 books!</br>
 ----------BONUS!!!!!!!!
 - [ ] Incorporate third party software and plugins to improve functionality.  -(9-28-18)-</br>
 - [ ] Dockerize!  -(9-28-18)-</br>
