@@ -14,6 +14,36 @@
 If you wish to find something specific, you can type any <i>"phraseyouwish"</i></br>
 Doing so like that, should allow you to locate more specific results.</br></pqueries>
 </br>
+<h4>Lets start simple, a Forced search.</h4>
+<pqueries>
+Forced searching is as simple as it sounds, just add a plus sign, and experiment. <i>"adam +laverne"</i></br>
+Many other engines automatically exclude "where", "how", "and", etc. They call them stop words. We are not implementing stop words in the same way.</br>
+Instead we will use it to our advantage to improve results across the board. Add a plus sign and watch the positivity flow.</br>
+</pqueries>
+</br>
+<h4>Next we will talk about ranges. As you know, it dont take much to count to 100.</h4>
+<pqueries>
+So how can we do that in a search? I am a fan of cryptocurrencies,</br>
+Lets try this, "bitcoin $6000..$80000"</br>
+A simple change like that, makes all the difference and can increase the speed of research drastically.</br>
+</pqueries>
+</br>
+<h4>Let do one more simple search query then move to more advanced techniques.</h4>
+<pqueries>
+This one is simple, I just want to find my long lost friend Billy from High School.</br>
+My searches will obviously be formatted in the following ways.</br>
+First name (or first initial), last name, city (state is optional)</br>
+First name (or first initial), last name, state</br>
+First name (or first initial), last name, area code</br>
+First name (or first initial), last name, zip code</br>
+Phone number, including area code</br>
+Last name, city, state</br>
+Last name, zip code</br>
+Simple right? Well, lets take a closer look at this. There is a set field structure to this.</br>
+You can swap the fields with anything you want and get combination searches with amazing results.</br>
+Now that you know the basics, lets try some more advanced stuff.</br>
+</pqueries>
+</br></br></br>
 <pqueries>
 Two Unique but similar tricks also incorporated are highlighting and wildcards.</br>
 So if I the developer wanted to look through 50,000 pdf's and extract one specific word,</br>
