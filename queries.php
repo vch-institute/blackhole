@@ -164,7 +164,8 @@
               </pqueries>
               </br></br>
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
-              <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. I hope you enjoy the work that is to come! Happy Searching!</pqueries></br><!-- FOOTER AREA -->
+              <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. </br>
+                I hope you enjoy the work that is to come! Happy Searching!</pqueries></br><!-- FOOTER AREA -->
               						<div id="footer"><center>
               								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
               												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>

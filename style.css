@@ -239,17 +239,13 @@ opacity: 0; transition: opacity 0.3s;
       #pqueries {
       color: #fff
       width: 800px;
-      margin-top: 8px;
-      border: 1px solid black;
-      padding-left: 10px;
       word-wrap: break-word;
       background-color: #000;
-      padding: 10px 1; border-radius: 1px;
-      position: absolute;
+      position: inherit;
       opacity: 0.75;
       filter: alpha(opacity=50);
                   }
-                  
+
   /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
 
   /* NAVIGATION BAR */
