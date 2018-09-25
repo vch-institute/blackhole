@@ -14,7 +14,8 @@
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=popout)](https://github.com/diveyez)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=popout)](https://github.com/diveyez/blackhole)</br>
 <html><h1><i>Black Hole</br></h1>
- <h5>A multi-language www & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Notebooks, Libraries, AI, and Technology in one place. </br>We are going to Eat The Sun!</i><h2>
+<h5>A multi-language machine learning capable platform serving as a Solr index searching solution that can fit in your pocket. </h5>
+<h2><i>Notebooks, Libraries, AI, and Technology in one place. </br>We are going to Eat The Sun!</i><h2>
 </i></p></h1><img src="images/blackhole.png" height="350" width="800"></img></br>
 
 ---
