@@ -1,6 +1,7 @@
 body {
-  max-width: 900px;
-  margin: auto; height: 1200;
+  max-width: 1200px;
+  margin: auto;
+  height: 1200;
   background-repeat: no-repeat;
   background-color: #fefefe;
   black: white;
@@ -20,7 +21,7 @@ pcontent {
           }
 pqueries {
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   word-wrap: break-word;
           }
 h4 {
