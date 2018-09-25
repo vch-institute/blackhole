@@ -26,5 +26,4 @@ function myFunction() {
     }
 }
 </script>
-
 <!--RESPONSIVE NAV BAR -->
