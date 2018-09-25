@@ -123,8 +123,8 @@
                 <pqueries>
               What we need to do now is explain things a bit more.</br>
               The way this works is it catalogs information in arrays in a database.</br>
-              This is how it is able to match things together and give results.</br>
-                <b>Hypothetical Situation:</b>  I am sick, I have been sick for a while.</br>
+              This is how it is able to match things together and give results.</br></br>
+              </br><b>Hypothetical Situation:</b>  I am sick, I have been sick for a while.</br>
               I have been to the doctor and ..... It is time to find the cure myself.</br>
               Very common in todays world, people are data mining for solutions without realizing it.</br>
               This is how we are going to do this, I will type  "Medicine book:'Antibiotics'-*" </br>
