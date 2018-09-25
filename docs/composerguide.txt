@@ -1,0 +1,17 @@
+Install Composer from http://getcomposer.org/
+Add the "base-reality/php-to-javascript": ">=0.0.3" to your project's composer.json file:
+
+"require":{ "base-reality/php-to-javascript": "0.1.16" }
+
+Or the latest tagged version. The dev master should only be used for development, not production.\
+
+Include the Composer SPL autoload file in your project: require_once('../vendor/autoload.php');
+
+Call the converter:
+
+ $phpToJavascript = new PHPToJavascript\PHPToJavascript();
+ $phpToJavascript->addFromFile($inputFilename); $jsOutput =
+ $phpToJavascript->toJavascript();
+
+
+$jsOutput will now contain an auto-generated Javascript version of the PHP source file.

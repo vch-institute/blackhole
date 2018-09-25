@@ -8,9 +8,13 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-<!-- TOP CONTENT -->
+
+
+
 			<body><div id="cont">
-				<!-- NAVIGATION MENU -->
+
+<!-- NAVIGATION MENU -->
+
 				<menu>
 				<ul id="buttons">
 				  <li><a href="index.php">Home</a></li>
@@ -20,21 +24,31 @@
 					<li><a href="https://github.com/diveyez/blackhole">Contact Developer</a></li>
 				</ul>
 				</menu>
-				<!-- NAVIGATION MENU -->
+
+<!-- NAVIGATION MENU -->
+
+<!-- TOP CONTENT -->
 
 				<center>
 						<a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
+
 <!-- TOP CONTENT -->
+
+
 <!-- MAIN CONTENT (SEARCH)-->
+
 			  		<div class="tooltip">
 						<span class="tooltiptext">Libraries:<i>"This is whatever you called the core during setup. I have many. ie: 'library' "</b> </br> Server: localhost</span><form method="post" action="search.php">
             <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
             <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
 						<pmain>If you want the cheat sheet for searching with this tech, and any other search engine, checkout:</p> <a href="./queries.php"><p2>Commonly Uncommon Queries</a>.</p2>
 						</br><pmain>To learn more about and support the Black Hole Project, Click <a href="./readme.php">HERE</a></pmain>
+
 <!-- MAIN CONTENT (SEARCH)-->
+
 <!-- FOOTER AREA -->
+
 						<div id="footer"><center>
 								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p><div id="copyright">&copy; ® 2016-<?php echo date("Y"); ?></div></h5>
 												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> <h5>Made With</h5></br>
