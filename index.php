@@ -8,7 +8,7 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<div id="container"><body><center>
+<div class="cont"><body><center>
 						<a href="./"><img src="./images/blackhole.png" height="250" width="350"></img></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br><div class="tooltip">
 			  		<span class="tooltiptext">Libraries: <b><i>"This is whatever you called the core during setup. I have many."</i></b> </br> Server: localhost</span><form method="post" action="search.php">
