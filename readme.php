@@ -28,36 +28,14 @@
   <!-- Need to make the website a little more flashy -->
 <!-- Need to make the website a little more flashy -->
   <!-- Need to make the website a little more flashy -->
-              <h1>Black Hole PHP Solr Index Searching Platform</br></h1>
+  <h1><i>Black Hole Searching Platform</br></h1>
+   <h5>A multi-language www & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i><h2>
       <h5>REQUIREMENTS,
             Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5>
             An Extremely fast and lightweight <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.
             If you intend to use it, this must be on a webserver, or equivalent,
             With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.
             <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br></br></br></br></center></div>
-            <!--ROADMAP CHECKLIST -->
-            <div id="roadmap">
-            <ul><h3><b>Planned Features:</b></h3></br>
-              <li>[x] Test Core (9-24-18)</li></br>
-              <li>[x] Full text output in results (9-24-18)</li></br>
-              <li>[x] JSON/JavaScript version will release in the next 14 days (9-24-18)</li></br>
-              <li>[x] Custom Schema's for the project  (9-24-18)</li></br>
-              <li>[x] Add more search fields (Continuing This Eternally (10-1-2018)</li></br>
-              <li>[x] Instructions for Linux Server Install/Setup/Operation (9-24-18)</li></br>
-              <li>[.] Implement Navigation Menu's (9-25-18) </li></br>
-              <li>[.] Instructions for Windows Server Install/Setup/Operation  (9-26-18)</li></br>
-              <li>[.] Implement new plugins, interface them, and release a public build. (October)</li></br>
-              <li>[_] Incorporate third party software and plugins to improve functionality.  (October)</li></br>
-              <li>[_] Dockerize!  (October)</li></br>
-              <li>[_] Public Library for testing. Will contain large amounts of data.  (October)</li></br>
-              <li>[_] Style and Decorate and publish a 1.0 final.  (November)</li></br>
-              <li>[_] Web Browser Plugins for consumers.  (December)</li></br>
-              <li>[_] Electron or equivalent application to remove need for browers and webservers.  (Winter 2019 (Jan-April))</li></br>
-              <li>[_] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities.  (Winter 2019 (Jan-April))</li></br>
-              <li>[?] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality. (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</li></ul></br>
-              <h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. </br>
-              <b>'?'</b> Indicates that there is no available information on completion date.</h5></br></div>
-<!--ROADMAP CHECKLIST -->
 
             <!-- FOOTER AREA -->
               <div id="footer"><center>
