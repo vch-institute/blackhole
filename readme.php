@@ -1,14 +1,16 @@
-<html><head><meta charset="UTF-8"/>
-  		<meta name="description" content="Black Hole Search"/>
-  		<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories."/>
-  		<meta name="author" content="diveyez@r2nhosting.com"/>
-  		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<html>
+<head><meta charset="UTF-8"/>
+			<meta name="description" content="Black Hole Search"/>
+			<meta name="keywords" content="Bringing Solr Indexing and Machine Learning Interfacting to your Data Directories."/>
+			<meta name="author" content="diveyez@r2nhosting.com"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link rel="stylesheet" type="text/css" href="style.css"/>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
         <button onclick="goBack()">Go Back To Search</button>
         <script> function goBack() { window.history.back(); } </script><center>
-              <div id="cont"><p5>Black Hole PHP Solr Index Searching Platform <a href="./index.php"><img src="images/blackhole-plain.png" height="350" width="500"></img></a></p5></br></div>
+              <div id="cont"><p5>Black Hole PHP Solr Index Searching Platform</br><a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></p5></br></div>
       <h5>REQUIREMENTS,
             <ul>Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</ul></h5></br>
             <h4>An Extremely fast and lightweight</h4> <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.</br>

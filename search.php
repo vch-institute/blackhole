@@ -5,7 +5,7 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head><body><div id="cont">
-			<a href="./"><img src="./images/blackhole-plain.png" height="125" width=" 175"></img></a>
+			<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a>
 								<div class="tooltip"><span class="tooltiptext"/>Library: "corename" </br> Server: localhost</span>
 								<form method="post" action="search.php"/>
                 <p><b>Keywords:</b><input name="search" type="text" />
