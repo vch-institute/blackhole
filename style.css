@@ -165,13 +165,12 @@ opacity: 0; transition: opacity 0.3s;
 #historybox {
   background: #000;
   color: #fff;
-  border: 1px;
   border-color: #fefefe;
-  border-style: groove;
-  border-spacing: inherit;
-  border-radius: 5px;
+  border-radius: 25px;
+  border: 1px solid #73AD21;
+  padding: 20px;
   width: 900px;
-  padding: 25px;
+  padding: 5px;
   word-wrap: break-word;
             }
   #cont {
@@ -183,7 +182,7 @@ opacity: 0; transition: opacity 0.3s;
     word-wrap: break-word;
     border-radius: 25px;
     border: 1px solid #73AD21;
-    padding: 5px; 
+    padding: 5px;
   /* opacity: 0.75;
     filter: alpha(opacity=50); */
               }
