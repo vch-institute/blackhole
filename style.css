@@ -153,12 +153,12 @@ input[type=text]:focus {
     border-radius: 1px;
     border-style: ridge;
     width: 900px;
-    padding: 25px;
+    /*padding: 25px;*/
     padding-top: 250px;
     padding-bottom: 250px;
     word-wrap: break-word;
   /* opacity: 0.75;
-    filter: alpha(opacity=50); */ 
+    filter: alpha(opacity=50); */
               }
 
 /* MENU */
