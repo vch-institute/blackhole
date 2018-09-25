@@ -18,17 +18,19 @@
             With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
             <b>I really hope you enjoy this searching interface, I will add lots of more features eventually.</b></br></center>
       <h3><b>Planned Features:</b></h3></br>
-              - [x] Instructions for Linux Server</br>
-              - [ ] Instructions for Windows Server</br>
+
               - [x] Test Core</br>
               - [x] Full text output in results</br>
-              - [ ] JSON/JavaScript version (Under Construction Today)</br>
+              - [x] JSON/JavaScript version will release in the next 14 days</br>
               - [x] Custom Schema's for the project</br>
               - [x] Add more search fields (Continuing This Eternally)</br>
-              - [ ] Style and Decorate and publish a 1.0 final</br>
+              - [x] Instructions for Linux Server Install/Setup/Operation</br>
+              - [ ] Instructions for Windows Server Install/Setup/Operation</br>
+              - [ ] Incorporate third party software and plugins to improve functionality</br>
               - [ ] Dockerize</br>
-              - [ ] Web Browser Plugins for consumers</br>
               - [ ] Public Library for testing</br>
+              - [ ] Style and Decorate and publish a 1.0 final</br>
+              - [ ] Web Browser Plugins for consumers</br>
               - [ ] Electron or equivalent application to remove need for browers and webservers</br>
               - [ ] Machine learning notebook to study datamining with computational capabilities</br></br>
 <!-- FOOTER AREA -->
