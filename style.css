@@ -85,7 +85,7 @@ a {
   color: red;
   font-size: 14px;
         }
-        
+
 copyright { font-size: 10px; }
 /* Special Effects =) */
 
@@ -213,10 +213,19 @@ opacity: 0; transition: opacity 0.3s;
     word-wrap: break-word;
     border-radius: 0.1px;
     border: 0.1px solid #f4f4f4;
-    padding: 1px;
-    /* opacity: 0.75;
-    filter: alpha(opacity=50); */
-                          }
+    padding: 1px; }
+
+    #roadmap {
+      background: #000;
+      color: #fff;
+      max-width: 900px;
+      margin: auto;
+      height: auto;
+      word-wrap: break-word;
+      border-radius: 0.1px;
+      border: 0.1px solid #f4f4f4;
+      padding: 1px;
+                }
   /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
 
 
