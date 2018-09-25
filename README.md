@@ -44,22 +44,22 @@ cd /opt/solr-7.5.0/bin && ./solr start -c Library && ./post -C Library /mnt/Libr
 ```
 
 <h3><b>Planned Features:</b></h3></br>
-- [x] Test Core (9-24-18)</br>  
-- [x] Full text output in results (9-24-18)</br>  
-- [x] JSON/JavaScript version will release in the next 14 days (9-24-18)</br>
-- [x] Custom Schema's for the project  (9-24-18)</br>
-- [x] Add more search fields (Continuing This Eternally (10-1-2018)</br>  
-- [x] Instructions for Linux Server Install/Setup/Operation (9-24-18)</br>
-- [x] Implement Navigation Menu's (9-25-18) </br>  
-- [ ] Instructions for Windows Server Install/Setup/Operation  (9-26-18)</br>
-- [ ] Incorporate third party software and plugins to improve functionality  (October)</br>
-- [ ] Dockerize  (October)</br>
-- [ ] Public Library for testing  (October)</br>
-- [ ] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) (November)</br>
-- [ ] Web Browser Plugins for consumers  (December)</br>
-- [ ] Electron or equivalent application to remove need for browers and webservers  (Winter 2019 (Jan-April))</br>
-- [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities  (Winter 2019 (Jan-April))</br>
-- [?] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</br>
+- [x] Test Core -(9-24-18)-</br>  
+- [x] Full text output in results. -(9-24-18)-</br>  
+- [x] JSON/JavaScript version will release in the next 14 days. -(9-24-18)-</br>
+- [x] Custom Schema's for the project.  -(9-24-18)-</br>
+- [x] Add more search fields (Continuing This Eternally). -(10-1-2018)-</br>  
+- [x] Instructions for Linux Server Install/Setup/Operation. -(9-24-18)-</br>
+- [x] Implement Navigation Menu's. -(9-25-18)- </br>  
+- [x] Instructions for Windows Server Install/Setup/Operation.  -(9-25-18)-</br>
+- [ ] Incorporate third party software and plugins to improve functionality.  -(9-28-18)-</br>
+- [ ] Dockerize!  -(9-28-18)-</br>
+- [ ] Public Library for testing.  -(9-28-18)-</br>
+- [ ] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) -(9-28-18)-</br>
+- [ ] Web Browser Plugins for consumers.  -(9-28-18)-</br>
+- [ ] Electron or equivalent application to remove need for browsers and webservers.  (Winter 2019 (Jan-April))</br>
+- [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities.  (Winter 2019 (Jan-April))</br>
+- [?] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality. (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</br>
 <h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. <b>'?'</b> Indicates that there is no available information on completion date.</h5>
 
 <!-- RULES -->
