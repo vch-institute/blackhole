@@ -182,9 +182,8 @@ opacity: 0; transition: opacity 0.3s;
   border-color: #fefefe;
   border-radius: 25px;
   border: 1px solid #f4f4f4;
-  padding: 20px;
+  padding: 1px;
   width: 900px;
-  padding: 5px;
   word-wrap: break-word;
             }
   #cont {
@@ -248,7 +247,6 @@ opacity: 0; transition: opacity 0.3s;
       position: absolute;
       opacity: 0.75;
       filter: alpha(opacity=50);
-      text-align: center;
                   }
   /* HEAVILY MODIFIED ELEMENTS OF DESIGN */
 
