@@ -202,12 +202,5 @@ opacity: 0; transition: opacity 0.3s;
                           }
     #footer {
       color: #fff
-      border: 1px;
       background: #000;
-      border-color: #fefefe;
-      border-style: groove;
-      border-spacing: inherit;
-      border-radius: 1px;
-      border-style: ridge;
-
               }
