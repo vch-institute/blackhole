@@ -35,7 +35,7 @@
 							</div></div></br>
               <!-- back button -->
 							<button onclick="goBack()">Go Back To Main Page</button>
-							<script> function goBack() { window.history.back(); } </script></br>
+							<script> function goBack() { window.history.back(); } </script><!-- back button --> </br>
 							<!-- FOOTER -->
 							<div id="footer"><center>
 									<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>

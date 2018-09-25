@@ -6,10 +6,9 @@
 			<link rel="stylesheet" type="text/css" href="style.css"/>
       <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      </head><body><!-- MENU --><div class="navbar"><a href="./index.php">Home</a><a href="./news.php">News</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">Dropdown <i class="fa fa-caret-down"></i></button>
-      <div class="dropdown-content" id="myDropdown"> <a href="./queries.php">Howto Search Queries</a> <a href="./readme.html">Read Me</a></div></div><!-- MENU -->
-      <!-- MENU --><script>function myFunction() { document.getElementById("myDropdown").classList.toggle("show"); } window.onclick = function(e) { if (!e.target.matches('.dropbtn'))
-      {var myDropdown = document.getElementById("myDropdown"); if (myDropdown.classList.contains('show')) { myDropdown.classList.remove('show'); } } }</script><!-- MENU --></br></br>
+      </head><body><!-- back button -->
+      <button onclick="goBack()">Go Back To Main Page</button>
+      <script> function goBack() { window.history.back(); } </script><!-- back button --></br></br>
 <h3>This is the cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
 <pqueries>
