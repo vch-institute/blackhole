@@ -10,7 +10,7 @@
             <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form>
 			</div>
 		</br><p> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p>
-	</br><p>To learn more about and support the Black Hole Project, Click -> <a href="./README.md">HERE</a></p>
+	</br><p>To learn more about and support the Black Hole Project, Click</p> <a href="./readme.html"><p2>HERE</a></p2>
 						<p>&copy; 2016-<?php echo date("Y"); ?></p>
 						</br><p>Built for <a href="https://universalcurrencysystems.com">Universal Currency Systems LLC</a>
 						</br>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></br>

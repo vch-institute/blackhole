@@ -5,7 +5,7 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" type="text/css" href="styles.css"/></head><body>
 			<a href="./"><img src="./images/blackhole.png" height="125" width=" 175"></img></a>
-								<div class="tooltip"><span class="tooltiptext"/>Library: <corename> </br> Server: localhost</span>
+								<div class="tooltip"><span class="tooltiptext"/>Library: "corename" </br> Server: localhost</span>
 								<form method="post" action="search.php"/>
                 <p><b>Keywords:</b><input name="search" type="text" />
                 <b>Library:</b><input name="library" type="text" />
@@ -23,7 +23,7 @@
 								$ch = curl_init(); $encode = urlencode($query); $encode1 = urlencode($library); $encode2 = urlencode($server);
 								curl_setopt($ch,CURLOPT_URL,"http://".$encode2.":8983/solr/".$encode1."/select?q=".$encode."&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&fl=creator&indent=true&hl=true&hl.q=".$encode."&hl.snippets=1&hl.fragsize=20&hl.method=unified&hl.bs.type=WORD&hl.defaultSummary=true&hl.maxAlternateFieldLength=25&hl.alternateField=content&hl.encoder=html&wt=php&hl.highlightMultiTerm=true&hl.fragmenter=regex&hl.regex.slop=0.1&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=10&results=50&hl.requireFieldMatch=true");curl_setopt($ch, CURLOPT_HEADER, false);
 								curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true); $re = curl_exec($ch); curl_close($ch); $arr;
-								eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><a></a><i>" . $query . "</i>"; echo "</br>";
+								eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><i>" . $query . "</i>"; echo "</br>";
 								echo "<b>Found:</b><i>" . $arr['response']['numFound'] . "</i> results\n and displaying 50.</p>" ;
 								echo "<ptext><b>Found Matching Text/Terms:</b></ptext></br>";
 								foreach($arr['response']['docs'] as $text)
