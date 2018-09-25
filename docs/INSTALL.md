@@ -1,6 +1,24 @@
 <h5>REQUIREMENTS,
  Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.  </h5></br>
 
+<h2>After Install: Accessing the Search Features</h2>
+*Read the install instructions below for your operating system, feel free to ask questions*
+Once you are finished with the installation of all the required parts
+You can just use the localhost/blackhole url to get to the pages
+If you are operating over LAN, use the machines LAN ip address.
+*Example: 10.2.1.2/blackhole*
+When on the page for the Search, you will need to enter the query you wish to use
+Followed by the name of the core (not core name, but field at top 'name')
+Followed by localhost for the server field. Alternatively you can use your server IP.
+Don't try to connect to Solr Cores from a webserver.
+You need to run them both on the same machine or you cannot properly query and request
+From the API. Once you have done all that, search results will show.
+Click the Queries Menu item for information on how to refine and define your queries
+So they are elastic and can be modified to the type of content you are searching for.
+
+Updates and features will come soon, If you think you may be able to help. Feel free to contact me.
+Kind regards, Happy Searching, -Ricky N.
+
 <h1>Ubuntu,Debian, other apt ready Distributions of Linux.</h1>
 
 ```
@@ -15,6 +33,7 @@
 * ./solr start -c <corename>
 * ./post -C <corename> /path/to/files
 ```
+
 <h1>Windows, Windows Server</h1>
 
 ```
@@ -51,7 +70,6 @@ Here is some documentation on setting up cores: (https://lucene.apache.org/solr/
 
 Please follow their instructions and only continue when you are ready.
 
----
 
 You will have to edit some fields in post.cmd which I wrote for you.
 Right click on it, you should be able to edit it.
@@ -62,3 +80,4 @@ Once you have done this, you simply save the file, exit the editor, double click
 On windows things are a bit weird when indexing large amounts of data with JavaRE.
 You may want to investigate increasing the 'JavaRE Heap Size'. If it does crash, just restart it until all your files are indexed.
 *After that, just use github desktop, clone the repository into your web document directory, you should have a working interface, the tools, documents for schemas, etc.
+```
