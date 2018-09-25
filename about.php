@@ -51,6 +51,7 @@
 <div id="ww1">
   <h1><i>Black Hole</i></h1>
    <h5>A multi-language & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
+ </br>
    <p>The Black Hole project was started as a joke, and for fun. Over some conversations with friends they agreed to give a helping hand.</p>
    <p>The entire purpose of this project is to link logistical data processing with analytics and research.</p>
    <p>We want to provide data solutions to people that need to find, or process the information from what is needed, in a split second.</p>
