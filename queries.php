@@ -8,12 +8,13 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head><body>
         <img src="images/blackhole-plain.png" height="350" width="500"></img><div id="cont">
-    <!-- back button --> <button onclick="goBack()">Go Back To Main Page</button>
-      <script> function goBack() { window.history.back(); } </script><!-- back button --></br></br>
+       </br></br>
       <center><a href="./"><img src="./images/blackhole.png" height="350" width="450"></img></a></center></br>
       <span class="tooltiptext">Libraries: <b><i>"This is whatever you called the core during setup. I have many."</i></b> </br> Server: localhost</span><form method="post" action="search.php">
       <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b><input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
       <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
+      <!-- back button --> <button onclick="goBack()">Go Back To Main Page</button>
+        <script> function goBack() { window.history.back(); } </script><!-- back button -->
       <!-- CONTENT REGION -->
 <h3>This is the cheat sheet to utilizing my technology.</h3>
 <h4>Here you can find commonly uncommon queries for searches.</h4>
