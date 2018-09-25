@@ -213,13 +213,26 @@ opacity: 0; transition: opacity 0.3s;
     /* opacity: 0.75;
     filter: alpha(opacity=50); */
                           }
-    /* NAVIGATION BAR */
-  ul1 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-              }
-  li {
-    display: inline;
-              }
+  /* NAVIGATION BAR */
+  #ul1 li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #000000;
+  margin-right: 30px;
+  width: 150px;
+  line-height: 60px;
+  text-decoration: none;
+      }
+      #ul1 li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+}
+
+#ul1 li a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #33B5E5;
+}
 /* NAVIGATION BAR */

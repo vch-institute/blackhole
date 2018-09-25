@@ -11,7 +11,7 @@
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
 <menu>
-<ul>
+<ul id="ul1">
   <li><a href="index.php">Home</a></li>
   <li><a href="news.php">News</a></li>
   <li><a href="readme.php">Read Me</a></li>
