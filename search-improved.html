@@ -31,7 +31,7 @@
             </style>
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
-
+<!-- PRESERVING SOME CODE -->
 <script>
 $(function() {
     $("#divResults").hide();
@@ -40,7 +40,7 @@ $(function() {
         $("#divSearch").slideUp();
         $("#divResults").fadeIn('500');
 
-            $.getJSON("http://10.1.1.37:8983/solr/Library/select?q=testing&fl=id", function(data){
+            $.getJSON(http://localhost:8983/solr/library/select?q="'VARIABLE'"&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&indent=true&hl=true&hl.q='VARIABLE'&hl.snippets=1&hl.method=unified&hl.bs.type=WORD&hl.maxAlternateFieldLength=25&hl.encoder=json&wt=php&hl.tag.pre=<em>&hl.tag.post=</em>&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=250&results=50&hl.requireFieldMatch=true", function(data){
                 data.response.docs.forEach(function(res){
                     $("#results").append("<li>"+res.id+"</li>")
                 });
@@ -54,7 +54,7 @@ $(function() {
     });
 });
 </script>
-
+<!-- JAVASCRIPT AND JSON ARE NEAT SOME CODE -->
 <body>
     <div id="divSearch" class="center">
         <a href="./"><img src="./images/blackhole.png" height="250" width="350"></a><br>
