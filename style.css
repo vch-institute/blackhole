@@ -1,6 +1,6 @@
 /* basic structure */
 container {
-  background-image:url('./images/background.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;
+  background-image:url('./images/background.png'); background-repeat: no-repeat; background-position: center; background-size: cover;
 }
 body {
   max-width: 900px;
