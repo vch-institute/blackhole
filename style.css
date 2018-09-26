@@ -196,7 +196,7 @@ height: 1600px;
 /* border-radius: 25px; */
 /* border: 1px solid #f4f4f4; */
 /* padding: 5px; */
-margin-top: -50;
+margin-top: -40;
               }
 
   #query {
@@ -210,7 +210,7 @@ margin-top: -50;
     filter: alpha(opacity=50); */
                           }
     #footer {
-      position: absolute;
+      position: fixed;
       margin-left: 425px;
       color: #fff
       background: #000;
