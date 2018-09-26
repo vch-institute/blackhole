@@ -10,7 +10,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 <!-- LEFT -->
-<body><div id="boxleft">
+<div id="boxleft">
   <div class="row">
     <div class="column"></div>
     <div class="column"></div>
@@ -37,7 +37,7 @@
     </div></div>
 
 <!-- TOP CONTENT -->
-  <div id="cont">
+  <div id="cont"><body>
         <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
@@ -72,7 +72,7 @@
 
 <!-- MAIN CONTENT (SEARCH TOOLTIPS)-->
 <div class="tooltip">
-<span class="tooltiptext">Library:<i>'library'</b> </br> Server: localhost</span>
+<span class="tooltiptext">Library: 'library'</b> </br> Server: localhost</span>
 								<form method="post" action="search.php"/>
                 <p><b>Keywords:</b><input name="search" type="text" />
                 <b>Library:</b><input name="library" type="text" />
