@@ -1,12 +1,15 @@
-{ "php.validate.executablePath": "G:\\development\\php" }
-<<<<<<< HEAD
-// Convenience options display at the top of the list. 
-//Control which ones you see and in what order.
-"advancedNewFile.convenienceOptions": 
- "advancedNewFile.convenienceOptions": 
-     "last",
-     "current",
-     "root"
- 
-=======
->>>>>>> 38cf1fce2a703c1daafb03d7f988dc7c51933e60
+{
+    "php.validate.executablePath": "G:\\development\\php"
+} <<
+<< << < HEAD
+    // Convenience options display at the top of the list. 
+    //Control which ones you see and in what order.
+    "advancedNewFile.convenienceOptions":
+    "advancedNewFile.convenienceOptions":
+    "last",
+    "current",
+    "root"
+
+    ===
+    === = >>>
+    >>> > 38 cf1fce2a703c1daafb03d7f988dc7c51933e60
