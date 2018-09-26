@@ -3,5 +3,5 @@ $url = 'http://localhost:8983/solr/library/select?q=q=god&wt=json&indent=true&fl
 $contents = file_get_contents($url);
 $data = json_decode($contents, true);
 $docs = $data['response']['id']';
-var_dump($docs)
+var_dump($docs);
 ?>
