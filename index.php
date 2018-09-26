@@ -10,7 +10,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
-
+<body><div id="cont">
 
 <!-- LEFT -->
 <body><div id="boxleft">
@@ -39,7 +39,7 @@
       <div class="column"></div>
     </div></div>
 
-			<body><div id="cont">
+
 
 
         <!-- RESPONSIVE NAV BAR --><center>
