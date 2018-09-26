@@ -74,6 +74,7 @@
 
 
 <!-- ABOUT CONTENT -->
+<center>
   <h5>A multi-language & machine learning capable searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
  </br>
    <h5>The Black Hole project was started as a joke, and for fun. Over some conversations with friends they agreed to give a helping hand.
@@ -89,7 +90,14 @@
    <h3>"CHALLENGE ACCEPTED" -Diveyez</h3>
  </br></br>
 
-<img src="images/bookchair.jpg"></img><div id="footer"><center>
+<img src="images/bookchair.jpg"></img></center>
+<!-- About Us -->
+
+
+
+
+<!-- Footers Region -->
+<div id="footer"><center>
     <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
             <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
           </center></div>
