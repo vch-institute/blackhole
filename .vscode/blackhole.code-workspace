@@ -5,9 +5,10 @@
 		}
 	],
 	"settings": {
-		"php.validate.executablePath": "G:evelopmenthp"
-	}
-}
+		"php.validate.executablePath": "G:\development\php\php-cgi.exe" }
+		}
+	
+
 
   // Convenience options display at the top of the list. Control which ones you see and in what order.
   "advancedNewFile.convenienceOptions": [
