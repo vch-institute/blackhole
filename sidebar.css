@@ -5,6 +5,7 @@ margin-left: -200;
 width: 300px;
 text-align: left;
 position: fixed;
+margin-top: -30px;
 
 }
 #boxright {
@@ -14,6 +15,7 @@ margin-left: 1150;
 width: 300px;
 text-align: right;
 position: fixed;
+margin-top: -30px;
 
 }
 .column {
