@@ -193,9 +193,9 @@ opacity: 0; transition: opacity 0.3s;
     margin: auto;
   /*  height: ;*/
     word-wrap: break-word;
-    border-radius: 25px;
-    border: 1px solid #f4f4f4;
-    padding: 5px;
+  /*  border-radius: 25px; */
+  /*  border: 1px solid #f4f4f4; */
+  /*  padding: 5px; */
               }
 
   #query {
