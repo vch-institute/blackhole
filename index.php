@@ -10,7 +10,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 <!-- LEFT -->
-<body><div id="boxleft">
+<div id="boxleft">
   <div class="row">
     <div class="column"></div>
     <div class="column"></div>
@@ -35,8 +35,9 @@
       <div class="column"></div>
       <div class="column"></div>
     </div></div>
+
 <!-- TOP CONTENT -->
-    	<body><div id="cont">
+  <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
@@ -64,15 +65,10 @@
                 x.className = "topnav";
             }
         }
-        </script></center>
+        </script></center><body>
         <!--RESPONSIVE NAV BAR -->
-
-				<center></br></br></br>
-						<a href="./"><img src="images/blackhole.png" height="125" width="190"></a></br>
-						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
-
+			<a href="./"><img src="images/blackhole.png" height="125" width="190"></img></a></br>
 <!-- TOP CONTENT -->
-
 
 <!-- MAIN CONTENT (SEARCH)-->
 
