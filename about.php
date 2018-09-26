@@ -37,7 +37,7 @@
       <div class="column"></div>
     </div></div>
 <!-- TOP CONTENT -->
-        <body><center><div id="cont"><!-- RESPONSIVE NAV BAR -->
+        <body><center><!-- RESPONSIVE NAV BAR -->
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
           <a href="about.php">About</a>
@@ -67,7 +67,7 @@
         </script>
         <!--RESPONSIVE NAV BAR -->
 
-
+<div id="cont">
         <!-- HEADER IMAGE -->
       </br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"/></img></a></br>
         <!-- HEADER IMAGE -->
@@ -93,7 +93,4 @@
              <div id="footer"><center>
                  <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
                          <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
-                       </center></div></div>
-
-
-                        </center></div></br></html>
+                       </center></div></div></html>
