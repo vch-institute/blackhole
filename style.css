@@ -210,7 +210,7 @@ margin-top: -50;
     filter: alpha(opacity=50); */
                           }
     #footer {
-      position: fixed;
+      position: absolute;
       margin-left: 425px;
       color: #fff
       background: #000;
