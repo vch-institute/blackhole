@@ -81,7 +81,7 @@ function myFunction() {
 
 <!-- TOP CONTENT -->
 
-				<center>
+				<center></br></br></br>
 						<a href="./"><img src="images/blackhole.png" height="125" width="190"></a></br>
 						<plight>Welcome to Black Hole, What do you want to search for?</plight></br>
 
