@@ -9,7 +9,7 @@ border-radius: 25px;
 border: 1px solid black;
 padding: 5px 0; border-radius: 6px;
 z-index: 1; bottom: 125%; left: 50%; margin-left: -60px;
-opacity: 1; transition: opacity 0.3s;
+opacity: 1; transition: opacity 15.3s;
 }
 #boxright {
   background: black;
@@ -22,7 +22,7 @@ opacity: 1; transition: opacity 0.3s;
   border: 1px solid black;
   padding: 5px 0; border-radius: 6px;
   z-index: 1; bottom: 125%; left: 50%; margin-left: -60px;
-  opacity: 1; transition: opacity 0.3s;
+  opacity: 1; transition: opacity 15.3s;
 }
 .column {
     float: left;
