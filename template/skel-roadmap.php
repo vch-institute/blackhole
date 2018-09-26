@@ -11,13 +11,13 @@
 							<li>[x] Instructions for Windows Server Install/Setup/Operation.  -(9-25-18)-</li></br>
               <li>[x] Bonus Achivement! Black Hole can now deliver content from more than 40,000 books!</li></br>
               <li>[!] ----------BONUS!!!!!!!!</li></br>
-							<li>[ ] Incorporate third party software and plugins to improve functionality.  -(9-28-18)-</li></br>
-							<li>[ ] Dockerize!  -(9-28-18)-</li></br>
-						  <li>[ ] Public Library for testing.  -(9-28-18)-</li></br>
-							<li>[ ] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) -(9-28-18)-</li></br>
-							<li>[ ] Web Browser Plugins for consumers.  -(9-28-18)-</li></br>
-							<li>[ ] Electron or equivalent application to remove need for browsers and webservers.  (Winter 2019 (Jan-April))</li></br>
-							<li>[ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities. (Jan-April))</li></br>
+							<li>[_] Incorporate third party software and plugins to improve functionality.  -(9-28-18)-</li></br>
+							<li>[_] Dockerize!  -(9-28-18)-</li></br>
+						  <li>[_] Public Library for testing.  -(9-28-18)-</li></br>
+							<li>[_] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) -(9-28-18)-</li></br>
+							<li>[_] Web Browser Plugins for consumers.  -(9-28-18)-</li></br>
+							<li>[_] Electron or equivalent application to remove need for browsers and webservers.  (Winter 2019 (Jan-April))</li></br>
+							<li>[_] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities. (Jan-April))</li></br>
 							<li>[?] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality. (No Date)</li></br>
 							<h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. </br>
 							<b>'?'</b> Indicates that there is no available information on completion date.</h5></br></div>

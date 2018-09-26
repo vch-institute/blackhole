@@ -11,7 +11,7 @@
       <title>Black Hole - Notebooks, Libraries, AI, and Technology for Logistics and Machine Learning</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-<center></center>
+<center>
 <!-- RESPONSIVE NAV BAR -->
 <div class="topnav" id="myTopnav">
   <a href="index.php" class="active">Home</a>
@@ -41,11 +41,17 @@ function myFunction() {
 }
 </script>
 <!--RESPONSIVE NAV BAR -->
-<body><div id="box">
+</center>
+<body><div id="boxleft">
   <div class="row">
     <div class="column">TESTING</div>
     <div class="column">TESTING</div>
   </div></div>
+  <div id="boxright">
+    <div class="row">
+      <div class="column">TESTING</div>
+      <div class="column">TESTING</div>
+    </div></div>
 
 </body>
 <?php include("./template/skel-footer.php"); ?>
