@@ -1,9 +1,9 @@
-{ "php.validate.executablePath": "G:\development\php" }
+{ "php.validate.executablePath": "G:\\development\\php" }
 // Convenience options display at the top of the list. 
 //Control which ones you see and in what order.
-"advancedNewFile.convenienceOptions": [
- "advancedNewFile.convenienceOptions": [
+"advancedNewFile.convenienceOptions": 
+ "advancedNewFile.convenienceOptions": 
      "last",
      "current",
      "root"
- ]
+ 

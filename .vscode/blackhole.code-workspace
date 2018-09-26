@@ -1,18 +1,15 @@
 {
-	"folders": [
-		{
-			"path": "G:\\GitHub\\blackhole"
-		}
-	],
+	"folders": [{
+		"path": "G:\\GitHub\\blackhole"
+
+	}],
 	"settings": {
-		"php.validate.executablePath": "G:\development\php\php-cgi.exe" }
-		}
-	
+		"php.validate.executablePath": "G:\\development\\php\\php-cgi.exe"
+	}
+}
 
-
-  // Convenience options display at the top of the list. Control which ones you see and in what order.
-  "advancedNewFile.convenienceOptions": [
-  	"last",
-  	"current",
-  	"root"
-  ]
+// Convenience options display at the top of the list. Control which ones you see and in what order.
+["advancedNewFile.convenienceOptions": 
+"last",
+"current",
+"root", ]
