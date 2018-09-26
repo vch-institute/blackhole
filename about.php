@@ -43,7 +43,7 @@
 
 
         <!-- HEADER IMAGE -->
-              </br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"></a></br>
+      </br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"/></img></a></br>
         <!-- HEADER IMAGE -->
 
 <!-- ABOUT CONTENT -->
@@ -61,7 +61,10 @@
    So, goes without saying, "a wise man once said, .. "
  </br></br></br></br>"He who has a lot of books cannot read." -Py </br></h5>
    <h3>"CHALLENGE ACCEPTED" -Diveyez</h3>
- </br></br></br></center></div>
+ </br></br>
+
+<img src="images/bookchair.jpg"></img>
+</br></center></div>
 
  <!-- FOOTER AREA -->
              <div id="footer"><center>
