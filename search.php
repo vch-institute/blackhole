@@ -37,7 +37,7 @@
     </div></div>
 
 <!-- TOP CONTENT -->
-      <body><div id="cont">
+  <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
@@ -95,11 +95,6 @@
 								echo "<ptext><b>Found Matching Text/Terms:</b></ptext></br>";
 								foreach($arr['response']['docs'] as $text)
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; } //echo implode(',', $arr), "\n";// ?>
-
-                <!-- FOOTER REGION-->
-                							<div id="footer"><center>
-                									<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Diveyez</a></p><p>&copy; 2016-<?php echo date("Y"); ?></h5>
-                													<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
-                												</center></div></div></div></br>
+</div></div></br>
 <!-- MAIN CONTENT (SEARCH) -->
 </div></body></html>
