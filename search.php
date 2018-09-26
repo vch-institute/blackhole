@@ -69,7 +69,7 @@
 								eval("\$arr = " . $re . ";"); echo "<p><b>You searched for:</b><i>" . $query . "</i>"; echo "</br>";
 								echo "<b>Found:</b><i>" . $arr['doclist']['numFound'] . "</i> results\n and displaying max 50.</p>" ;
 								echo "<ptext><b>Found Matching Text/Terms:</b></ptext></br>";
-						    foreach($arr['grouped']['groups'] as $text) { echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; }
-                foreach($arr['grouped']['groups'] as $text) { echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['highlighting'] . "</br>" . "\n</pcontent></div></br></br>"; }  ?>
+						  //  foreach($arr['grouped']['groups'] as $text) { echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; }
+                foreach($arr['grouped']['groups'] as $text) { echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['highlighting']['content'] . "</br>" . "\n</pcontent></div></br></br>"; }  ?>
 
 </body></html>
