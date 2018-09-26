@@ -10,7 +10,6 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
-
 <!-- TOP CONTENT -->
   <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
@@ -45,7 +44,6 @@
 			<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>
 <!-- TOP CONTENT -->
 
-
 <!-- MAIN CONTENT (SEARCH)-->
             <center>
 			  		<div class="tooltip">
@@ -59,7 +57,7 @@
 
 <!-- FOOTER AREA -->
 						<div id="footer"><center>
-								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole/a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
+								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
 												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
 											</center></div>
 

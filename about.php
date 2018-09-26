@@ -10,7 +10,6 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
-
 <!-- TOP CONTENT -->
   <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
@@ -45,10 +44,6 @@
 			<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>
 <!-- TOP CONTENT -->
 
-
-
-
-
 <!-- ABOUT CONTENT -->
 <center><h5>A multi-language & machine learning capable searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2></center></br><center>
    <h5>The Black Hole project was started as a joke, and for fun. Over some conversations with friends they agreed to give a helping hand.
@@ -63,12 +58,9 @@
    </br></br></br></br>"He who has a lot of books cannot read." -Py </br></h5><h3>"CHALLENGE ACCEPTED" -Diveyez</h3></br></br><img src="images/bookchair.jpg"></img></center>
 <!-- About Us -->
 
-
-
-
 <!-- FOOTER AREA -->
 						<div id="footer"><center>
-								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole/a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
+								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
 												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
 											</center></div>
 
