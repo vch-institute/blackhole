@@ -16,7 +16,7 @@
 <body><div id="boxleft">
   <div class="row">
     <div class="column">TESTING</div>
-    <div class="column">IN PROGRESS</div>
+    <div class="column"></div>
   </div></div>
 
 
@@ -24,7 +24,7 @@
   <div id="boxright">
     <div class="row">
       <div class="column">TESTING</div>
-      <div class="column">IN PROGRESS</div>
+      <div class="column"></div>
     </div></div>
 
 			<body><div id="cont">
