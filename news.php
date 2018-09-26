@@ -9,7 +9,7 @@
       <title>Black Hole Search - Notebooks, Libraries, AI, and Technology in one place.</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
- 
+
 <!-- TOP CONTENT -->
     	<body><div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
@@ -42,7 +42,7 @@
         </script></center>
         <!--RESPONSIVE NAV BAR -->
 <center>
-						<a href="./"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
+						<a href="./"><img src="images/blackhole.png" height="125" width="190"></a></br>
 						<pmain>
             <ptext>ALL DEVELOPMENT MATERIALS WERE MOVED TO /develpment/ & bash scripts to check server cores were added due to constant drop outs.</ptext></br>
             <ptext>If you are a developer and you see this, please contact me. I have a few problems with the JavaScript custom api jar implementation I need help with it.</ptext></br></center>

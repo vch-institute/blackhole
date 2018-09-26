@@ -43,7 +43,7 @@
 
 
         <!-- HEADER IMAGE -->
-              </br><a href="./index.php"><img src="images/blackhole.png" height="350" width="500"></img></a></br>
+              </br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"></a></br>
         <!-- HEADER IMAGE -->
 
 <!-- ABOUT CONTENT -->
