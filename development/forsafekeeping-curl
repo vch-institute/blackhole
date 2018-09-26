@@ -4,3 +4,10 @@
 
 
 &fl=id,score,manu&indent=true&hl=true&hl.snippets=1&hl.method=unified&hl.bs.type=WORD&hl.maxAlternateFieldLength=25&hl.encoder=php&wt=php&hl.tag.pre=<b>&hl.tag.post=</b>&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=250000&results=50&hl.requireFieldMatch=true&hl.fl=*
+
+SOME OTHERS THAT WORKED WELL
+
+http://10.1.1.37:8983/solr/library/select?q=buddha&wt=php&indent=true&fl=id,name&group=true&group.field=content&hl=on&hl.fl=*&hl.encoder=html&hl.fragmenter=regex&hl.regex.slop=0.6&hl.fragsize=250000&hl.defaultSummary=true&hl.highlightMultiTerm=true&results=50
+http://10.1.1.37:8983/solr/library/select?q=how%20to%20love%20a%20woman&wt=php&indent=true&fl=id,name&group=true&group.field=content&hl=on&hl.fl=*&hl.encoder=html&hl.fragmenter=regex&hl.regex.slop=100.0&hl.fl=text_*&hl.bs.type=WHOLE&hl.defaultSummary=true
+http://10.1.1.37:8983/solr/library/select?q=mission+mountain&wt=php&indent=true&fl=id,name&group=true&group.field=content&hl=on&hl.fl=*&hl.encoder=html&hl.fragmenter=regex&hl.regex.slop=0.6&hl.bs.type=WHOLE&hl.defaultSummary=true&hl.offsetSource=POSTINGS
+http://10.1.1.37:8983/solr/library/select?q=GOD&wt=php&indent=true&fl=id,name&group=true&group.field=content&hl=on&hl.fl=*&hl.encoder=html&hl.fragmenter=regex&hl.regex.slop=1.0&hl.fl=text_*&hl.bs.type=WHOLE&hl.defaultSummary=true&hl.offsetSource=POSTINGS&hl.fragsize=125000&hl.maxAnalyzedChars=25000&hl.highlightMultiTerm=true
