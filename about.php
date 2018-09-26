@@ -74,9 +74,7 @@
 
 
 <!-- ABOUT CONTENT -->
-<center>
-  <h5>A multi-language & machine learning capable searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
- </br>
+<center><h5>A multi-language & machine learning capable searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2></center></br><center>
    <h5>The Black Hole project was started as a joke, and for fun. Over some conversations with friends they agreed to give a helping hand.
    The entire purpose of this project is to link logistical data processing with analytics and research.
    We want to provide data solutions to people that need to find, or process the information from what is needed, in a split second.
@@ -86,11 +84,7 @@
    Nobody knows whats inside a black hole, they do not know what is inside of the libraries we are working with neither.
    But, all that being said, we plan to utilize ML (Machine Learning) to greatly improve this research and study technology.
    So, goes without saying, "a wise man once said, .. "
- </br></br></br></br>"He who has a lot of books cannot read." -Py </br></h5>
-   <h3>"CHALLENGE ACCEPTED" -Diveyez</h3>
- </br></br>
-
-<img src="images/bookchair.jpg"></img></center>
+   </br></br></br></br>"He who has a lot of books cannot read." -Py </br></h5><h3>"CHALLENGE ACCEPTED" -Diveyez</h3></br></br><img src="images/bookchair.jpg"></img></center>
 <!-- About Us -->
 
 
