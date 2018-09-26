@@ -105,5 +105,5 @@
 												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
 											</center></div>
 
-<!-- FOOTER AREA -->
+
 										</body></html>
