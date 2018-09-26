@@ -95,13 +95,4 @@
 								echo "<ptext><b>Found Matching Text/Terms:</b></ptext></br>";
 								foreach($arr['response']['docs'] as $text)
 								{ echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['content'] . "</br>" . "\n</pcontent></div></br></br>"; } //echo implode(',', $arr), "\n";// ?>
-</div>
-<!-- FOOTER AREA -->
-						<div id="footer"><center>
-								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
-												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
-											</center></div>
-
-</div></br>
-<!-- MAIN CONTENT (SEARCH) -->
-</div></body></html>
+</div></div></br></div></body></html>
