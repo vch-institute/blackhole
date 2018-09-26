@@ -24,17 +24,17 @@
 
 
 <!-- RIGHT -->
-  <div id="boxright">
-    <div class="row">
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-    </div></div>
+<div id="boxright">
+  <div class="row">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+  </div></div>
 
 <!-- TOP CONTENT -->
   <div id="cont">
@@ -43,19 +43,11 @@
           <a href="index.php" class="active">Home</a>
           <a href="about.php">About</a>
           <a href="https://github.com/diveyez/blackhole">Contact Developer</a>
-          <div class="dropdown">
-            <button class="dropbtn">Explore
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
+          <div class="dropdown"><button class="dropbtn">Explore
+              <i class="fa fa-caret-down"></i></button><div class="dropdown-content">
               <a href="news.php">News</a>
               <a href="queries.php">Queries Explained</a>
-              <a href="search.php">Search</a>
-            </div>
-          </div>
-          <a href="#"></a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
+              <a href="search.php">Search</a></div></div><a href="#"></a><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></div>
         <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -65,15 +57,12 @@
                 x.className = "topnav";
             }
         }
-        </script></center><body>
-        <!--RESPONSIVE NAV BAR -->
-			<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>
+        </script></center>
+<!--RESPONSIVE NAV BAR -->
+
+
+<body>	<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>
 <!-- TOP CONTENT -->
-
-
-						<pmain>
-            <ptext>ALL DEVELOPMENT MATERIALS WERE MOVED TO /develpment/ & bash scripts to check server cores were added due to constant drop outs.</ptext></br>
-            <ptext>If you are a developer and you see this, please contact me. I have a few problems with the JavaScript custom api jar implementation I need help with it.</ptext></br></center>
 <!--ROADMAP CHECKLIST -->
 						<div id="roadmap">
 						<ul><h3><b>Planned Features:</b></h3></li></br>
@@ -98,12 +87,9 @@
 							<h5><b>'x'</b> Indicates nearly full or full completion, periods <b>'.'</b> mark the in progress. </br>
 							<b>'?'</b> Indicates that there is no available information on completion date.</h5></br></div>
 <!--ROADMAP CHECKLIST -->
-
 <!-- FOOTER AREA -->
 						<div id="footer"><center>
 								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
 												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
 											</center></div>
-
-
-										</body></html>
+                      </body></html>
