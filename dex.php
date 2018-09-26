@@ -44,12 +44,13 @@ function myFunction() {
 </center>
 <body><div id="boxleft">
   <div class="row">
-    <div class="column">TESTING</div>
+    <div class="column">TESTING-1left</div>
     <div class="column">TESTING</div>
   </div></div>
+</br>
   <div id="boxright">
     <div class="row">
-      <div class="column">TESTING</div>
+      <div class="column">TESTING-1right</div>
       <div class="column">TESTING</div>
     </div></div>
 
