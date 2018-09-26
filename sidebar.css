@@ -1,7 +1,7 @@
 #boxleft {
   background: black;
 height: -webkit-fill-available;
-margin-left: -100;
+margin-left: -200;
 width: 300px;
 text-align: left;
 position: fixed;
@@ -9,11 +9,11 @@ position: fixed;
 }
 #boxright {
   background: black;
-  height: -webkit-fill-available;
-  margin-left: 1200px;
-  width: 300px;
-  text-align: right;
-  position: fixed;
+height: -webkit-fill-available;
+margin-left: 1150;
+width: 300px;
+text-align: right;
+position: fixed;
 
 }
 .column {
