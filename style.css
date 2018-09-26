@@ -181,16 +181,16 @@ z-index: 1; bottom: 125%; left: 50%; margin-left: -60px;
 opacity: 0; transition: opacity 0.3s;
 
             }
-            #historybox {
-                background: #52515170;
-                color: #fff;
-                border-color: #fefefe;
-                border-radius: 25px;
-                border: 1px solid #f4f4f4;
-                padding: 1px;
-                /* width: 900px; */
-                margin: auto;
-                word-wrap: break-word;
+  #historybox {
+  background: #52515170;
+color:#fff;
+border-color: #fefefe;
+border-radius: 25px;
+border: 1px solid #f4f4f4;
+padding: 1px;
+/* width: 900px; */
+margin: auto;
+word-wrap: break-word;                        
             }
   #cont {
     background: #000;
