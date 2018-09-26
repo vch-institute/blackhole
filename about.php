@@ -69,7 +69,7 @@
         </script></center>
         <!--RESPONSIVE NAV BAR -->
         <!-- HEADER IMAGE -->
-      </br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"/></img></a></br>
+      <center></br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"/></img></a></br>
         <!-- HEADER IMAGE -->
 
 <!-- ABOUT CONTENT -->
