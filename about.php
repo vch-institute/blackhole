@@ -87,10 +87,10 @@
  </br></br></br></br>"He who has a lot of books cannot read." -Py </br></h5>
    <h3>"CHALLENGE ACCEPTED" -Diveyez</h3>
  </br></br>
-
+ <div id="footer"><center>
+     <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
+             <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
+           </center></div>
 <img src="images/bookchair.jpg"></img>
 </br></center> <!-- FOOTER AREA -->
-             <div id="footer"><center>
-                 <h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
-                         <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
-                       </center></div></div></html>
+             </div></html>
