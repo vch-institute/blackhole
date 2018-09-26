@@ -10,6 +10,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
+
 <!-- TOP CONTENT -->
   <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
@@ -24,7 +25,6 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-
               <a href="https://github.com/diveyez/blackhole">Contact Developer</a>
             </div>
           </div>
@@ -42,8 +42,9 @@
         }
         </script></center><body>
         <!--RESPONSIVE NAV BAR -->
-			<a href="./"><img src="images/blackhole.png" height="125" width="190"></img></a></br>
+			<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>
 <!-- TOP CONTENT -->
+
 <center></center>
 
 <!-- MAIN CONTENT (SEARCH TOOLTIPS)-->
