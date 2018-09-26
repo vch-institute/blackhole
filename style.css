@@ -15,6 +15,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 250px;
+      text-align: center;
           }
 p     {
   color: #fff;
@@ -111,7 +112,7 @@ copyright { font-size: 10px; }
   border-radius: 25px;
   background-color: #555555;
   color: #fff;
-          } 
+          }
 .button1:hover {
   border-radius: 25px;
   background-color: #000;

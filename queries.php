@@ -117,7 +117,7 @@
               You can swap the fields with anything you want and get combination searches with amazing results.</br>
               Now that you know the basics, lets try some more advanced stuff.</br>
               </pqueries>
-              </br></br></br>
+              </br>
               <pqueries><h5>Wildcards & What?</h5>
               Two Unique but similar tricks also incorporated are highlighting and wildcards.</br>
               So if I the developer wanted to look through 50,000 pdf's and extract one specific word,</br>
