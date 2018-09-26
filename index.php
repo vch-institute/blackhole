@@ -17,6 +17,12 @@
   <div class="row">
     <div class="column">TESTING</div>
     <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
   </div></div>
 
 
@@ -24,6 +30,12 @@
   <div id="boxright">
     <div class="row">
       <div class="column">TESTING</div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
       <div class="column"></div>
     </div></div>
 
