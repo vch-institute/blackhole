@@ -58,26 +58,26 @@
               <div id="pqueries">
               <h3>This is the cheat sheet to utilizing my technology.</h3>
               <h4>Here you can find commonly uncommon queries for searches.</h4>
-              <pqueries>
+              <div id="pqueries">
               If you wish to find something specific, you can type any  "phraseyouwish" </br>
               Doing so like that, should allow you to locate more specific results.</br></pqueries>
               </br>
               <h4>Lets start simple, a Forced search.</h4>
-              <pqueries>
+              <div id="pqueries">
               Forced searching is as simple as it sounds, just add a plus sign, and experiment.  "adam +laverne" </br>
               Many other engines automatically exclude "where", "how", "and", etc. They call them stop words. We are not implementing stop words in the same way.</br>
               Instead we will use it to our advantage to improve results across the board. Add a plus sign and watch the positivity flow.</br>
               </pqueries>
               </br>
               <h4>Next we will talk about ranges. As you know, it dont take much to count to 100.</h4>
-              <pqueries>
+              <div id="pqueries">
               So how can we do that in a search? I am a fan of cryptocurrencies,</br>
               Lets try this, "bitcoin $6000..$80000"</br>
               A simple change like that, makes all the difference and can increase the speed of research drastically.</br>
               </pqueries>
               </br>
               <h4>Let do one more simple search query then move to more advanced techniques.</h4>
-              <pqueries>
+              <div id="pqueries">
               This one is simple, I just want to find my long lost friend Billy from High School.</br>
               My searches will obviously be formatted in the following ways.</br>
               First name (or first initial), last name, city (state is optional)</br>
@@ -92,7 +92,7 @@
               Now that you know the basics, lets try some more advanced stuff.</br>
               </pqueries>
               </br>
-              <pqueries><h5>Wildcards & What?</h5>
+              <div id="pqueries"><h5>Wildcards & What?</h5>
               Two Unique but similar tricks also incorporated are highlighting and wildcards.</br>
               So if I the developer wanted to look through 50,000 pdf's and extract one specific word,</br>
               Perhaps a middle name I do not know,</br>
@@ -103,14 +103,14 @@
               </pqueries>
               </br>
                 <h4>That is too much information, lets take it back a step.</h4>
-                <pqueries>
+                <div id="pqueries">
               Okay, Wildcards produce too many results. How do we avoid that?</br>
               We will search with the following  "'-MICHAEL'*'-DOUGLAS'" </br>
               This will strip the first and last name, but still match results to</br>
               Any results that match the pre and post phrase to minimize results.</br></pqueries>
               </br>
                 <h4>What if I need to find more than one thing?</h4>
-                <pqueries>
+                <div id="pqueries">
               Lets say, we just indexed a website, or a book, into the library for searching.</br>
               What now? How do I limit my results to one <b>specific title</b> or <b>site/dir</b> ?</br>
               Think of the : as your saviour. What we want to do now, is type</br>
@@ -119,7 +119,7 @@
               This same principle can be applied to documents as well.</br></pqueries>
               </br>
                 <h4>Doing that, for the documents, is fun, and tricky.</h4>
-                <pqueries>
+                <div id="pqueries">
               What we need to do now is explain things a bit more.</br>
               The way this works is it catalogs information in arrays in a database.</br>
               This is how it is able to match things together and give results.</br></br>
@@ -140,11 +140,11 @@
               The high court was also designated to oversee cases concerning treaties of the  United States</b>, foreign diplomats, admiralty practice, and maritime jurisdiction. </br>
               On  February 1, 1790 , the first session of the  U.S. Supreme Court</b> was held in  New York City’s Royal Exchange Building .</br>
               </p2></div></br></br>
-              <pqueries>
+              <div id="pqueries">
               So I will search for a historical moment,  "DAY:DATE Monday:February 1, MONTH:YEAR '1790'&hl.q=sumreme court&-*" </br>
                 </pqueries>
                 <h4>Vice Versa</h4>
-                <pqueries>
+                <div id="pqueries">
               How do things actually weigh against each other?</br>
               Let's try that,  "Alcohol vs. Wine" </br>
               Simple, what it does is weights them against one another and produces a competitive result.</br>
@@ -152,7 +152,7 @@
                 </pqueries>
               </br>
               <h4>Defining Your Search, Refining The Result</h4>
-              <pqueries>
+              <div id="pqueries">
               How do we do that? The title of this section is plain and simple.</br>
               In order to do this, we do one simple thing,  "DEFINE: 'whats on your mind'". </br>
               As you learn to mix these techniques you can come up with cool stuff like this:</br>
@@ -162,7 +162,7 @@
               </pqueries>
               </br></br>
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
-              <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. </br>
+              <div id="pqueries">This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. </br>
                 I hope you enjoy the work that is to come! Happy Searching!</pqueries></br><!-- FOOTER AREA -->
               </div></center>
 </br></br></br></br></br></br></br>
