@@ -210,7 +210,7 @@ margin-top: 0px;
     filter: alpha(opacity=50); */
                           }
     #footer {
-      position: inherit;
+      position: static;
       margin-left: 425px;
       color: #fff
       background: #000;
