@@ -9,7 +9,7 @@
       <title>Black Hole Search - Notebooks, Libraries, AI, and Technology in one place.</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-<div id="background"></div>
+
 <!-- TOP CONTENT -->
         <body><center><div id="cont"><!-- RESPONSIVE NAV BAR -->
         <div class="topnav" id="myTopnav">
