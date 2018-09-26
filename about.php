@@ -11,20 +11,47 @@
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
 
+<!-- LEFT -->
+<body><div id="boxleft">
+  <div class="row">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+  </div></div>
+
+
+<!-- RIGHT -->
+  <div id="boxright">
+    <div class="row">
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+    </div></div>
 <!-- TOP CONTENT -->
-        <body><center><!-- RESPONSIVE NAV BAR -->
+    	<body><div id="cont">
+        <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
           <a href="about.php">About</a>
-          <a href="news.php">News</a>
-          <a href="queries.php">Queries Explained</a>
-            <a href="search.php">Search</a>
+          <a href="https://github.com/diveyez/blackhole">Contact Developer</a>
           <div class="dropdown">
             <button class="dropbtn">Explore
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-            <a href="https://github.com/diveyez/blackhole">Contact Developer</a>
+              <a href="news.php">News</a>
+              <a href="queries.php">Queries Explained</a>
+              <a href="search.php">Search</a>
             </div>
           </div>
           <a href="#"></a>
@@ -39,35 +66,8 @@
                 x.className = "topnav";
             }
         }
-        </script>
+        </script></center>
         <!--RESPONSIVE NAV BAR -->
-        <!-- LEFT -->
-        <body><div id="boxleft">
-          <div class="row">
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-          </div></div>
-
-
-        <!-- RIGHT -->
-          <div id="boxright">
-            <div class="row">
-              <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
-            </div></div>
-<div id="cont">
         <!-- HEADER IMAGE -->
       </br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"/></img></a></br>
         <!-- HEADER IMAGE -->
