@@ -67,9 +67,9 @@
         }
         </script></center><body>
         <!--RESPONSIVE NAV BAR -->
-			<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>
+			<a href="./"><img src="images/blackhole.png" height="125" width="190"></img></a></br>
 <!-- TOP CONTENT -->
-
+<center></center>
 
 <!-- MAIN CONTENT (SEARCH TOOLTIPS)-->
 <div class="tooltip">
