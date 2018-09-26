@@ -9,10 +9,8 @@
       <title>Black Hole Search - Notebooks, Libraries, AI, and Technology in one place.</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-
-
 <!-- LEFT -->
-<body><div id="boxleft">
+<div id="boxleft">
   <div class="row">
     <div class="column"></div>
     <div class="column"></div>
@@ -37,8 +35,9 @@
       <div class="column"></div>
       <div class="column"></div>
     </div></div>
+
 <!-- TOP CONTENT -->
-    	<body><div id="cont">
+  <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
@@ -66,11 +65,11 @@
                 x.className = "topnav";
             }
         }
-        </script></center>
+        </script></center><body>
         <!--RESPONSIVE NAV BAR -->
-        <!-- HEADER IMAGE -->
-      <center></br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"/></img></a></br>
-        <!-- HEADER IMAGE -->
+			<a href="./"><img src="images/blackhole.png" height="125" width="190"></img></a></br>
+<!-- TOP CONTENT -->
+
 
 <!-- ABOUT CONTENT -->
   <h5>A multi-language & machine learning capable searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
