@@ -10,32 +10,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 
-<!-- LEFT -->
-<body><div id="boxleft">
-  <div class="row">
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-  </div></div>
 
-
-<!-- RIGHT -->
-  <div id="boxright">
-    <div class="row">
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-    </div></div>
 <!-- TOP CONTENT -->
         <body><center><!-- RESPONSIVE NAV BAR -->
         <div class="topnav" id="myTopnav">
@@ -66,7 +41,32 @@
         }
         </script>
         <!--RESPONSIVE NAV BAR -->
+        <!-- LEFT -->
+        <body><div id="boxleft">
+          <div class="row">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+          </div></div>
 
+
+        <!-- RIGHT -->
+          <div id="boxright">
+            <div class="row">
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+            </div></div>
 <div id="cont">
         <!-- HEADER IMAGE -->
       </br><a href="./index.php"><img src="images/blackhole.png" height="125" width="190"/></img></a></br>
