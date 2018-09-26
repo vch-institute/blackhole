@@ -6,6 +6,7 @@ width: 200px;
 height: 800px;
 text-align: left;
 position: fixed;
+border-radius: 25px;
 }
 #boxright {
   background: black;
@@ -15,6 +16,7 @@ position: fixed;
   height: 800px;
   text-align: right;
   position: fixed;
+  border-radius: 25px;
 }
 .column {
     float: left;
