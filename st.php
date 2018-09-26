@@ -35,11 +35,8 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
+                x.className += " responsive";} else {
+                x.className = "topnav";}}
         </script></center><body>
         <!--RESPONSIVE NAV BAR -->
 			<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>

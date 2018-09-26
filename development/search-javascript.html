@@ -1,0 +1,25 @@
+
+<!-- PRESERVING SOME CODE -->
+<script>
+$(function() {
+    $("#divResults").hide();
+
+    $("#btnSearch").click(function() {
+        $("#divSearch").slideUp();
+        $("#divResults").fadeIn('500');
+
+            $.getJSON(http://localhost:8983/solr/library/select?q="'VARIABLE'"&fl=id&fl=score&fl=highlighting&fl=content&fl=manu&indent=true&hl=true&hl.q='VARIABLE'&hl.snippets=1&hl.method=unified&hl.bs.type=WORD&hl.maxAlternateFieldLength=25&hl.encoder=json&wt=php&hl.tag.pre=<em>&hl.tag.post=</em>&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=250&results=50&hl.requireFieldMatch=true", function(data){
+                data.response.docs.forEach(function(res){
+                    $("#results").append("<li>"+res.id+"</li>")
+                });
+            });
+
+    });
+
+    $("#btnGoBack").click(function() {
+        $("#divResults").slideUp();
+        $("#divSearch").fadeIn('500');
+    });
+});
+</script>
+<!-- JAVASCRIPT AND JSON ARE NEAT SOME CODE -->
