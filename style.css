@@ -3,7 +3,6 @@ body {
   max-width: 1200px;
   padding-top: 10px;
   margin: auto;
-  height: -webkit-fill-available;
   /*background-repeat: no-repeat;*/
   /*background-color: #fefefe;*/
   color: #fff;
