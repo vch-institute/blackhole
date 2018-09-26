@@ -11,6 +11,6 @@ foreach($arr['responseHeader']['doclist'] as $item) {
     echo "Title is : " . $item['id']. "\n"; }
 eval("\$arr = " . $re . ";");
 echo "We found some important text:" . $arr['responseHeader']['grouped']['content']['matches']['groups']['groupValue']['doclist']['id']['highlighting']['content'] . "\n";
-foreach($arr['reaponseHeader'] . ['doclist'] . ['highlighting'] as $item) {
+foreach($arr['doclist']['highlighting'] as $item) {
     echo "Title is : " . $item['content']. "\n"; }
  ?>
