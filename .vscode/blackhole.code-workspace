@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "G:\\GitHub\\blackhole"
+		}
+	],
+	"settings": {
+		"php.validate.executablePath": "G:evelopmenthp"
+	}
+}
+
+  // Convenience options display at the top of the list. Control which ones you see and in what order.
+  "advancedNewFile.convenienceOptions": [
+  	"last",
+  	"current",
+  	"root"
+  ]
