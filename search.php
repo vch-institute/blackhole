@@ -73,7 +73,7 @@
               //  echo "" . $arr['grouped']['content']['highlighting']['content'] . ""\n"
 								echo "<ptext><b>Found Matching Text/Terms:</b></ptext></br>";
 
-								foreach($arr['response']['grouped'] as $text) { echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['highlighting'] . "</br>" . "\n</pcontent></div></br></br>"; }  ?>
+								foreach($arr['response']['highlighting'] as $text) { echo "<div id='ww2'><pcontent><b>Found:</b></br><b>" . $text['id'] . "</b></br>" .$text['highlighting'] . "</br>" . "\n</pcontent></div></br></br>"; }  ?>
 
 </br></div></div>
 
