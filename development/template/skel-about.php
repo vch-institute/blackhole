@@ -1,11 +1,19 @@
 <!-- ABOUT CONTENT -->
-<div id="ww1">
-  <h1><i>Black Hole Searching Platform</i></h1>
-   <h5>A multi-language www & machine learning capable Solr index searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i><h2>
-      <h5>REQUIREMENTS,
-            Linux or Windows Server with installed Webserver, GitHub, JRE8+, & Solr 7.5.0, 4+GB of RAM.</h5>
-            An Extremely fast and lightweight <i>PHP</i> LAN Web interface for finding specific keyword strings in <b>Solr indexes</b>.
-            If you intend to use it, this must be on a webserver, or equivalent,
-            With <i>Apache Lucene Solr</i> and JRE 8+ running all on the same machine.</br>
-            <b>I really hope you enjoy this searching interface. </br>I will add lots of more features eventually.</b></br></br></br></br></center></div>
-<!-- ABOUT CONTENT FI -->
+<center>
+  <h5>A multi-language & machine learning capable searching solution that can fit in your pocket. </h5><h2><i>Eat The Sun!</i></h2>
+ </br>
+   <h5>The Black Hole project was started as a joke, and for fun. Over some conversations with friends they agreed to give a helping hand.
+   The entire purpose of this project is to link logistical data processing with analytics and research.
+   We want to provide data solutions to people that need to find, or process the information from what is needed, in a split second.
+   Sometime around September 21st 2018, I indexed 40,000+ books on many subjects, the results of that, were not impressive.
+   After two entire days fiddling around with the software, it finally started to spit out the information from the book at me.
+   It does so almost stupidly, that is what makes it amazing, and fun. This project is a data black hole, the thing is...
+   Nobody knows whats inside a black hole, they do not know what is inside of the libraries we are working with neither.
+   But, all that being said, we plan to utilize ML (Machine Learning) to greatly improve this research and study technology.
+   So, goes without saying, "a wise man once said, .. "
+ </br></br></br></br>"He who has a lot of books cannot read." -Py </br></h5>
+   <h3>"CHALLENGE ACCEPTED" -Diveyez</h3>
+ </br></br>
+
+<img src="images/bookchair.jpg"></img></center>
+<!-- About Us -->

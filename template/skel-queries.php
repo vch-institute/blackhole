@@ -1,86 +1,5 @@
-<html><head><meta charset="UTF-8"/>
-  		<meta name="description" content="Black Hole Search"/>
-  		<meta name="keywords" content="A multi-language & machine learning capable Solr index searching solution that can fit in your pocket."/>
-  		<meta name="author" content="diveyez@r2nhosting.com"/>
-  		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="nav.css"/><link rel="stylesheet" type="text/css" href="sidebar.css"/>
-      <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title>Black Hole Search - Notebooks, Libraries, AI, and Technology in one place.</title>
-      </head>
-<!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-<!-- LEFT -->
-<div id="boxleft">
-  <div class="row">
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-  </div></div>
-
-
-<!-- RIGHT -->
-  <div id="boxright">
-    <div class="row">
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-    </div></div>
-
-<!-- TOP CONTENT -->
-  <div id="cont">
-        <!-- RESPONSIVE NAV BAR --> <center>
-        <div class="topnav" id="myTopnav">
-          <a href="index.php" class="active">Home</a>
-          <a href="about.php">About</a>
-          <a href="news.php">News</a>
-          <a href="queries.php">Queries Explained</a>
-          <a href="search.php">Search</a>
-
-          <div class="dropdown">
-            <button class="dropbtn">Explore
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-          <a href="https://github.com/diveyez/blackhole">Contact Developer</a>
-            </div>
-          </div>
-          <a href="#"></a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-        <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-        </script></center><body>
-        <!--RESPONSIVE NAV BAR -->
-			<a href="./"><center><img src="images/blackhole.png" height="125" width="190"></img></a></br></center>
-<!-- TOP CONTENT -->
-
-
-                <div class="tooltip">
-    						<span class="tooltiptext">Libraries:"This is whatever you called the core during setup. ie: 'library' "</b> </br> Server: localhost</span>
-              <form method="post" action="search.php">
-              <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b>
-              <input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
-              <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
-
-
 <!-- CONTENT REGION -->
+<center>
               <div id="pqueries">
               <h3>This is the cheat sheet to utilizing my technology.</h3>
               <h4>Here you can find commonly uncommon queries for searches.</h4>
@@ -190,13 +109,6 @@
               <h4>Now that you have learned this, master it, because it will help you refine your search and get better results, even on other engines.</h4>
               <pqueries>This was built for my personal Library. However I was asked to provide it for others so I am taking it all the way. </br>
                 I hope you enjoy the work that is to come! Happy Searching!</pqueries></br><!-- FOOTER AREA -->
-              						</div>
+              </div></center>
 </br></br></br></br></br></br></br>
 </div>
-<!-- FOOTER AREA -->
-						<div id="footer"><center>
-								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
-												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
-											</center></div>
-</body>
-</html>
