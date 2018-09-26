@@ -15,7 +15,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 250px;
-  
+
           }
 p     {
   color: #fff;
@@ -243,11 +243,11 @@ margin-top: 0px;
       font-size: 16px;
                 }
       #pqueries {
-      color: #fff
-      width: 800px;
-      word-wrap: break-word;
-      background-color: #000;
-      position: relative;
+        color: #fff width: 800px;
+  word-wrap: break-word;
+  background-color: #000;
+  /* position: absolute; */
+  text-align: center;
       /*opacity: 0.75;
       filter: alpha(opacity=50);*/
                   }
