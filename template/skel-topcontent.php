@@ -10,32 +10,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 <div id="cont">
-<!-- LEFT -->
-<div id="boxleft">
-  <div class="row">
-    <div class="column">TESTING</div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-  </div></div>
 
-
-<!-- RIGHT -->
-<div id="boxright">
-  <div class="row">
-    <div class="column">TESTING</div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-  </div></div>
 <!-- TOP CONTENT -->
         <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
