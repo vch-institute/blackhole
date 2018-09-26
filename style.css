@@ -3,6 +3,7 @@ body {
   max-width: 1200px;
   padding-top: 10px;
   margin: auto;
+  height: fit-content;
   /*background-repeat: no-repeat;*/
   /*background-color: #fefefe;*/
   color: #fff;
