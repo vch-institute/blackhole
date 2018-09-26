@@ -25,7 +25,7 @@ Linux Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/IN
 Linux Launch Command Example: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#example">#Example</a></br>
 Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#windows-windows-server">#Windows</a>
 
-
+<h5>The library_core is for linux, win_core is obviously for windows. Mixing the two up will result in serious problems.</h5>
 
 <h3><b>Planned Features:</b></h3></br>
 - [x] Test Core -(9-24-18)-(Success)-</br>  
