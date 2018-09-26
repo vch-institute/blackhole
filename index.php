@@ -88,4 +88,11 @@
                         <h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
 											</center></div>
 </div>
-</body></html>
+</body><div class="ticker-wrap">
+<div class="ticker">
+  <div class="ticker__item">Under Construction</div>
+  <div class="ticker__item">Check back in a few days for the launc.</div>
+  <div class="ticker__item">Thousands of books in a non emitted search.</div>
+</div>
+</div>
+</html>
