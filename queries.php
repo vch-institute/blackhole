@@ -10,7 +10,7 @@
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
 <!-- LEFT -->
-<body><div id="boxleft">
+<div id="boxleft">
   <div class="row">
     <div class="column"></div>
     <div class="column"></div>
@@ -35,8 +35,9 @@
       <div class="column"></div>
       <div class="column"></div>
     </div></div>
+
 <!-- TOP CONTENT -->
-    	<body><div id="cont">
+  <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
@@ -64,9 +65,11 @@
                 x.className = "topnav";
             }
         }
-        </script></center>
+        </script></center><body>
         <!--RESPONSIVE NAV BAR -->
-        <center><a href="./"><img src="images/blackhole.png" height="125" width="190"></a></br>
+			<a href="./"><img src="images/blackhole.png" height="125" width="190"></img></a></br><center>
+<!-- TOP CONTENT -->
+
                 <div class="tooltip">
     						<span class="tooltiptext">Libraries:"This is whatever you called the core during setup. ie: 'library' "</b> </br> Server: localhost</span>
               <form method="post" action="search.php">

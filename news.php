@@ -9,9 +9,8 @@
       <title>Black Hole Search - Notebooks, Libraries, AI, and Technology in one place.</title>
       </head>
 <!-- ADD SECURITY HEADERS ASAP FOR PUBLIC LIBRARY -->
-
 <!-- LEFT -->
-<body><div id="boxleft">
+<div id="boxleft">
   <div class="row">
     <div class="column"></div>
     <div class="column"></div>
@@ -36,8 +35,9 @@
       <div class="column"></div>
       <div class="column"></div>
     </div></div>
+
 <!-- TOP CONTENT -->
-    	<body><div id="cont">
+  <div id="cont">
         <!-- RESPONSIVE NAV BAR --> <center>
         <div class="topnav" id="myTopnav">
           <a href="index.php" class="active">Home</a>
@@ -65,14 +65,14 @@
                 x.className = "topnav";
             }
         }
-        </script></center>
+        </script></center><body>
         <!--RESPONSIVE NAV BAR -->
-<center>
-						<a href="./"><img src="images/blackhole.png" height="125" width="190"></a></br>
+			<a href="./"><img src="images/blackhole.png" height="125" width="190"></img></a></br><center>
+<!-- TOP CONTENT -->
+
 						<pmain>
             <ptext>ALL DEVELOPMENT MATERIALS WERE MOVED TO /develpment/ & bash scripts to check server cores were added due to constant drop outs.</ptext></br>
             <ptext>If you are a developer and you see this, please contact me. I have a few problems with the JavaScript custom api jar implementation I need help with it.</ptext></br></center>
-<!-- TOP CONTENT -->
 <!--ROADMAP CHECKLIST -->
 						<div id="roadmap">
 						<ul><h3><b>Planned Features:</b></h3></li></br>
@@ -101,7 +101,7 @@
 <!-- FOOTER AREA --></div>
 						<div id="footer"><center>
 								<h5> <a href="https://github.com/diveyez/blackhole/">Black Hole Search</a> by <a href="https://github.com/diveyez/">Ricky 'Diveyez' N.</a></p><p>&copy; ® 2016-<?php echo date("Y"); ?></h5>
-												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5> 
+												<h5>Los Angeles, California <a href="https://r2nhosting.com">R2N Hosting Solutions</a></h5>
 											</center></div>
 <!-- FOOTER AREA -->
 										</body></html>
