@@ -9,12 +9,12 @@ position: fixed;
 }
 #boxright {
   background: black;
-height: -webkit-fill-available;
-margin-left: 1100px;
-width: 200px;
-height: 800px;
-text-align: right;
-position: fixed;
+  height: -webkit-fill-available;
+  margin-left: 1200px;
+  width: 100px;
+  height: 800px;
+  text-align: right;
+  position: fixed;
 }
 .column {
     float: left;
