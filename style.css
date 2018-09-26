@@ -1,19 +1,4 @@
 /* basic structure */
-#background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('images/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-size: 100%;
-    opacity: 0.8;
-    filter:alpha(opacity=80);
-}
 body {
   max-width: 1200px;
   padding-top: 10px;
