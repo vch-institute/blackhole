@@ -1,5 +1,5 @@
 {
-    "php.validate.executablePath": "G:\\development\\php"
+    "php.validate.executablePath": "G:\\development\\php\\php-cgi.exe"
 } <<
 << << < HEAD
     // Convenience options display at the top of the list. 
