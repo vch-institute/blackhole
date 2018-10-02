@@ -38,11 +38,11 @@ Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/
 - [x] Instructions for Windows Server Install/Setup/Operation.  -(9-25-18)-</br>
 - [x] Bonus Achivement! Black Hole can now deliver content from more than 40,000 books!</br>
 ----------BONUS!!!!!!!!</br>
-- [ ] Incorporate third party software and plugins to improve functionality.  -(9-28-18)-</br>
-- [ ] Dockerize!  -(9-28-18)-</br>
-- [ ] Public Library for testing.  -(9-28-18)-</br>
-- [ ] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) -(9-28-18)-</br>
-- [ ] Web Browser Plugins for consumers.  -(9-28-18)-</br>
+- [ ] Incorporate third party software and plugins to improve functionality.  -(October-November-18)-</br>
+- [ ] Dockerize!  -(October-November-18)-</br>
+- [ ] Public Library for testing.  -(October-November-18)-</br>
+- [ ] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) -(October-November-18)-</br>
+- [ ] Web Browser Plugins for consumers.  -(October-November-18)-</br>
 - [ ] Electron or equivalent application to remove need for browsers and webservers.  (Winter 2019 (Jan-April))</br>
 - [ ] Solr enabled Jupyter Machine learning notebook to study data mining with computational capabilities.  (Winter 2019 (Jan-April))</br>
 - [?] Software to use Ray Tracing (RTX) to enhance the machine learning ratio and overall functionality. (No Date; PLEASE @Nvidia, GIVE ME AN SDK)</br>
