@@ -58,7 +58,6 @@ GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  
 
 ---
 
-
 *Official GitHub Etiquette*
 
 ---
