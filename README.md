@@ -27,7 +27,7 @@ Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/
 
 <h5>The library_core is for linux, win_core is obviously for windows. Mixing the two up will result in serious problems.</h5>
 <h5>You can download the latest version of Solr here: <a href="http://apache.claz.org/lucene/solr/7.5.0/">Solr-7.5.0</a></h5>
-
+<h5>FastAI Documentation: <a href="http://docs.fast.ai/">http://docs.fast.ai/</a>
 <h3><b>Planned Features:</b></h3></br>
 - [x] Test Core -(9-24-18)-(Success)-</br>  
 - [x] Full text output in results. -(9-24-18)-</br>  
@@ -39,7 +39,7 @@ Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/
 - [x] Instructions for Windows Server Install/Setup/Operation.  -(9-25-18)-</br>
 - [x] Bonus Achivement! Black Hole can now deliver content from more than 40,000 books!</br>
 ----------BONUS!!!!!!!!</br>
-- [ ] Incorporate third party software and plugins to improve functionality.  -(October-November-18)-</br>
+- [x] Incorporate third party software and plugins to improve functionality. (*FastAI* - *Anaconda*) -(October-November-18)-</br>
 - [ ] Dockerize!  -(October-November-18)-</br>
 - [ ] Public Library for testing.  -(October-November-18)-</br>
 - [ ] Style, Decorate and polish a 1.0 final. With UX for users? (I hope) -(October-November-18)-</br>
@@ -67,17 +67,6 @@ GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  
 2. Don't use funky characters and spaces in your file names, these cause trouble because of differences in Mac/Windows systems.
 3. Always pull before you push in case someone has done any work since the last time you pulled - you wouldn't want anyone's work to get lost or to have to resolve many coding conflicts.
 ⋅⋅* Any and all errors you encounter are indeed your own fault for not following this simple process. I will be coding and updating this repository everyday. Pull Push.
-
-*Unofficial "Rules"*
-
-1. If for any reason, you seem to have an issue with something and don't want to file an issue. Please contact me directly.
-⋅⋅* I will not be offended or upset. *Discord:Div3y3z#1878*
-2. If you decide to use my work, stop by for a while and chat. Id love to hear your ideas. Common Courtesy.
-..* I am more than willing to branch this off once a login and UX system is implemented which can train the Solr servers using PiPy's SolrPy using the machine learning.
-...* You want to be around for that! Trust me.
-3. This is my work, my code, my time invested. If you decide to fork it, remember this is being sent to [https://www.copyright.gov/registration/] and I retain the rights to this work.
-4. All third party components and additions will be credited as contribution and distributed as a library pack as long as the _content creators_ agree *100%* that this is okay.
-..* If you feel I have used some of your open sources content and you do not want me to, just contact me privately. I will be glad to abide by your wishes.
 ...* Due to the Open Source nature of this planet right now, I feel a Fair Use Act Notice is justified.
 ---
 
