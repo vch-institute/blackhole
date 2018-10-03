@@ -16,7 +16,7 @@
 <html><h1><i>Black Hole</br></h1>
 <h5>A multi-language machine learning capable platform serving as a Solr index searching solution that can fit in your pocket. </h5>
 <h2><i>Notebooks, Libraries, AI, and Technology in one place. </br>We are going to Eat The Sun!</i><h2>
-</i></p></h1><img src="images/blackhole.png" height="350" width="800"></img></br>
+</i></p></h1><img src="images/blackhole.png" height="125" width="175"></img></br>
 
 
 
@@ -53,7 +53,8 @@ Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/
 
 ALL RIGHTS RESERVED COPYRIGHT 2018 © ® Ricky 'Diveyez' N. of <a href="https://r2nhosting.com/">R2N Hosting Solutions</a></br>
 GitHub.com/diveyez <i>@diveyez</i> ( Twitter, Facebook, Instagram, Soundcloud,  Steam )</br>
-<h5>Discord: https://discord.gg/9Tpyxbq</h5></br><a href="lucene.apache.org/solr"><img src="images/solr.png" /></img></a>Made with Apache Lucene Solr</br></html>
+<h5>Discord: https://discord.gg/9Tpyxbq</h5></br>
+*Made with Apache Lucene Solr* </br></html>
 
 ---
 
