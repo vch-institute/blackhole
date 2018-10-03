@@ -26,6 +26,7 @@ Linux Launch Command Example: <a href="https://github.com/diveyez/blackhole/blob
 Windows Install: <a href="https://github.com/diveyez/blackhole/blob/master/docs/INSTALL.md#windows-windows-server">#Windows</a>
 
 <h5>The library_core is for linux, win_core is obviously for windows. Mixing the two up will result in serious problems.</h5>
+<h5>You can download the latest version of Solr here: <a href="http://apache.claz.org/lucene/solr/7.5.0/">Solr-7.5.0</a></h5>
 
 <h3><b>Planned Features:</b></h3></br>
 - [x] Test Core -(9-24-18)-(Success)-</br>  
