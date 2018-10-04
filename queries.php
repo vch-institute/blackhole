@@ -52,7 +52,7 @@
               <searchbox><b>Keywords:</b><input name="search" type="text" /><b>Library:</b>
               <input name="library" type="text" /><b>Server:</b><input name="server" type="text" /></searchbox>
               <input class="button1" name="submit" type="submit" value="Search The Galaxy"/></p></form></div></br>
-</center>
+
 <!-- CONTENT REGION -->
               <div id="pqueries">
               <h3>This is the cheat sheet to utilizing my technology.</h3>
