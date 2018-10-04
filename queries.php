@@ -55,7 +55,7 @@
 
 <!-- CONTENT REGION -->
               <div id="pqueries">
-              <h3>This is the cheat sheet to utilizing my technology.</h3>
+              <h3>This is the cheat sheet to utilizing my web to index technology.</h3>
               <h4>Here you can find commonly uncommon queries for searches.</h4>
               <div id="pqueries">
               If you wish to find something specific, you can type any  "phraseyouwish" </br>
